@@ -1,0 +1,52 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>8.6</Version>
+<String>
+<Name>Instr 1 Type</Name>
+<Val>Signal Generator</Val>
+</String>
+<String>
+<Name>Instr 1 Resource Name</Name>
+<Val>NI_Sig_Gen_ivi</Val>
+</String>
+<String>
+<Name>Instr 1 Class Name</Name>
+<Val>DSSP_Classes\Output Classes\Signal Generation\NI Sig Gen\NI Sig Gen.lvclass</Val>
+</String>
+<String>
+<Name>Instr 2 Type</Name>
+<Val>Scope</Val>
+</String>
+<String>
+<Name>Instr 2 Resource Name</Name>
+<Val>NI_Digitizer_ivi</Val>
+</String>
+<String>
+<Name>Instr 2 Class Name</Name>
+<Val>DSSP_Classes\Input Classes\Scope\NI Digitizer\NI Digitizer.lvclass</Val>
+</String>
+<String>
+<Name>Instr 3 Type</Name>
+<Val>DMM</Val>
+</String>
+<String>
+<Name>Instr 3 Resource Name</Name>
+<Val>NI_DMM_ivi</Val>
+</String>
+<String>
+<Name>Instr 3 Class Name</Name>
+<Val>DSSP_Classes\Input Classes\Meter\NI DMM\NI DMM.lvclass</Val>
+</String>
+<String>
+<Name>Instr 4 Type</Name>
+<Val>Switch</Val>
+</String>
+<String>
+<Name>Instr 4 Resource Name</Name>
+<Val>Matrix</Val>
+</String>
+<String>
+<Name>Instr 4 Class Name</Name>
+<Val>DSSP_Classes\Output Classes\Switch\NI Switch\NI Switch.lvclass</Val>
+</String>
+</LVData>
