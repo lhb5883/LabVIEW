@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nidocument>
+<nicomment>
+
+</nicomment>
+<nierror code="5000">
+Account not found
+</nierror>
+<nierror code="5001">
+Account is locked
+</nierror>
+<nierror code="5002">
+Enumerated type mismatch
+</nierror>
+<nierror code="5003">
+Invalid Input
+</nierror>
+</nidocument>

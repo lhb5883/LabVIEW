@@ -1,0 +1,32 @@
+
+[Types]
+Names=ATM_excel
+
+[ATM_excel]
+;This type uses Excel converter which presents each cell separated by character | followed by column number
+Tool=ExcelWithColNumbers
+ToolEdit=Excel
+Image=excel
+Variable1Name=worksheet
+Variable1Label=Worksheet
+Variable1Type=string
+Section1Name=Worksheet
+Section1=^Worksheet :[ \t](.*)$
+Requirement1Name=Requirement
+Requirement1=([A-Z][A-Z]\d+\w?+\d?+\w?+)[ \t]*\|2[ \t]*(.+)[\t]*\|3
+Reference1Name=Covers Reference
+Reference1Print=[Covers: $i]
+Reference1=\[Covers[ \t]*:[ \t]*([^\]]*)
+Reference1Sub=[ \t]*([^\,\;]+)[ \t]*
+Attribute1Name=Priority
+Attribute1Print=$t = $i
+Attribute1EnumValues=High,Medium,Low
+Attribute1=REQ\d+.+?\|4[ ]*([^\t]+)
+Attribute2Name=Allocation
+Attribute2Print=Owner : $i
+Attribute2=REQ\d+.+?\|5[ ]*([^\t\n]+)
+Text1RegularExpression=REQ\d+.+?\|3[ ]*([^\t]+)
+FileExtension=xls,xlsx
+TextFormat=3
+IntermediateFileEncoding=UTF8
+

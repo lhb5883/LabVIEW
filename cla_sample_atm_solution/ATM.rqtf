@@ -1,0 +1,28 @@
+[Files]
+Names=Requirement,Cover
+RepositoryTool=Boost
+
+[Requirement]
+Cover1=Cover
+Cover1Kind=1
+Cover1Position=1625@1280
+GraphicPosition=1640@790
+Type=ATM_excel
+Path=Requirements.xlsx
+AbsolutePath=D:\Desktop\cla_sample_atm_solution\Requirements.xlsx
+
+[Cover]
+GraphicPosition=1620@1780
+Variable1Name=analyzeDiagrams
+Variable1Value=true
+Variable2Name=selectedFiles
+Variable2Value=$ProjDir\\ATM.lvproj#ELTSEP#0#ELTSEP#0;FILESEP;$ProjDir\\Simulation Interface.vi#ELTSEP#1#ELTSEP#0
+Variable3Name=defaultDirectory
+Variable3Value=$ProjDir\\
+Variable4Name=withImages
+Variable4Value=1
+Variable5Name=outputDir
+Variable5Value=C:\\Users\\lhb\\AppData\\Local\\Temp\\nirg11
+Type=LabVIEW
+Path=<Multiple Files>
+
