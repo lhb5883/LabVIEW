@@ -1,0 +1,56 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData>
+<Version>12.0.1f5</Version>
+<LvVariant>
+<Name>Value</Name>
+<Array>
+<Name>Messages:</Name>
+<Dimsize>0</Dimsize>
+<Dimsize>0</Dimsize>
+<String>
+<Name></Name>
+<Val></Val>
+</String>
+</Array>
+</LvVariant>
+<LvVariant>
+<Name>Value</Name>
+<String>
+<Name>message</Name>
+<Val>There are no messages on the mail server.</Val>
+</String>
+</LvVariant>
+<LvVariant>
+<Name>Value</Name>
+<String>
+<Name>Mac Address</Name>
+<Val>∏¨o'j</Val>
+</String>
+</LvVariant>
+<LvVariant>
+<Name>Value</Name>
+<Array>
+<Name>≈‰÷√–≈œ¢</Name>
+<Dimsize>1</Dimsize>
+<Cluster>
+<Name>Macµÿ÷∑≈‰÷√</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>÷˜Ã‚</Name>
+<Val>haobo.li</Val>
+</String>
+<String>
+<Name>Mac Address</Name>
+<Val>∏¨o'j</Val>
+</String>
+</Cluster>
+</Array>
+</LvVariant>
+<LvVariant>
+<Name>Value</Name>
+<I32>
+<Name></Name>
+<Val>0</Val>
+</I32>
+</LvVariant>
+</LVData>
