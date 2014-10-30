@@ -1,0 +1,28 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BandObjectLib", "BandObjectLib.csproj", "{BDB3B670-A17B-483E-954C-52FC2B6FF9D3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RegisterLib", "RegisterLib\RegisterLib.vcproj", "{E35915FE-ED91-4AE5-B566-F269CD854498}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+		{E35915FE-ED91-4AE5-B566-F269CD854498}.0 = {BDB3B670-A17B-483E-954C-52FC2B6FF9D3}
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{BDB3B670-A17B-483E-954C-52FC2B6FF9D3}.Debug.ActiveCfg = Debug|.NET
+		{BDB3B670-A17B-483E-954C-52FC2B6FF9D3}.Debug.Build.0 = Debug|.NET
+		{BDB3B670-A17B-483E-954C-52FC2B6FF9D3}.Release.ActiveCfg = Release|.NET
+		{BDB3B670-A17B-483E-954C-52FC2B6FF9D3}.Release.Build.0 = Release|.NET
+		{E35915FE-ED91-4AE5-B566-F269CD854498}.Debug.ActiveCfg = Debug|Win32
+		{E35915FE-ED91-4AE5-B566-F269CD854498}.Debug.Build.0 = Debug|Win32
+		{E35915FE-ED91-4AE5-B566-F269CD854498}.Release.ActiveCfg = Release|Win32
+		{E35915FE-ED91-4AE5-B566-F269CD854498}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,27 @@
+﻿Build started 5/6/2011 3:15:56 PM.
+Project "C:\Documents and Settings\Administrator\Desktop\SampleBars\Register\Register.vcxproj" on node 2 (rebuild target(s)).
+InitializeBuildStatus:
+  Creating "Release\Register.unsuccessfulbuild" because "AlwaysCreate" was specified.
+PostBuildEvent:
+  cd C:\Documents and Settings\Administrator\Desktop\SampleBars\Register\..\bin\Release
+  
+  gacutil /if SampleBars.dll
+  regasm SampleBars.dll
+  
+  :VCEnd
+  Microsoft (R) .NET Global Assembly Cache Utility.  Version 4.0.30319.1
+  Copyright (c) Microsoft Corporation.  All rights reserved.
+  
+  Assembly successfully added to the cache
+  Microsoft (R) .NET Framework Assembly Registration Utility 4.0.30319.1
+  Copyright (C) Microsoft Corporation 1998-2004.  All rights reserved.
+  
+  Types registered successfully
+FinalizeBuildStatus:
+  Deleting file "Release\Register.unsuccessfulbuild".
+  Touching "Release\Register.lastbuildstate".
+Done Building Project "C:\Documents and Settings\Administrator\Desktop\SampleBars\Register\Register.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.23

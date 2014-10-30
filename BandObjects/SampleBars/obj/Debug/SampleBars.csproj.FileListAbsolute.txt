@@ -1,0 +1,16 @@
+C:\Documents and Settings\Administrator\Desktop\SampleBars\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\SampleBars\obj\Debug\SampleBars.HelloWorldBar.resources
+C:\Documents and Settings\Administrator\Desktop\SampleBars\obj\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Administrator\Desktop\SampleBars\obj\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Administrator\Desktop\SampleBars\obj\Debug\SampleBars.pdb
+C:\Documents and Settings\Administrator\Desktop\SampleBars\bin\Debug\SampleBars.dll
+C:\Documents and Settings\Administrator\Desktop\SampleBars\bin\Debug\SampleBars.pdb
+C:\Documents and Settings\Administrator\Desktop\SampleBars\obj\Debug\SampleBars.dll
+C:\Documents and Settings\Administrator\Desktop\L0005\SampleBars\bin\Debug\SampleBars.dll
+C:\Documents and Settings\Administrator\Desktop\L0005\SampleBars\bin\Debug\SampleBars.pdb
+C:\Documents and Settings\Administrator\Desktop\L0005\SampleBars\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\L0005\SampleBars\obj\Debug\SampleBars.HelloWorldBar.resources
+C:\Documents and Settings\Administrator\Desktop\L0005\SampleBars\obj\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Administrator\Desktop\L0005\SampleBars\obj\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Administrator\Desktop\L0005\SampleBars\obj\Debug\SampleBars.dll
+C:\Documents and Settings\Administrator\Desktop\L0005\SampleBars\obj\Debug\SampleBars.pdb

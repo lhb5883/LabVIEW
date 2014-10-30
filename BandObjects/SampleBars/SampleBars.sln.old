@@ -1,0 +1,28 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleBars", "SampleBars.csproj", "{ACCDA683-C6AC-43DD-819F-4C3DE36E6BD7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Register", "Register\Register.vcproj", "{E35915FE-ED91-4AE5-B566-F269CD854498}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+		{E35915FE-ED91-4AE5-B566-F269CD854498}.0 = {ACCDA683-C6AC-43DD-819F-4C3DE36E6BD7}
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{ACCDA683-C6AC-43DD-819F-4C3DE36E6BD7}.Debug.ActiveCfg = Debug|.NET
+		{ACCDA683-C6AC-43DD-819F-4C3DE36E6BD7}.Debug.Build.0 = Debug|.NET
+		{ACCDA683-C6AC-43DD-819F-4C3DE36E6BD7}.Release.ActiveCfg = Release|.NET
+		{ACCDA683-C6AC-43DD-819F-4C3DE36E6BD7}.Release.Build.0 = Release|.NET
+		{E35915FE-ED91-4AE5-B566-F269CD854498}.Debug.ActiveCfg = Debug|Win32
+		{E35915FE-ED91-4AE5-B566-F269CD854498}.Debug.Build.0 = Debug|Win32
+		{E35915FE-ED91-4AE5-B566-F269CD854498}.Release.ActiveCfg = Release|Win32
+		{E35915FE-ED91-4AE5-B566-F269CD854498}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

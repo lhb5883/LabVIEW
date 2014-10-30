@@ -1,0 +1,6 @@
+C:\Documents and Settings\Administrator\Desktop\SampleBars\bin\Release\SampleBars.dll
+C:\Documents and Settings\Administrator\Desktop\SampleBars\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\SampleBars\obj\Release\SampleBars.HelloWorldBar.resources
+C:\Documents and Settings\Administrator\Desktop\SampleBars\obj\Release\GenerateResource.read.1.tlog
+C:\Documents and Settings\Administrator\Desktop\SampleBars\obj\Release\GenerateResource.write.1.tlog
+C:\Documents and Settings\Administrator\Desktop\SampleBars\obj\Release\SampleBars.dll
