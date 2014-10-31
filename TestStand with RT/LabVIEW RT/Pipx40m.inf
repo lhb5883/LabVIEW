@@ -1,0 +1,1088 @@
+; Pickering Interfaces System 40/45/50 PXI/PCI
+; NI-VISA version 3.0 installer file for Windows 2000/XP
+; Part 'M'.
+; Copyright (c) 2011 Pickering Interfaces Ltd.
+; D.C.H  02 Sep 2011
+; Based on a template created by the VISA Driver Development Wizard.
+;===========================================================================
+
+[Version]
+Signature=$WINDOWS NT$
+Class=visaPxiDevice
+ClassGUID={E1590550-9B9C-11d3-A250-0040055732CC}
+; *** ClassName="visaPxiDevice"
+Provider=%Vendor0%
+DriverVer=09/02/2011,1.0.13.16
+CatalogFile=Pipx40m_2k.cat
+
+;===========================================================================
+
+[ClassInstall32]
+AddReg=AddClassToRegistry
+
+; *** [ClassInstall]
+; *** AddReg=AddClassToRegistry
+
+;===========================================================================
+
+[ControlFlags]
+ExcludeFromSelect=*
+
+;===========================================================================
+
+[Manufacturer]
+%Vendor1%=PCIList
+
+;===========================================================================
+;   PCI Plug and Play Devices
+;===========================================================================
+
+[PCIList]
+%Pickering_384.DeviceDescN%=Pickering_384.Cfg,PCI\VEN_10B5&DEV_9050&SUBSYS_01801761
+%Pickering_385.DeviceDescN%=Pickering_385.Cfg,PCI\VEN_10B5&DEV_9050&SUBSYS_01811761
+%Pickering_386.DeviceDescN%=Pickering_386.Cfg,PCI\VEN_10B5&DEV_9050&SUBSYS_01821761
+%Pickering_387.DeviceDescN%=Pickering_387.Cfg,PCI\VEN_10B5&DEV_9050&SUBSYS_01831761
+%Pickering_388.DeviceDescN%=Pickering_388.Cfg,PCI\VEN_10B5&DEV_9050&SUBSYS_01841761
+%Pickering_389.DeviceDescN%=Pickering_389.Cfg,PCI\VEN_10B5&DEV_9050&SUBSYS_01851761
+%Pickering_390.DeviceDescN%=Pickering_390.Cfg,PCI\VEN_10B5&DEV_9050&SUBSYS_01861761
+%Pickering_391.DeviceDescN%=Pickering_391.Cfg,PCI\VEN_10B5&DEV_9050&SUBSYS_01871761
+%Pickering_392.DeviceDescN%=Pickering_392.Cfg,PCI\VEN_10B5&DEV_9050&SUBSYS_01881761
+%Pickering_393.DeviceDescN%=Pickering_393.Cfg,PCI\VEN_10B5&DEV_9050&SUBSYS_01891761
+%Pickering_394.DeviceDescN%=Pickering_394.Cfg,PCI\VEN_10B5&DEV_9050&SUBSYS_018A1761
+%Pickering_395.DeviceDescN%=Pickering_395.Cfg,PCI\VEN_10B5&DEV_9050&SUBSYS_018B1761
+%Pickering_396.DeviceDescN%=Pickering_396.Cfg,PCI\VEN_10B5&DEV_9050&SUBSYS_018C1761
+%Pickering_397.DeviceDescN%=Pickering_397.Cfg,PCI\VEN_10B5&DEV_9050&SUBSYS_018D1761
+%Pickering_398.DeviceDescN%=Pickering_398.Cfg,PCI\VEN_10B5&DEV_9050&SUBSYS_018E1761
+%Pickering_399.DeviceDescN%=Pickering_399.Cfg,PCI\VEN_10B5&DEV_9050&SUBSYS_018F1761
+%Pickering_400.DeviceDescN%=Pickering_400.Cfg,PCI\VEN_10B5&DEV_9050&SUBSYS_01901761
+%Pickering_401.DeviceDescN%=Pickering_401.Cfg,PCI\VEN_10B5&DEV_9050&SUBSYS_01911761
+%Pickering_402.DeviceDescN%=Pickering_402.Cfg,PCI\VEN_10B5&DEV_9050&SUBSYS_01921761
+%Pickering_403.DeviceDescN%=Pickering_403.Cfg,PCI\VEN_10B5&DEV_9050&SUBSYS_01931761
+%Pickering_404.DeviceDescN%=Pickering_404.Cfg,PCI\VEN_10B5&DEV_9050&SUBSYS_01941761
+%Pickering_405.DeviceDescN%=Pickering_405.Cfg,PCI\VEN_10B5&DEV_9050&SUBSYS_01951761
+%Pickering_406.DeviceDescN%=Pickering_406.Cfg,PCI\VEN_10B5&DEV_9050&SUBSYS_01961761
+%Pickering_407.DeviceDescN%=Pickering_407.Cfg,PCI\VEN_10B5&DEV_9050&SUBSYS_01971761
+%Pickering_408.DeviceDescN%=Pickering_408.Cfg,PCI\VEN_10B5&DEV_9050&SUBSYS_01981761
+%Pickering_409.DeviceDescN%=Pickering_409.Cfg,PCI\VEN_10B5&DEV_9050&SUBSYS_01991761
+%Pickering_410.DeviceDescN%=Pickering_410.Cfg,PCI\VEN_10B5&DEV_9050&SUBSYS_019A1761
+%Pickering_411.DeviceDescN%=Pickering_411.Cfg,PCI\VEN_10B5&DEV_9050&SUBSYS_019B1761
+%Pickering_412.DeviceDescN%=Pickering_412.Cfg,PCI\VEN_10B5&DEV_9050&SUBSYS_019C1761
+%Pickering_413.DeviceDescN%=Pickering_413.Cfg,PCI\VEN_10B5&DEV_9050&SUBSYS_019D1761
+%Pickering_414.DeviceDescN%=Pickering_414.Cfg,PCI\VEN_10B5&DEV_9050&SUBSYS_019E1761
+%Pickering_415.DeviceDescN%=Pickering_415.Cfg,PCI\VEN_10B5&DEV_9050&SUBSYS_019F1761
+%Pickering_416.DeviceDescN%=Pickering_416.Cfg,PCI\VEN_10B5&DEV_9050&SUBSYS_01A01761
+%Pickering_417.DeviceDescN%=Pickering_417.Cfg,PCI\VEN_10B5&DEV_9050&SUBSYS_01A11761
+%Pickering_418.DeviceDescN%=Pickering_418.Cfg,PCI\VEN_10B5&DEV_9050&SUBSYS_01A21761
+%Pickering_419.DeviceDescN%=Pickering_419.Cfg,PCI\VEN_10B5&DEV_9050&SUBSYS_01A31761
+%Pickering_420.DeviceDescN%=Pickering_420.Cfg,PCI\VEN_10B5&DEV_9050&SUBSYS_01A41761
+%Pickering_421.DeviceDescN%=Pickering_421.Cfg,PCI\VEN_10B5&DEV_9050&SUBSYS_01A51761
+%Pickering_422.DeviceDescN%=Pickering_422.Cfg,PCI\VEN_10B5&DEV_9050&SUBSYS_01A61761
+%Pickering_423.DeviceDescN%=Pickering_423.Cfg,PCI\VEN_10B5&DEV_9050&SUBSYS_01A71761
+%Pickering_424.DeviceDescN%=Pickering_424.Cfg,PCI\VEN_10B5&DEV_9050&SUBSYS_01A81761
+%Pickering_425.DeviceDescN%=Pickering_425.Cfg,PCI\VEN_10B5&DEV_9050&SUBSYS_01A91761
+%Pickering_426.DeviceDescN%=Pickering_426.Cfg,PCI\VEN_10B5&DEV_9050&SUBSYS_01AA1761
+%Pickering_427.DeviceDescN%=Pickering_427.Cfg,PCI\VEN_10B5&DEV_9050&SUBSYS_01AB1761
+%Pickering_428.DeviceDescN%=Pickering_428.Cfg,PCI\VEN_10B5&DEV_9050&SUBSYS_01AC1761
+%Pickering_429.DeviceDescN%=Pickering_429.Cfg,PCI\VEN_10B5&DEV_9050&SUBSYS_01AD1761
+%Pickering_430.DeviceDescN%=Pickering_430.Cfg,PCI\VEN_10B5&DEV_9050&SUBSYS_01AE1761
+%Pickering_431.DeviceDescN%=Pickering_431.Cfg,PCI\VEN_10B5&DEV_9050&SUBSYS_01AF1761
+%Pickering_432.DeviceDescN%=Pickering_432.Cfg,PCI\VEN_10B5&DEV_9050&SUBSYS_01B01761
+%Pickering_433.DeviceDescN%=Pickering_433.Cfg,PCI\VEN_10B5&DEV_9050&SUBSYS_01B11761
+%Pickering_434.DeviceDescN%=Pickering_434.Cfg,PCI\VEN_10B5&DEV_9050&SUBSYS_01B21761
+%Pickering_435.DeviceDescN%=Pickering_435.Cfg,PCI\VEN_10B5&DEV_9050&SUBSYS_01B31761
+%Pickering_436.DeviceDescN%=Pickering_436.Cfg,PCI\VEN_10B5&DEV_9050&SUBSYS_01B41761
+%Pickering_437.DeviceDescN%=Pickering_437.Cfg,PCI\VEN_10B5&DEV_9050&SUBSYS_01B51761
+%Pickering_438.DeviceDescN%=Pickering_438.Cfg,PCI\VEN_10B5&DEV_9050&SUBSYS_01B61761
+%Pickering_439.DeviceDescN%=Pickering_439.Cfg,PCI\VEN_10B5&DEV_9050&SUBSYS_01B71761
+%Pickering_440.DeviceDescN%=Pickering_440.Cfg,PCI\VEN_10B5&DEV_9050&SUBSYS_01B81761
+%Pickering_441.DeviceDescN%=Pickering_441.Cfg,PCI\VEN_10B5&DEV_9050&SUBSYS_01B91761
+%Pickering_442.DeviceDescN%=Pickering_442.Cfg,PCI\VEN_10B5&DEV_9050&SUBSYS_01BA1761
+%Pickering_443.DeviceDescN%=Pickering_443.Cfg,PCI\VEN_10B5&DEV_9050&SUBSYS_01BB1761
+%Pickering_444.DeviceDescN%=Pickering_444.Cfg,PCI\VEN_10B5&DEV_9050&SUBSYS_01BC1761
+%Pickering_445.DeviceDescN%=Pickering_445.Cfg,PCI\VEN_10B5&DEV_9050&SUBSYS_01BD1761
+%Pickering_446.DeviceDescN%=Pickering_446.Cfg,PCI\VEN_10B5&DEV_9050&SUBSYS_01BE1761
+%Pickering_447.DeviceDescN%=Pickering_447.Cfg,PCI\VEN_10B5&DEV_9050&SUBSYS_01BF1761
+
+;===========================================================================
+
+[Pickering_384.Cfg]
+AddReg=Pickering_384.AddReg
+
+[Pickering_384.Cfg.Services]
+AddService=nipalk, 0x00000002, nipal_Service_Inst
+
+[Pickering_385.Cfg]
+AddReg=Pickering_385.AddReg
+
+[Pickering_385.Cfg.Services]
+AddService=nipalk, 0x00000002, nipal_Service_Inst
+
+[Pickering_386.Cfg]
+AddReg=Pickering_386.AddReg
+
+[Pickering_386.Cfg.Services]
+AddService=nipalk, 0x00000002, nipal_Service_Inst
+
+[Pickering_387.Cfg]
+AddReg=Pickering_387.AddReg
+
+[Pickering_387.Cfg.Services]
+AddService=nipalk, 0x00000002, nipal_Service_Inst
+
+[Pickering_388.Cfg]
+AddReg=Pickering_388.AddReg
+
+[Pickering_388.Cfg.Services]
+AddService=nipalk, 0x00000002, nipal_Service_Inst
+
+[Pickering_389.Cfg]
+AddReg=Pickering_389.AddReg
+
+[Pickering_389.Cfg.Services]
+AddService=nipalk, 0x00000002, nipal_Service_Inst
+
+[Pickering_390.Cfg]
+AddReg=Pickering_390.AddReg
+
+[Pickering_390.Cfg.Services]
+AddService=nipalk, 0x00000002, nipal_Service_Inst
+
+[Pickering_391.Cfg]
+AddReg=Pickering_391.AddReg
+
+[Pickering_391.Cfg.Services]
+AddService=nipalk, 0x00000002, nipal_Service_Inst
+
+[Pickering_392.Cfg]
+AddReg=Pickering_392.AddReg
+
+[Pickering_392.Cfg.Services]
+AddService=nipalk, 0x00000002, nipal_Service_Inst
+
+[Pickering_393.Cfg]
+AddReg=Pickering_393.AddReg
+
+[Pickering_393.Cfg.Services]
+AddService=nipalk, 0x00000002, nipal_Service_Inst
+
+[Pickering_394.Cfg]
+AddReg=Pickering_394.AddReg
+
+[Pickering_394.Cfg.Services]
+AddService=nipalk, 0x00000002, nipal_Service_Inst
+
+[Pickering_395.Cfg]
+AddReg=Pickering_395.AddReg
+
+[Pickering_395.Cfg.Services]
+AddService=nipalk, 0x00000002, nipal_Service_Inst
+
+[Pickering_396.Cfg]
+AddReg=Pickering_396.AddReg
+
+[Pickering_396.Cfg.Services]
+AddService=nipalk, 0x00000002, nipal_Service_Inst
+
+[Pickering_397.Cfg]
+AddReg=Pickering_397.AddReg
+
+[Pickering_397.Cfg.Services]
+AddService=nipalk, 0x00000002, nipal_Service_Inst
+
+[Pickering_398.Cfg]
+AddReg=Pickering_398.AddReg
+
+[Pickering_398.Cfg.Services]
+AddService=nipalk, 0x00000002, nipal_Service_Inst
+
+[Pickering_399.Cfg]
+AddReg=Pickering_399.AddReg
+
+[Pickering_399.Cfg.Services]
+AddService=nipalk, 0x00000002, nipal_Service_Inst
+
+[Pickering_400.Cfg]
+AddReg=Pickering_400.AddReg
+
+[Pickering_400.Cfg.Services]
+AddService=nipalk, 0x00000002, nipal_Service_Inst
+
+[Pickering_401.Cfg]
+AddReg=Pickering_401.AddReg
+
+[Pickering_401.Cfg.Services]
+AddService=nipalk, 0x00000002, nipal_Service_Inst
+
+[Pickering_402.Cfg]
+AddReg=Pickering_402.AddReg
+
+[Pickering_402.Cfg.Services]
+AddService=nipalk, 0x00000002, nipal_Service_Inst
+
+[Pickering_403.Cfg]
+AddReg=Pickering_403.AddReg
+
+[Pickering_403.Cfg.Services]
+AddService=nipalk, 0x00000002, nipal_Service_Inst
+
+[Pickering_404.Cfg]
+AddReg=Pickering_404.AddReg
+
+[Pickering_404.Cfg.Services]
+AddService=nipalk, 0x00000002, nipal_Service_Inst
+
+[Pickering_405.Cfg]
+AddReg=Pickering_405.AddReg
+
+[Pickering_405.Cfg.Services]
+AddService=nipalk, 0x00000002, nipal_Service_Inst
+
+[Pickering_406.Cfg]
+AddReg=Pickering_406.AddReg
+
+[Pickering_406.Cfg.Services]
+AddService=nipalk, 0x00000002, nipal_Service_Inst
+
+[Pickering_407.Cfg]
+AddReg=Pickering_407.AddReg
+
+[Pickering_407.Cfg.Services]
+AddService=nipalk, 0x00000002, nipal_Service_Inst
+
+[Pickering_408.Cfg]
+AddReg=Pickering_408.AddReg
+
+[Pickering_408.Cfg.Services]
+AddService=nipalk, 0x00000002, nipal_Service_Inst
+
+[Pickering_409.Cfg]
+AddReg=Pickering_409.AddReg
+
+[Pickering_409.Cfg.Services]
+AddService=nipalk, 0x00000002, nipal_Service_Inst
+
+[Pickering_410.Cfg]
+AddReg=Pickering_410.AddReg
+
+[Pickering_410.Cfg.Services]
+AddService=nipalk, 0x00000002, nipal_Service_Inst
+
+[Pickering_411.Cfg]
+AddReg=Pickering_411.AddReg
+
+[Pickering_411.Cfg.Services]
+AddService=nipalk, 0x00000002, nipal_Service_Inst
+
+[Pickering_412.Cfg]
+AddReg=Pickering_412.AddReg
+
+[Pickering_412.Cfg.Services]
+AddService=nipalk, 0x00000002, nipal_Service_Inst
+
+[Pickering_413.Cfg]
+AddReg=Pickering_413.AddReg
+
+[Pickering_413.Cfg.Services]
+AddService=nipalk, 0x00000002, nipal_Service_Inst
+
+[Pickering_414.Cfg]
+AddReg=Pickering_414.AddReg
+
+[Pickering_414.Cfg.Services]
+AddService=nipalk, 0x00000002, nipal_Service_Inst
+
+[Pickering_415.Cfg]
+AddReg=Pickering_415.AddReg
+
+[Pickering_415.Cfg.Services]
+AddService=nipalk, 0x00000002, nipal_Service_Inst
+
+[Pickering_416.Cfg]
+AddReg=Pickering_416.AddReg
+
+[Pickering_416.Cfg.Services]
+AddService=nipalk, 0x00000002, nipal_Service_Inst
+
+[Pickering_417.Cfg]
+AddReg=Pickering_417.AddReg
+
+[Pickering_417.Cfg.Services]
+AddService=nipalk, 0x00000002, nipal_Service_Inst
+
+[Pickering_418.Cfg]
+AddReg=Pickering_418.AddReg
+
+[Pickering_418.Cfg.Services]
+AddService=nipalk, 0x00000002, nipal_Service_Inst
+
+[Pickering_419.Cfg]
+AddReg=Pickering_419.AddReg
+
+[Pickering_419.Cfg.Services]
+AddService=nipalk, 0x00000002, nipal_Service_Inst
+
+[Pickering_420.Cfg]
+AddReg=Pickering_420.AddReg
+
+[Pickering_420.Cfg.Services]
+AddService=nipalk, 0x00000002, nipal_Service_Inst
+
+[Pickering_421.Cfg]
+AddReg=Pickering_421.AddReg
+
+[Pickering_421.Cfg.Services]
+AddService=nipalk, 0x00000002, nipal_Service_Inst
+
+[Pickering_422.Cfg]
+AddReg=Pickering_422.AddReg
+
+[Pickering_422.Cfg.Services]
+AddService=nipalk, 0x00000002, nipal_Service_Inst
+
+[Pickering_423.Cfg]
+AddReg=Pickering_423.AddReg
+
+[Pickering_423.Cfg.Services]
+AddService=nipalk, 0x00000002, nipal_Service_Inst
+
+[Pickering_424.Cfg]
+AddReg=Pickering_424.AddReg
+
+[Pickering_424.Cfg.Services]
+AddService=nipalk, 0x00000002, nipal_Service_Inst
+
+[Pickering_425.Cfg]
+AddReg=Pickering_425.AddReg
+
+[Pickering_425.Cfg.Services]
+AddService=nipalk, 0x00000002, nipal_Service_Inst
+
+[Pickering_426.Cfg]
+AddReg=Pickering_426.AddReg
+
+[Pickering_426.Cfg.Services]
+AddService=nipalk, 0x00000002, nipal_Service_Inst
+
+[Pickering_427.Cfg]
+AddReg=Pickering_427.AddReg
+
+[Pickering_427.Cfg.Services]
+AddService=nipalk, 0x00000002, nipal_Service_Inst
+
+[Pickering_428.Cfg]
+AddReg=Pickering_428.AddReg
+
+[Pickering_428.Cfg.Services]
+AddService=nipalk, 0x00000002, nipal_Service_Inst
+
+[Pickering_429.Cfg]
+AddReg=Pickering_429.AddReg
+
+[Pickering_429.Cfg.Services]
+AddService=nipalk, 0x00000002, nipal_Service_Inst
+
+[Pickering_430.Cfg]
+AddReg=Pickering_430.AddReg
+
+[Pickering_430.Cfg.Services]
+AddService=nipalk, 0x00000002, nipal_Service_Inst
+
+[Pickering_431.Cfg]
+AddReg=Pickering_431.AddReg
+
+[Pickering_431.Cfg.Services]
+AddService=nipalk, 0x00000002, nipal_Service_Inst
+
+[Pickering_432.Cfg]
+AddReg=Pickering_432.AddReg
+
+[Pickering_432.Cfg.Services]
+AddService=nipalk, 0x00000002, nipal_Service_Inst
+
+[Pickering_433.Cfg]
+AddReg=Pickering_433.AddReg
+
+[Pickering_433.Cfg.Services]
+AddService=nipalk, 0x00000002, nipal_Service_Inst
+
+[Pickering_434.Cfg]
+AddReg=Pickering_434.AddReg
+
+[Pickering_434.Cfg.Services]
+AddService=nipalk, 0x00000002, nipal_Service_Inst
+
+[Pickering_435.Cfg]
+AddReg=Pickering_435.AddReg
+
+[Pickering_435.Cfg.Services]
+AddService=nipalk, 0x00000002, nipal_Service_Inst
+
+[Pickering_436.Cfg]
+AddReg=Pickering_436.AddReg
+
+[Pickering_436.Cfg.Services]
+AddService=nipalk, 0x00000002, nipal_Service_Inst
+
+[Pickering_437.Cfg]
+AddReg=Pickering_437.AddReg
+
+[Pickering_437.Cfg.Services]
+AddService=nipalk, 0x00000002, nipal_Service_Inst
+
+[Pickering_438.Cfg]
+AddReg=Pickering_438.AddReg
+
+[Pickering_438.Cfg.Services]
+AddService=nipalk, 0x00000002, nipal_Service_Inst
+
+[Pickering_439.Cfg]
+AddReg=Pickering_439.AddReg
+
+[Pickering_439.Cfg.Services]
+AddService=nipalk, 0x00000002, nipal_Service_Inst
+
+[Pickering_440.Cfg]
+AddReg=Pickering_440.AddReg
+
+[Pickering_440.Cfg.Services]
+AddService=nipalk, 0x00000002, nipal_Service_Inst
+
+[Pickering_441.Cfg]
+AddReg=Pickering_441.AddReg
+
+[Pickering_441.Cfg.Services]
+AddService=nipalk, 0x00000002, nipal_Service_Inst
+
+[Pickering_442.Cfg]
+AddReg=Pickering_442.AddReg
+
+[Pickering_442.Cfg.Services]
+AddService=nipalk, 0x00000002, nipal_Service_Inst
+
+[Pickering_443.Cfg]
+AddReg=Pickering_443.AddReg
+
+[Pickering_443.Cfg.Services]
+AddService=nipalk, 0x00000002, nipal_Service_Inst
+
+[Pickering_444.Cfg]
+AddReg=Pickering_444.AddReg
+
+[Pickering_444.Cfg.Services]
+AddService=nipalk, 0x00000002, nipal_Service_Inst
+
+[Pickering_445.Cfg]
+AddReg=Pickering_445.AddReg
+
+[Pickering_445.Cfg.Services]
+AddService=nipalk, 0x00000002, nipal_Service_Inst
+
+[Pickering_446.Cfg]
+AddReg=Pickering_446.AddReg
+
+[Pickering_446.Cfg.Services]
+AddService=nipalk, 0x00000002, nipal_Service_Inst
+
+[Pickering_447.Cfg]
+AddReg=Pickering_447.AddReg
+
+[Pickering_447.Cfg.Services]
+AddService=nipalk, 0x00000002, nipal_Service_Inst
+
+;===========================================================================
+
+[Pickering_384.AddReg]
+HKR,,BridgeType,1,01,00,00,00
+HKR,,DeviceClass,1,72,65,73,75
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B5905017610180","HowToSquelch",0,""
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B5905017610180","numIsThisMineEntries",0x00010001,0
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B5905017610180","ManufName",0,"Pickering Interfaces"
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B5905017610180","ModelName",0,"40-282-121"
+
+[Pickering_385.AddReg]
+HKR,,BridgeType,1,01,00,00,00
+HKR,,DeviceClass,1,72,65,73,75
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B5905017610181","HowToSquelch",0,""
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B5905017610181","numIsThisMineEntries",0x00010001,0
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B5905017610181","ManufName",0,"Pickering Interfaces"
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B5905017610181","ModelName",0,"40-561-122"
+
+[Pickering_386.AddReg]
+HKR,,BridgeType,1,01,00,00,00
+HKR,,DeviceClass,1,72,65,73,75
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B5905017610182","HowToSquelch",0,""
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B5905017610182","numIsThisMineEntries",0x00010001,0
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B5905017610182","ManufName",0,"Pickering Interfaces"
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B5905017610182","ModelName",0,"40-332-001"
+
+[Pickering_387.AddReg]
+HKR,,BridgeType,1,01,00,00,00
+HKR,,DeviceClass,1,72,65,73,75
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B5905017610183","HowToSquelch",0,""
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B5905017610183","numIsThisMineEntries",0x00010001,0
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B5905017610183","ManufName",0,"Pickering Interfaces"
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B5905017610183","ModelName",0,"40-778-521"
+
+[Pickering_388.AddReg]
+HKR,,BridgeType,1,01,00,00,00
+HKR,,DeviceClass,1,72,65,73,75
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B5905017610184","HowToSquelch",0,""
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B5905017610184","numIsThisMineEntries",0x00010001,0
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B5905017610184","ManufName",0,"Pickering Interfaces"
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B5905017610184","ModelName",0,"40-331-003"
+
+[Pickering_389.AddReg]
+HKR,,BridgeType,1,01,00,00,00
+HKR,,DeviceClass,1,72,65,73,75
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B5905017610185","HowToSquelch",0,""
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B5905017610185","numIsThisMineEntries",0x00010001,0
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B5905017610185","ManufName",0,"Pickering Interfaces"
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B5905017610185","ModelName",0,"40-190B-201"
+
+[Pickering_390.AddReg]
+HKR,,BridgeType,1,01,00,00,00
+HKR,,DeviceClass,1,72,65,73,75
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B5905017610186","HowToSquelch",0,""
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B5905017610186","numIsThisMineEntries",0x00010001,0
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B5905017610186","ManufName",0,"Pickering Interfaces"
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B5905017610186","ModelName",0,"40-331-001"
+
+[Pickering_391.AddReg]
+HKR,,BridgeType,1,01,00,00,00
+HKR,,DeviceClass,1,72,65,73,75
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B5905017610187","HowToSquelch",0,""
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B5905017610187","numIsThisMineEntries",0x00010001,0
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B5905017610187","ManufName",0,"Pickering Interfaces"
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B5905017610187","ModelName",0,"40-782-521"
+
+[Pickering_392.AddReg]
+HKR,,BridgeType,1,01,00,00,00
+HKR,,DeviceClass,1,72,65,73,75
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B5905017610188","HowToSquelch",0,""
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B5905017610188","numIsThisMineEntries",0x00010001,0
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B5905017610188","ManufName",0,"Pickering Interfaces"
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B5905017610188","ModelName",0,"40-292-002"
+
+[Pickering_393.AddReg]
+HKR,,BridgeType,1,01,00,00,00
+HKR,,DeviceClass,1,72,65,73,75
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B5905017610189","HowToSquelch",0,""
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B5905017610189","numIsThisMineEntries",0x00010001,0
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B5905017610189","ManufName",0,"Pickering Interfaces"
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B5905017610189","ModelName",0,"40-569-022"
+
+[Pickering_394.AddReg]
+HKR,,BridgeType,1,01,00,00,00
+HKR,,DeviceClass,1,72,65,73,75
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B590501761018A","HowToSquelch",0,""
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B590501761018A","numIsThisMineEntries",0x00010001,0
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B590501761018A","ManufName",0,"Pickering Interfaces"
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B590501761018A","ModelName",0,"40-785A-542"
+
+[Pickering_395.AddReg]
+HKR,,BridgeType,1,01,00,00,00
+HKR,,DeviceClass,1,72,65,73,75
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B590501761018B","HowToSquelch",0,""
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B590501761018B","numIsThisMineEntries",0x00010001,0
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B590501761018B","ManufName",0,"Pickering Interfaces"
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B590501761018B","ModelName",0,"40-785A-523-TE-S1"
+
+[Pickering_396.AddReg]
+HKR,,BridgeType,1,01,00,00,00
+HKR,,DeviceClass,1,72,65,73,75
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B590501761018C","HowToSquelch",0,""
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B590501761018C","numIsThisMineEntries",0x00010001,0
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B590501761018C","ManufName",0,"Pickering Interfaces"
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B590501761018C","ModelName",0,"40-537-021-S"
+
+[Pickering_397.AddReg]
+HKR,,BridgeType,1,01,00,00,00
+HKR,,DeviceClass,1,72,65,73,75
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B590501761018D","HowToSquelch",0,""
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B590501761018D","numIsThisMineEntries",0x00010001,0
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B590501761018D","ManufName",0,"Pickering Interfaces"
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B590501761018D","ModelName",0,"40-199-001"
+
+[Pickering_398.AddReg]
+HKR,,BridgeType,1,01,00,00,00
+HKR,,DeviceClass,1,72,65,73,75
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B590501761018E","HowToSquelch",0,""
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B590501761018E","numIsThisMineEntries",0x00010001,0
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B590501761018E","ManufName",0,"Pickering Interfaces"
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B590501761018E","ModelName",0,"40-199-002"
+
+[Pickering_399.AddReg]
+HKR,,BridgeType,1,01,00,00,00
+HKR,,DeviceClass,1,72,65,73,75
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B590501761018F","HowToSquelch",0,""
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B590501761018F","numIsThisMineEntries",0x00010001,0
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B590501761018F","ManufName",0,"Pickering Interfaces"
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B590501761018F","ModelName",0,"40-265-016"
+
+[Pickering_400.AddReg]
+HKR,,BridgeType,1,01,00,00,00
+HKR,,DeviceClass,1,72,65,73,75
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B5905017610190","HowToSquelch",0,""
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B5905017610190","numIsThisMineEntries",0x00010001,0
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B5905017610190","ManufName",0,"Pickering Interfaces"
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B5905017610190","ModelName",0,"40-480-021"
+
+[Pickering_401.AddReg]
+HKR,,BridgeType,1,01,00,00,00
+HKR,,DeviceClass,1,72,65,73,75
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B5905017610191","HowToSquelch",0,""
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B5905017610191","numIsThisMineEntries",0x00010001,0
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B5905017610191","ManufName",0,"Pickering Interfaces"
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B5905017610191","ModelName",0,"45-720A-511"
+
+[Pickering_402.AddReg]
+HKR,,BridgeType,1,01,00,00,00
+HKR,,DeviceClass,1,72,65,73,75
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B5905017610192","HowToSquelch",0,""
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B5905017610192","numIsThisMineEntries",0x00010001,0
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B5905017610192","ManufName",0,"Pickering Interfaces"
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B5905017610192","ModelName",0,"Pickering PXI Switch Card"
+
+[Pickering_403.AddReg]
+HKR,,BridgeType,1,01,00,00,00
+HKR,,DeviceClass,1,72,65,73,75
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B5905017610193","HowToSquelch",0,""
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B5905017610193","numIsThisMineEntries",0x00010001,0
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B5905017610193","ManufName",0,"Pickering Interfaces"
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B5905017610193","ModelName",0,"Pickering PXI Switch Card"
+
+[Pickering_404.AddReg]
+HKR,,BridgeType,1,01,00,00,00
+HKR,,DeviceClass,1,72,65,73,75
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B5905017610194","HowToSquelch",0,""
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B5905017610194","numIsThisMineEntries",0x00010001,0
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B5905017610194","ManufName",0,"Pickering Interfaces"
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B5905017610194","ModelName",0,"Pickering PXI Switch Card"
+
+[Pickering_405.AddReg]
+HKR,,BridgeType,1,01,00,00,00
+HKR,,DeviceClass,1,72,65,73,75
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B5905017610195","HowToSquelch",0,""
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B5905017610195","numIsThisMineEntries",0x00010001,0
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B5905017610195","ManufName",0,"Pickering Interfaces"
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B5905017610195","ModelName",0,"Pickering PXI Switch Card"
+
+[Pickering_406.AddReg]
+HKR,,BridgeType,1,01,00,00,00
+HKR,,DeviceClass,1,72,65,73,75
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B5905017610196","HowToSquelch",0,""
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B5905017610196","numIsThisMineEntries",0x00010001,0
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B5905017610196","ManufName",0,"Pickering Interfaces"
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B5905017610196","ModelName",0,"Pickering PXI Switch Card"
+
+[Pickering_407.AddReg]
+HKR,,BridgeType,1,01,00,00,00
+HKR,,DeviceClass,1,72,65,73,75
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B5905017610197","HowToSquelch",0,""
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B5905017610197","numIsThisMineEntries",0x00010001,0
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B5905017610197","ManufName",0,"Pickering Interfaces"
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B5905017610197","ModelName",0,"Pickering PXI Switch Card"
+
+[Pickering_408.AddReg]
+HKR,,BridgeType,1,01,00,00,00
+HKR,,DeviceClass,1,72,65,73,75
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B5905017610198","HowToSquelch",0,""
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B5905017610198","numIsThisMineEntries",0x00010001,0
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B5905017610198","ManufName",0,"Pickering Interfaces"
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B5905017610198","ModelName",0,"Pickering PXI Switch Card"
+
+[Pickering_409.AddReg]
+HKR,,BridgeType,1,01,00,00,00
+HKR,,DeviceClass,1,72,65,73,75
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B5905017610199","HowToSquelch",0,""
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B5905017610199","numIsThisMineEntries",0x00010001,0
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B5905017610199","ManufName",0,"Pickering Interfaces"
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B5905017610199","ModelName",0,"Pickering PXI Switch Card"
+
+[Pickering_410.AddReg]
+HKR,,BridgeType,1,01,00,00,00
+HKR,,DeviceClass,1,72,65,73,75
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B590501761019A","HowToSquelch",0,""
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B590501761019A","numIsThisMineEntries",0x00010001,0
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B590501761019A","ManufName",0,"Pickering Interfaces"
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B590501761019A","ModelName",0,"Pickering PXI Switch Card"
+
+[Pickering_411.AddReg]
+HKR,,BridgeType,1,01,00,00,00
+HKR,,DeviceClass,1,72,65,73,75
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B590501761019B","HowToSquelch",0,""
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B590501761019B","numIsThisMineEntries",0x00010001,0
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B590501761019B","ManufName",0,"Pickering Interfaces"
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B590501761019B","ModelName",0,"Pickering PXI Switch Card"
+
+[Pickering_412.AddReg]
+HKR,,BridgeType,1,01,00,00,00
+HKR,,DeviceClass,1,72,65,73,75
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B590501761019C","HowToSquelch",0,""
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B590501761019C","numIsThisMineEntries",0x00010001,0
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B590501761019C","ManufName",0,"Pickering Interfaces"
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B590501761019C","ModelName",0,"Pickering PXI Switch Card"
+
+[Pickering_413.AddReg]
+HKR,,BridgeType,1,01,00,00,00
+HKR,,DeviceClass,1,72,65,73,75
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B590501761019D","HowToSquelch",0,""
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B590501761019D","numIsThisMineEntries",0x00010001,0
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B590501761019D","ManufName",0,"Pickering Interfaces"
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B590501761019D","ModelName",0,"Pickering PXI Switch Card"
+
+[Pickering_414.AddReg]
+HKR,,BridgeType,1,01,00,00,00
+HKR,,DeviceClass,1,72,65,73,75
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B590501761019E","HowToSquelch",0,""
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B590501761019E","numIsThisMineEntries",0x00010001,0
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B590501761019E","ManufName",0,"Pickering Interfaces"
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B590501761019E","ModelName",0,"Pickering PXI Switch Card"
+
+[Pickering_415.AddReg]
+HKR,,BridgeType,1,01,00,00,00
+HKR,,DeviceClass,1,72,65,73,75
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B590501761019F","HowToSquelch",0,""
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B590501761019F","numIsThisMineEntries",0x00010001,0
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B590501761019F","ManufName",0,"Pickering Interfaces"
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B590501761019F","ModelName",0,"Pickering PXI Switch Card"
+
+[Pickering_416.AddReg]
+HKR,,BridgeType,1,01,00,00,00
+HKR,,DeviceClass,1,72,65,73,75
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101A0","HowToSquelch",0,""
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101A0","numIsThisMineEntries",0x00010001,0
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101A0","ManufName",0,"Pickering Interfaces"
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101A0","ModelName",0,"Pickering PXI Switch Card"
+
+[Pickering_417.AddReg]
+HKR,,BridgeType,1,01,00,00,00
+HKR,,DeviceClass,1,72,65,73,75
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101A1","HowToSquelch",0,""
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101A1","numIsThisMineEntries",0x00010001,0
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101A1","ManufName",0,"Pickering Interfaces"
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101A1","ModelName",0,"Pickering PXI Switch Card"
+
+[Pickering_418.AddReg]
+HKR,,BridgeType,1,01,00,00,00
+HKR,,DeviceClass,1,72,65,73,75
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101A2","HowToSquelch",0,""
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101A2","numIsThisMineEntries",0x00010001,0
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101A2","ManufName",0,"Pickering Interfaces"
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101A2","ModelName",0,"Pickering PXI Switch Card"
+
+[Pickering_419.AddReg]
+HKR,,BridgeType,1,01,00,00,00
+HKR,,DeviceClass,1,72,65,73,75
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101A3","HowToSquelch",0,""
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101A3","numIsThisMineEntries",0x00010001,0
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101A3","ManufName",0,"Pickering Interfaces"
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101A3","ModelName",0,"Pickering PXI Switch Card"
+
+[Pickering_420.AddReg]
+HKR,,BridgeType,1,01,00,00,00
+HKR,,DeviceClass,1,72,65,73,75
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101A4","HowToSquelch",0,""
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101A4","numIsThisMineEntries",0x00010001,0
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101A4","ManufName",0,"Pickering Interfaces"
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101A4","ModelName",0,"Pickering PXI Switch Card"
+
+[Pickering_421.AddReg]
+HKR,,BridgeType,1,01,00,00,00
+HKR,,DeviceClass,1,72,65,73,75
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101A5","HowToSquelch",0,""
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101A5","numIsThisMineEntries",0x00010001,0
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101A5","ManufName",0,"Pickering Interfaces"
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101A5","ModelName",0,"Pickering PXI Switch Card"
+
+[Pickering_422.AddReg]
+HKR,,BridgeType,1,01,00,00,00
+HKR,,DeviceClass,1,72,65,73,75
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101A6","HowToSquelch",0,""
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101A6","numIsThisMineEntries",0x00010001,0
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101A6","ManufName",0,"Pickering Interfaces"
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101A6","ModelName",0,"Pickering PXI Switch Card"
+
+[Pickering_423.AddReg]
+HKR,,BridgeType,1,01,00,00,00
+HKR,,DeviceClass,1,72,65,73,75
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101A7","HowToSquelch",0,""
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101A7","numIsThisMineEntries",0x00010001,0
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101A7","ManufName",0,"Pickering Interfaces"
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101A7","ModelName",0,"Pickering PXI Switch Card"
+
+[Pickering_424.AddReg]
+HKR,,BridgeType,1,01,00,00,00
+HKR,,DeviceClass,1,72,65,73,75
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101A8","HowToSquelch",0,""
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101A8","numIsThisMineEntries",0x00010001,0
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101A8","ManufName",0,"Pickering Interfaces"
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101A8","ModelName",0,"Pickering PXI Switch Card"
+
+[Pickering_425.AddReg]
+HKR,,BridgeType,1,01,00,00,00
+HKR,,DeviceClass,1,72,65,73,75
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101A9","HowToSquelch",0,""
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101A9","numIsThisMineEntries",0x00010001,0
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101A9","ManufName",0,"Pickering Interfaces"
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101A9","ModelName",0,"Pickering PXI Switch Card"
+
+[Pickering_426.AddReg]
+HKR,,BridgeType,1,01,00,00,00
+HKR,,DeviceClass,1,72,65,73,75
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101AA","HowToSquelch",0,""
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101AA","numIsThisMineEntries",0x00010001,0
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101AA","ManufName",0,"Pickering Interfaces"
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101AA","ModelName",0,"Pickering PXI Switch Card"
+
+[Pickering_427.AddReg]
+HKR,,BridgeType,1,01,00,00,00
+HKR,,DeviceClass,1,72,65,73,75
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101AB","HowToSquelch",0,""
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101AB","numIsThisMineEntries",0x00010001,0
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101AB","ManufName",0,"Pickering Interfaces"
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101AB","ModelName",0,"Pickering PXI Switch Card"
+
+[Pickering_428.AddReg]
+HKR,,BridgeType,1,01,00,00,00
+HKR,,DeviceClass,1,72,65,73,75
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101AC","HowToSquelch",0,""
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101AC","numIsThisMineEntries",0x00010001,0
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101AC","ManufName",0,"Pickering Interfaces"
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101AC","ModelName",0,"Pickering PXI Switch Card"
+
+[Pickering_429.AddReg]
+HKR,,BridgeType,1,01,00,00,00
+HKR,,DeviceClass,1,72,65,73,75
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101AD","HowToSquelch",0,""
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101AD","numIsThisMineEntries",0x00010001,0
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101AD","ManufName",0,"Pickering Interfaces"
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101AD","ModelName",0,"Pickering PXI Switch Card"
+
+[Pickering_430.AddReg]
+HKR,,BridgeType,1,01,00,00,00
+HKR,,DeviceClass,1,72,65,73,75
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101AE","HowToSquelch",0,""
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101AE","numIsThisMineEntries",0x00010001,0
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101AE","ManufName",0,"Pickering Interfaces"
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101AE","ModelName",0,"Pickering PXI Switch Card"
+
+[Pickering_431.AddReg]
+HKR,,BridgeType,1,01,00,00,00
+HKR,,DeviceClass,1,72,65,73,75
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101AF","HowToSquelch",0,""
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101AF","numIsThisMineEntries",0x00010001,0
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101AF","ManufName",0,"Pickering Interfaces"
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101AF","ModelName",0,"Pickering PXI Switch Card"
+
+[Pickering_432.AddReg]
+HKR,,BridgeType,1,01,00,00,00
+HKR,,DeviceClass,1,72,65,73,75
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101B0","HowToSquelch",0,""
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101B0","numIsThisMineEntries",0x00010001,0
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101B0","ManufName",0,"Pickering Interfaces"
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101B0","ModelName",0,"Pickering PXI Switch Card"
+
+[Pickering_433.AddReg]
+HKR,,BridgeType,1,01,00,00,00
+HKR,,DeviceClass,1,72,65,73,75
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101B1","HowToSquelch",0,""
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101B1","numIsThisMineEntries",0x00010001,0
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101B1","ManufName",0,"Pickering Interfaces"
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101B1","ModelName",0,"Pickering PXI Switch Card"
+
+[Pickering_434.AddReg]
+HKR,,BridgeType,1,01,00,00,00
+HKR,,DeviceClass,1,72,65,73,75
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101B2","HowToSquelch",0,""
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101B2","numIsThisMineEntries",0x00010001,0
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101B2","ManufName",0,"Pickering Interfaces"
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101B2","ModelName",0,"Pickering PXI Switch Card"
+
+[Pickering_435.AddReg]
+HKR,,BridgeType,1,01,00,00,00
+HKR,,DeviceClass,1,72,65,73,75
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101B3","HowToSquelch",0,""
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101B3","numIsThisMineEntries",0x00010001,0
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101B3","ManufName",0,"Pickering Interfaces"
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101B3","ModelName",0,"Pickering PXI Switch Card"
+
+[Pickering_436.AddReg]
+HKR,,BridgeType,1,01,00,00,00
+HKR,,DeviceClass,1,72,65,73,75
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101B4","HowToSquelch",0,""
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101B4","numIsThisMineEntries",0x00010001,0
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101B4","ManufName",0,"Pickering Interfaces"
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101B4","ModelName",0,"Pickering PXI Switch Card"
+
+[Pickering_437.AddReg]
+HKR,,BridgeType,1,01,00,00,00
+HKR,,DeviceClass,1,72,65,73,75
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101B5","HowToSquelch",0,""
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101B5","numIsThisMineEntries",0x00010001,0
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101B5","ManufName",0,"Pickering Interfaces"
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101B5","ModelName",0,"Pickering PXI Switch Card"
+
+[Pickering_438.AddReg]
+HKR,,BridgeType,1,01,00,00,00
+HKR,,DeviceClass,1,72,65,73,75
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101B6","HowToSquelch",0,""
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101B6","numIsThisMineEntries",0x00010001,0
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101B6","ManufName",0,"Pickering Interfaces"
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101B6","ModelName",0,"Pickering PXI Switch Card"
+
+[Pickering_439.AddReg]
+HKR,,BridgeType,1,01,00,00,00
+HKR,,DeviceClass,1,72,65,73,75
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101B7","HowToSquelch",0,""
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101B7","numIsThisMineEntries",0x00010001,0
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101B7","ManufName",0,"Pickering Interfaces"
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101B7","ModelName",0,"Pickering PXI Switch Card"
+
+[Pickering_440.AddReg]
+HKR,,BridgeType,1,01,00,00,00
+HKR,,DeviceClass,1,72,65,73,75
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101B8","HowToSquelch",0,""
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101B8","numIsThisMineEntries",0x00010001,0
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101B8","ManufName",0,"Pickering Interfaces"
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101B8","ModelName",0,"Pickering PXI Switch Card"
+
+[Pickering_441.AddReg]
+HKR,,BridgeType,1,01,00,00,00
+HKR,,DeviceClass,1,72,65,73,75
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101B9","HowToSquelch",0,""
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101B9","numIsThisMineEntries",0x00010001,0
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101B9","ManufName",0,"Pickering Interfaces"
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101B9","ModelName",0,"Pickering PXI Switch Card"
+
+[Pickering_442.AddReg]
+HKR,,BridgeType,1,01,00,00,00
+HKR,,DeviceClass,1,72,65,73,75
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101BA","HowToSquelch",0,""
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101BA","numIsThisMineEntries",0x00010001,0
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101BA","ManufName",0,"Pickering Interfaces"
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101BA","ModelName",0,"Pickering PXI Switch Card"
+
+[Pickering_443.AddReg]
+HKR,,BridgeType,1,01,00,00,00
+HKR,,DeviceClass,1,72,65,73,75
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101BB","HowToSquelch",0,""
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101BB","numIsThisMineEntries",0x00010001,0
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101BB","ManufName",0,"Pickering Interfaces"
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101BB","ModelName",0,"Pickering PXI Switch Card"
+
+[Pickering_444.AddReg]
+HKR,,BridgeType,1,01,00,00,00
+HKR,,DeviceClass,1,72,65,73,75
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101BC","HowToSquelch",0,""
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101BC","numIsThisMineEntries",0x00010001,0
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101BC","ManufName",0,"Pickering Interfaces"
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101BC","ModelName",0,"Pickering PXI Switch Card"
+
+[Pickering_445.AddReg]
+HKR,,BridgeType,1,01,00,00,00
+HKR,,DeviceClass,1,72,65,73,75
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101BD","HowToSquelch",0,""
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101BD","numIsThisMineEntries",0x00010001,0
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101BD","ManufName",0,"Pickering Interfaces"
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101BD","ModelName",0,"Pickering PXI Switch Card"
+
+[Pickering_446.AddReg]
+HKR,,BridgeType,1,01,00,00,00
+HKR,,DeviceClass,1,72,65,73,75
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101BE","HowToSquelch",0,""
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101BE","numIsThisMineEntries",0x00010001,0
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101BE","ManufName",0,"Pickering Interfaces"
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101BE","ModelName",0,"Pickering PXI Switch Card"
+
+[Pickering_447.AddReg]
+HKR,,BridgeType,1,01,00,00,00
+HKR,,DeviceClass,1,72,65,73,75
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101BF","HowToSquelch",0,""
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101BF","numIsThisMineEntries",0x00010001,0
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101BF","ManufName",0,"Pickering Interfaces"
+HKLM,"SOFTWARE\National Instruments\Common\NI-PAL Database\NI-VXI\PCI\10B59050176101BF","ModelName",0,"Pickering PXI Switch Card"
+
+;===========================================================================
+
+[AddClassToRegistry]
+HKR,,,0,%DeviceClassString%
+
+[nipal_Service_Inst]
+DisplayName   = %nipal.SvcDesc%
+ServiceType   = 1         ;SERVICE_KERNEL_DRIVER
+StartType     = 0         ;SERVICE_BOOT_START
+ErrorControl  = 1         ;SERVICE_ERROR_NORMAL
+ServiceBinary = %12%\nipalk.sys
+
+;===========================================================================
+
+[Strings]
+Vendor0="Pickering Interfaces"
+Vendor1="Pickering Interfaces"
+DeviceClassString="NI-VISA PXI Devices"
+nipal.SvcDesc="NI-PAL Driver"
+Pickering_384.DeviceDescN="Pickering 40-282-121"
+Pickering_385.DeviceDescN="Pickering 40-561-122"
+Pickering_386.DeviceDescN="Pickering 40-332-001"
+Pickering_387.DeviceDescN="Pickering 40-778-521"
+Pickering_388.DeviceDescN="Pickering 40-331-003"
+Pickering_389.DeviceDescN="Pickering 40-190B-201"
+Pickering_390.DeviceDescN="Pickering 40-331-001"
+Pickering_391.DeviceDescN="Pickering 40-782-521"
+Pickering_392.DeviceDescN="Pickering 40-292-002"
+Pickering_393.DeviceDescN="Pickering 40-569-022"
+Pickering_394.DeviceDescN="Pickering 40-785A-542"
+Pickering_395.DeviceDescN="Pickering 40-785A-523-TE-S1"
+Pickering_396.DeviceDescN="Pickering 40-537-021-S"
+Pickering_397.DeviceDescN="Pickering 40-199-001"
+Pickering_398.DeviceDescN="Pickering 40-199-002"
+Pickering_399.DeviceDescN="Pickering 40-265-016"
+Pickering_400.DeviceDescN="Pickering 40-480-021"
+Pickering_401.DeviceDescN="Pickering 45-720A-511"
+Pickering_402.DeviceDescN="Pickering PXI Switch Card"
+Pickering_403.DeviceDescN="Pickering PXI Switch Card"
+Pickering_404.DeviceDescN="Pickering PXI Switch Card"
+Pickering_405.DeviceDescN="Pickering PXI Switch Card"
+Pickering_406.DeviceDescN="Pickering PXI Switch Card"
+Pickering_407.DeviceDescN="Pickering PXI Switch Card"
+Pickering_408.DeviceDescN="Pickering PXI Switch Card"
+Pickering_409.DeviceDescN="Pickering PXI Switch Card"
+Pickering_410.DeviceDescN="Pickering PXI Switch Card"
+Pickering_411.DeviceDescN="Pickering PXI Switch Card"
+Pickering_412.DeviceDescN="Pickering PXI Switch Card"
+Pickering_413.DeviceDescN="Pickering PXI Switch Card"
+Pickering_414.DeviceDescN="Pickering PXI Switch Card"
+Pickering_415.DeviceDescN="Pickering PXI Switch Card"
+Pickering_416.DeviceDescN="Pickering PXI Switch Card"
+Pickering_417.DeviceDescN="Pickering PXI Switch Card"
+Pickering_418.DeviceDescN="Pickering PXI Switch Card"
+Pickering_419.DeviceDescN="Pickering PXI Switch Card"
+Pickering_420.DeviceDescN="Pickering PXI Switch Card"
+Pickering_421.DeviceDescN="Pickering PXI Switch Card"
+Pickering_422.DeviceDescN="Pickering PXI Switch Card"
+Pickering_423.DeviceDescN="Pickering PXI Switch Card"
+Pickering_424.DeviceDescN="Pickering PXI Switch Card"
+Pickering_425.DeviceDescN="Pickering PXI Switch Card"
+Pickering_426.DeviceDescN="Pickering PXI Switch Card"
+Pickering_427.DeviceDescN="Pickering PXI Switch Card"
+Pickering_428.DeviceDescN="Pickering PXI Switch Card"
+Pickering_429.DeviceDescN="Pickering PXI Switch Card"
+Pickering_430.DeviceDescN="Pickering PXI Switch Card"
+Pickering_431.DeviceDescN="Pickering PXI Switch Card"
+Pickering_432.DeviceDescN="Pickering PXI Switch Card"
+Pickering_433.DeviceDescN="Pickering PXI Switch Card"
+Pickering_434.DeviceDescN="Pickering PXI Switch Card"
+Pickering_435.DeviceDescN="Pickering PXI Switch Card"
+Pickering_436.DeviceDescN="Pickering PXI Switch Card"
+Pickering_437.DeviceDescN="Pickering PXI Switch Card"
+Pickering_438.DeviceDescN="Pickering PXI Switch Card"
+Pickering_439.DeviceDescN="Pickering PXI Switch Card"
+Pickering_440.DeviceDescN="Pickering PXI Switch Card"
+Pickering_441.DeviceDescN="Pickering PXI Switch Card"
+Pickering_442.DeviceDescN="Pickering PXI Switch Card"
+Pickering_443.DeviceDescN="Pickering PXI Switch Card"
+Pickering_444.DeviceDescN="Pickering PXI Switch Card"
+Pickering_445.DeviceDescN="Pickering PXI Switch Card"
+Pickering_446.DeviceDescN="Pickering PXI Switch Card"
+Pickering_447.DeviceDescN="Pickering PXI Switch Card"
