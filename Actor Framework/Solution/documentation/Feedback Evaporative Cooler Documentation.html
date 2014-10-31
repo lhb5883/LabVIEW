@@ -1,0 +1,244 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=ISO-8859-1">
+<title>Actor Framework</title>
+<style type="text/css">
+/***************************************************/
+/* MINIMAL STYLES */
+/* The following section defines styles that every HTML Help project should need. */
+
+/* Specifies White Background color */
+body {background-color:#ffffff}
+
+
+.picture { background-color: #F9F9F9; 
+border: 1px solid #CCCCCC; padding: 3px; 
+font: 11px/1.4em Verdana, sans-serif; }
+.picture img { border: 1px solid #CCCCCC; 
+vertical-align:middle; margin-bottom: 3px; } 
+.right { margin: 0.5em 0pt 0.5em 0.8em; float:right; } 
+.left { margin: 0.5em 0.8em 0.5em 0; float:left; } 
+
+
+
+/* The default style of P is red to alert you that you need to apply a style class, such as Body. */
+P { margin-top:6.00pt; margin-bottom:6.00pt; font-family:Verdana; font-size:8pt; color: #000000; }
+
+BR { font-size:4.00pt; }
+
+H1,H2,H3,H4,H5,H6 { color:#000000 }
+
+/* Use H1 for all topic headings. */
+H1 { margin-top:3.00pt; margin-bottom:3.00pt; font-family:Verdana; font-size:12pt; font-weight:bold;  }
+
+/* Use H2 for second-level headings. */
+H2 { margin-top:9.00pt; margin-bottom:3.00pt; font-family:Verdana; font-size:10pt; font-weight:bold;  }
+
+/* Use H3 for third-level headings. */
+H3 { margin-top:6.00pt; margin-bottom:3.00pt; font-family:Verdana; font-size:8pt; font-weight:bold;  }
+
+/* Use H4 for fourth-level headings. */
+H4 { margin-top:3.00pt; margin-bottom:3.00pt; font-family:Verdana; font-size:8pt; font-weight:bold;  }
+
+/* H5 and H6 have the same definition as H4 because you should not need this level of heading in one topic. If you need to use H5 or H6, consider breaking up your topic into more than one topic. */
+H5 { margin-top:3.00pt; margin-bottom:3.00pt; font-family:Verdana; font-size:8pt; font-weight:bold;  }
+H6 { margin-top:3.00pt; margin-bottom:3.00pt; font-family:Verdana; font-size:8pt; font-weight:bold;  }
+
+/* Use the Body style class for normal paragraphs. */
+P.Body { margin-top:6.00pt; margin-bottom:6.00pt; font-family:Verdana; font-size:8pt; color:#000000;  }
+
+/* Use the Anchor style class for graphic references on a line by themselves. */
+P.Anchor { margin-top:6.00pt; margin-bottom:6.00pt; font-family:Verdana; font-size:10pt; color:#000000;  }
+
+/* Use the Indent style classes to indent a paragraph. If you need to indent text below a list item, use <br><br> to start the new paragraph within the same set of <li></li> tags. If you need to indent a list within another list, nest the indented list within the first list's set of <ol></ol> or <ul></ul> tags. */
+P.Indent1 { margin-left:12.00pt; margin-top:6.00pt; margin-bottom:3.00pt; font-family:Verdana; font-size:8pt; color:#000000;  }
+P.Indent2 { margin-left:24.00pt; margin-top:6.00pt; margin-bottom:3.00pt; font-family:Verdana; font-size:8pt; color:#000000;  }
+P.Indent3 { margin-left:36.00pt; margin-top:6.00pt; margin-bottom:3.00pt; font-family:Verdana; font-size:8pt; color:#000000;  }
+
+/* Use the LI style for all list items. */
+LI { margin-top:3.00pt; margin-bottom:3.00pt; font-family:Verdana; font-size:8pt; color:#000000; }
+
+
+
+/* Use the OL style for numbered lists. You do not have to type the number for each list item in a numbered list. */
+OL { margin-left:18.00pt; margin-top:3.00pt; margin-bottom:3.00pt; text-indent:0pt; font-family:Verdana; font-size:8pt; color:#000000; list-style-type: decimal; }
+
+/* Use the OL style for numbered lists. Nested lists will use the bullet types according to the nesting scheme below */
+ol ol {list-style-type:lower-alpha}
+ol ol ol {list-style-type:decimal}
+ol ol ol ol {list-style-type:lower-alpha}
+ol ol ol ol ol {list-style-type:decimal}
+ol ol ol ol ol ol {list-style-type:lower-alpha}
+ol ol ol ol ol ol ol {list-style-type:decimal}
+ol ol ol ol ol ol ol ol {list-style-type:lower-alpha}
+
+
+/* Use the EquationNum style class for numbered lists of equations. You do not have to type the number for each list item in a numbered list. */
+OL.EquationNum { margin-left:36.00pt; margin-top:3.00pt; margin-bottom:3.00pt; text-indent:0pt; font-family:Verdana; font-size:8pt; color:#000000; list-style-type: decimal; }
+
+/* Use the List-abc style class for lettered lists. You do not have to type the letter for each list item in a lettered list. */
+OL.List-abc { margin-left:18.00pt; margin-top:3.00pt; margin-bottom:3.00pt; text-indent:0pt; font-family:Verdana; font-size:8pt; color:#000000; list-style-type:lower-alpha; }
+
+/* Use the UL style for bulleted lists. You do not have to type the bullet for each list item in a bulleted list. */
+UL { margin-left:12.00pt; text-indent:0pt; margin-top:3.00pt; margin-bottom:3.00pt; font-family:Verdana; font-size:8pt; color:#000000;}
+
+/* Use the List-Box style class for bulleted lists with boxes instead of bullets. You do not have to type the box for each list item in a box list. */
+UL.List-Box { margin-left:12.00pt; margin-top:3.00pt; margin-bottom:3.00pt; text-indent:0pt; font-family:Verdana; font-size:8pt; color:#000000; list-style-type: square; }
+
+/* Use the Platform format to denote a specific platform. */
+.Platform { color: #0000FF; font-weight: bold; }
+
+/* Use the Borderless style class for tables that do not need borders, such as for 2-column or 3-column lists with no headings. */
+Table.Borderless { border:none; }
+
+/* Use the Bordered style class for tables that need borders. */
+Table.Bordered { border-width: 1pt; border-style: solid; border-color: #000000; border-collapse: collapse; }
+
+/* Use the Borderless-Wide style class for tables that do not need borders and that you want to stretch to fill the entire topic width. */
+Table.Borderless-Wide { border:none; width:100%; }
+
+/* Use the Bordered-Wide style class for tables that need borders and that you want to stretch to fill the entire topic width. */
+Table.Bordered-Wide { border-width: 1pt; border-style: solid; border-color: #000000; width:100%; border-collapse: collapse; }
+
+/* Use the TD style for table cells in Borderless or Borderless-Wide tables. */
+TD { font-family:Verdana; font-size:8pt; color:#000000; vertical-align:top; padding:3px; }
+
+/* Use the Bordered style class for table cells in Bordered or Bordered-Wide tables. */
+TD.Bordered { font-family:Verdana; font-size:8pt; color:#000000; vertical-align:top; border-width: 1pt; border-style: solid; border-color: #000000; }
+
+/* Use the Icon style class for table cells that contain note, caution, warning, or tip icons, or LabVIEW datatype terminals. */
+TD.Icon { width:40px; vertical-align:top; }
+
+/* Use the Table-cell-8pt style class for table cells in tables that contain a lot of information and need smaller text to fit it all on one screen to prevent a horizontal scroll bar from appearing. */
+TD.Table-cell-8pt { font-family:Verdana; font-size:7pt; color:#000000;  }
+
+/* Use the TH style for table heading cells in Borderless or Borderless-Wide tables. */
+TH { font-family:Verdana; font-size:8pt; color:#000000; font-weight:bold; padding:3px; }
+
+/* Use the Bordered style class for table heading cells in Bordered or Bordered-Wide tables. */
+TH.Bordered { font-family:Verdana; font-size:8pt; color:#000000; font-weight:bold;  border-width: 1pt; border-style: solid; border-color: #000000; }
+
+/* Use the Table-cell-8pt style class for table heading cells in tables that contain a lot of information and need smaller text to fit it all on one screen to prevent a horizontal scroll bar from appearing. */
+TH.Table-Head-8pt { font-family:Verdana; font-size:7pt; color:#000000; font-weight:bold; }
+
+/* Use the Left-Align style class for table heading cells that you want to left align instead of center align. */
+TH.Left-Align { font-family:Verdana; font-size:8pt; color:#000000; font-weight:bold; padding:3px; text-align:left; }
+
+/***************************************************/
+/* CHARACTER FORMATS */
+/* The following section defines character formats that every HTML Help project should need. */
+
+/* Use the Dark-Red format for warnings or cautions. */
+#Dark-Red { color: #800000 }
+
+/* Use the Monospace format for code or syntax examples. */
+#Monospace { font-family: "Courier New"; font-size: 8pt; }
+
+/* Use the Monospace-Bold format for messages and responses that the computer automatically prints to the screen. */
+#Monospace-Bold { font-family: "Courier New"; font-size: 8pt; font-weight: bold; }
+
+/* Use the Monospace-Italic format to denote text that is a placeholder for a word or value that the user must supply. */
+#Monospace-Italic { font-family: "Courier New"; font-size: 8pt; font-style: italic; }
+
+/* Use the Symbol format for characters not in the Verdana character set. Use this format sparingly. When possible, you should use the correct ASCII code for the symbol or use a graphic to recreate the symbol. */
+#Symbol { font-family: Symbol; font-size: 8pt; }
+
+/* The following styles define the color of links. */
+a:link { color: #007700 }
+a:hover { color: #FF0000 }
+a:active { color: #FF0000 }
+a:visited { color: #7F007F }
+
+/***************************************************/
+/* ACTIVITY STYLES */
+/* The following section defines styles that only tutorial-style HTML Help projects should need. */
+
+/* Use the Activity-Objective style class for the objective at the beginning of an activity topic. */
+H3.Activity-Objective { color: #800000; }
+
+/***************************************************/
+/* CODE STYLES */
+/* The following section defines styles that you need to format entire sections of code or syntax examples. If you have just a few words you need to format as a code or syntax example, use the Monospace character format. */
+
+P.Code { margin-top:3.00pt; margin-bottom:0.00pt; font-family:"Courier New"; font-size:8pt; color:#000000;  }
+P.Code1 { margin-left:12.00pt; margin-top:3.00pt; margin-bottom:0.00pt; font-family:"Courier New"; font-size:8pt; color:#000000;  }
+P.Code2 { margin-left:24.00pt; margin-top:3.00pt; margin-bottom:0.00pt; font-family:"Courier New"; font-size:8pt; color:#000000;  }
+P.Code3 { margin-left:36.00pt; margin-top:3.00pt; margin-bottom:0.00pt; font-family:"Courier New"; font-size:8pt; color:#000000;  }
+
+/***************************************************/
+/* FUNCTION STYLES */
+/* The following section defines styles that you might need to format function reference help. */
+
+P.F-VI-Code4 { margin-left:48.00pt; margin-top:3.00pt; margin-bottom:0.00pt; font-family:"Courier New"; font-size:8pt; color:#000000;  }
+P.F-VI-Code5 { margin-left:60.00pt; margin-top:3.00pt; margin-bottom:0.00pt; font-family:"Courier New"; font-size:8pt; color:#000000;  }
+P.F-VI-Equation { margin-top:9.00pt; margin-bottom:9.00pt; font-family:Verdana; font-size:8pt; color:#000000;  }
+
+OL.F-VI-EquationNum { margin-top:3.00pt; margin-bottom:3.00pt; text-indent:0pt; font-family:Verdana; font-size:8pt; color:#000000; list-style-type: decimal; }
+</style>
+</HEAD>
+<body>
+
+<h1>Actor Framework</h1>
+<p class="Body">LabVIEW 2012</p>
+
+<h2>Requirements</h2>
+
+<p><b>Software</b> - LabVIEW</p>
+<p><b>Hardware</b> - None</p>
+
+<h2>Summary</h2>
+
+<p>This project uses the Actor Framework to implement an evaporative cooler, with a main VI to handle the user interface and independently running VIs that control the cooler, including the fans and water level. Each independent VI has the ability to pass command-like messages to the main VI and receive such messages from the main VI. The architecture supports expansion for including more independent VIs, statically or dynamically.</p>
+
+<h2>Purpose</h2> 
+
+<p>This project implements a full application, controlled and monitored by a user interface. There are also independent tasks that are continuously running. These tasks can be messaged from the UI and are capable of sending messages back to the UI. The entire system is built using the Actor Framework (AF), which evolved from the Queued Message Handler (QMH) architecture.</p>
+
+<p>Whereas the purpose of the QMH is to receive and process messages, the purpose of the AF is to create multiple QMHs running simultaneously with well-defined communication paths between them. Within the AF, one actor is the root actor of the application. It spawns as many nested actors as it needs for its work. Each of those nested actors may spawn further nested actors of their own. By default, each layer is capable of communicating only with the actor above it (called the caller actor) or its own nested actors. On the small scale of two or three actors, these clean lines of communication protect against shutdown-ordering problems. As the number of actors scales up into the hundreds, the structured communication paths keep the system manageable.</p>
+
+<h2>Usage Guidelines</h2>
+<p>The top-level VI to run is Feedback Evaporative Cooler Demo.vi. Before running the VI, select "Cooler UI" on the control labeled Actor. You can optionally show the actor's front panel by ticking the "Show core" checkbox. In this example, showing the actor's front panel is only useful when the Cooler UI actor is invoked. You can choose to invoke other actors instead of the Cooler UI to better understand how all the actors fit together.</p>
+
+<p>Once the Cooler UI actor has spun up, the cooler control panel monitors temperature, water level, and fan states. The controls are interactive, so you can adjust the temperature or water level, for example, to see the fans or valve activate. The deadband temperature and water level ranges are 70-75 and 5-7, respectively. You can also fail one of the fans to see the other fan activate.</p>
+
+<p><img src="Cooler.png"></p>
+
+<p>Read the available document <a href="Using%20the%20Actor%20Framework%20in%20LabVIEW.pdf">"Using The Actor Framework in LabVIEW.pdf"</a> for more information on the framework itself.</p>
+
+<p>The framework and all of its docmentation assumes you are familiar with LabVIEW Object-Oriented Programming.</p>
+
+<h2>Implementation</h2> 
+<p>This project is a full application, with all the startup and shutdown logic that a full application should be aware of. </p>
+<ul>
+<li><b>Feedback Evaporative Cooler Demo.vi</b> &#8211; The top-level VI to execute. This VI is responsible for invoking the selected actor (Cooler UI by default).</li>
+<li><b>Cooler UI.lvclass:Actor Core.vi</b> &#8211; The Cooler UI actor invokes the Cooler actor, which in turn invokes the Dual Fan and Water Level actors. Cooler UI launches its own UI to display fan status and temperature level, which can also be controlled from its UI.</li>
+<li><b>Cooler.lvclass:Actor Core.vi</b> &#8211; An independent task responsible for monitoring temperature and water levels and communicating them to the fans and valve.</li>
+</ul>
+
+<h2>Trade-offs and Alternatives</h2>
+
+<p>The framework is designed to handle truly parallel tasks. This is one of the hardest aspects of programming in any language. G makes writing such programs relatively easy, but it is also easy to get lost in the complications. The Actor Framework tries to bring some order to the chaos by enforcing the Task Tree pattern, where there is a single root actor that spawns nested actors. You can contrast this with something called the Observer pattern, a common design pattern for parallel tasks, where the actors form a web of interconnections, with each actor listening for particular messages from other actors. The web is definitely more flexible, but with increased flexibility comes some instability. For example, in a web, it is much harder to figure out who should go first in a shutdown sequence, whereas it is much easier to define priorities with a tree. You can find a very powerful implementation of the Observer pattern, capable of supporting actors even on network machines, <a href="http://lavag.org/topic/14566-message-routing-architecture/">here on the LAVA web site</a>. Information about design patterns in G generally can be found <a href="https://decibel.ni.com/content/docs/DOC-2875">here</a>.</p>
+
+<h2>Verifying this Example</h2>
+
+<p>Exercise all elements of the user interface to see the fans, valve, and pump are activated based on temperature and water level. Ensure all actors shut down properly after pressing "Stop".</p>
+
+<h2>Notes</h2>
+
+<p>Any suspected bugs or issues with this framework should be reported using the standard ni.com forums. For feature requests and to find variations, expansion packs and other community comments, please visit <a href="https://decibel.ni.com/content/groups/actor-framework-2011">the Actor Framework's&nbsp;own community forum page</a>.</p>
+
+<!-- Do we need all the content below for the user's copy of the project documentation? -->
+
+<hr>
+<p class="Body"><strong>Copyright</strong></p>
+<p class="Body">&#0169; 2012 National Instruments Corporation. All rights reserved.</p>
+<p class="Body">For copyright notices, conditions, and disclaimers, including information regarding certain third-party components used in LabVIEW, refer to the <em>Copyright</em> topic of the <em>LabVIEW Help</em>.</p>
+<p class="Body"><strong>Trademarks</strong></p>
+<p class="Body">LabVIEW, National Instruments, NI, <span id="Monospace">ni.com</span>, LabVIEW, the National Instruments corporate logo, and the Eagle logo are trademarks of National Instruments Corporation. Refer to the <em>Trademark Information</em> at <span id="Monospace">ni.com/trademarks</span> for other <a href="http://digital.ni.com/express.nsf/bycode/rdtrad" target="_blank"><span class="DNL">National Instruments</span> trademarks</a>.</p>
+<p class="Body"><strong>Patents</strong></p>
+<p class="Body">For patents covering the National Instruments products/technology, refer to the appropriate location: <strong>Help&#0187;Patents</strong> in your software, the <span id="Monospace">patents.txt</span> file on your media, or the <a href="http://digital.ni.com/express.nsf/bycode/rdlv17" target="_blank">National Instruments Patent Notice</a> at <span id="Monospace">ni.com/patents</span>.</p>
+
+
+</body>
+</html>
