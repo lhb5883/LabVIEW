@@ -1,0 +1,101 @@
+NI 9211="The NI 9211 Measurement System measures 4 thermocouple channels at 14 S/s with 24-bit resolution, sending data to a host PC over USB, Ethernet or 802.11 Wi-Fi."
+
+NI 9219="The NI 9219 Measurement System measures 4 universal channels at 100 S/s with 24-bit resolution, sending data to a host PC over USB, Ethernet or 802.11 Wi-Fi."
+
+NI 9215="The NI 9215 Measurement System measures 4 voltage channels at 100 kS/s with 16-bit resolution, sending data to a host PC over USB, Ethernet or 802.11 Wi-Fi."
+
+NI 9263="The NI 9263 Measurement System can output four voltage signals at 100 kS/s with 16-bit resolution, communicating with a host PC over USB, Ethernet or 802.11 Wi-Fi."
+
+
+NI 9234="The NI 9234 Measurement System measures 4 accelerometer/microphone channels at 51.2 kS/s with 24-bit resolution, sending data to a host PC over USB, Ethernet or 802.11 Wi-Fi."
+
+NI 9237="The NI 9237 Measurement System measures 4 bridge channels at 50 kS/s with 24-bit resolution, sending data to a host PC over USB, Ethernet or 802.11 Wi-Fi."
+
+
+NI 9205="The NI 9205 Measurement System measures 32 voltage channels at 250 kS/s with 16-bit resolution, sending data to a host PC over USB, Ethernet or 802.11 Wi-Fi."
+
+NI 9206="The NI 9206 Measurement System measures 32 voltage channels at 250 kS/s with 16-bit resolution, sending data to a host PC over USB, Ethernet or 802.11 Wi-Fi."
+
+NI 9222="The NI 9222 Measurement System measures 4 voltage channels at 500 kS/s with 16-bit resolution, sending data to a host PC over USB, Ethernet or 802.11 Wi-Fi."
+
+NI 9223="The NI 9223 Measurement System measures 4 voltage channels at 1 MS/s/ch with 16-bit resolution, sending data to a host PC over USB, Ethernet or 802.11 Wi-Fi."
+
+NI 9229="The NI 9229 Measurement System measures 4 voltage channels at 50 kS/s with 24-bit resolution, sending data to a host PC over USB, Ethernet or 802.11 Wi-Fi."
+
+NI 9239="The NI 9239 Measurement System measures 4 voltage channels at 50 kS/s with 24-bit resolution, sending data to a host PC over USB, Ethernet or 802.11 Wi-Fi."
+
+NI 9201="The NI 9201 Measurement System measures 8 voltage channels at 500 kS/s with 12-bit resolution, sending data to a host PC over USB, Ethernet or 802.11 Wi-Fi."
+
+NI 9221="The NI 9221 Measurement System measures 8 voltage channels at 800 kS/s with 12-bit resolution, sending data to a host PC over USB, Ethernet or 802.11 Wi-Fi."
+
+NI 9225="The NI 9225 Measurement System measures three voltage channels at 50 kS/s per channel with 24-bit resolution, sending data to a host PC over USB, Ethernet, or 802.11 Wi-Fi."
+
+NI 9227="The NI 9227 Measurement System measures 4 current channels at 50 kS/s with 24-bit resolution, sending data to a host PC over USB, Ethernet or 802.11 Wi-Fi."
+
+NI 9208="The NI 9208 Measurement System measures 16 current channels at 500 S/s with 24-bit resolution, sending data to a host PC over USB, Ethernet or 802.11 Wi-Fi."
+
+NI 9203="The NI 9203 Measurement System measures 8 current channels at 200 kS/s with 16-bit resolution, sending data to a host PC over USB, Ethernet or 802.11 Wi-Fi." 
+
+NI 9207="The NI 9207 Measurement System measures 8 voltage and 8 current channels at 500 S/s with 24-bit resolution, sending data to a host PC over USB, Ethernet or 802.11 Wi-Fi."
+
+NI 9207="The NI 9219 Measurement System measures 4 universal channels at 100 S/s with 24-bit resolution, sending data to a host PC over USB, Ethernet or 802.11 Wi-Fi."
+
+NI 9213="The NI 9213 Measurement System measures 16 thermocouple channels at 1200 S/s with 24-bit resolution, sending data to a host PC over USB, Ethernet or 802.11 Wi-Fi."
+
+NI 9214="The NI 9214 Measurement System measures 16 thermocouple channels at 68 S/s with 24-bit resolution, sending data to a host PC over USB, Ethernet or 802.11 Wi-Fi."
+
+
+NI 9217="The NI 9217 Measurement System measures 4 RTD channels at 400 S/s with 24-bit resolution, sending data to a host PC over USB, Ethernet or 802.11 Wi-Fi."
+
+NI 9235="The NI 9235 Measurement System measures 8 quarter bridge channels at 10 kS/s with 24-bit resolution, sending data to a host PC over USB, Ethernet or 802.11 Wi-Fi."
+
+NI 9236="The NI 9236 Measurement System measures 8 quarter bridge channels at 10 kS/s with 24-bit resolution, sending data to a host PC over USB, Ethernet or 802.11 Wi-Fi."
+
+NI 9263="The NI 9263 Measurement System can output four voltage signals at 100 kS/s with 16-bit resolution, communicating with a host PC over USB, Ethernet or 802.11 Wi-Fi."
+
+NI 9269="The NI 9269 Measurement System can output four voltage signals at 100 kS/s with 16-bit resolution, communicating with a host PC over USB, Ethernet or 802.11 Wi-Fi."
+
+NI 9264="The NI 9264 Measurement System can output 16 voltage signals at 25 kS/s with 16-bit resolution, communicating with a host PC over USB, Ethernet or 802.11 Wi-Fi."
+
+NI 9265="The NI 9265 Measurement System can output four voltage signals at 100 kS/s with 16-bit resolution, communicating with a host PC over USB, Ethernet or 802.11 Wi-Fi."
+
+NI 9401="The NI 9401 Measurement System includes eight bi-directional DIO channels and four counter/timers, communicating with a host PC over USB, Ethernet or 802.11 Wi-Fi."
+
+NI 9402="The NI 9402 Measurement System includes four bi-directional DIO channels and four counter/timers, communicating with a host PC over USB, Ethernet or 802.11 Wi-Fi."
+
+NI 9403="The NI 9403 Measurement System includes 32 bi-directional DIO channels, communicating with a host PC over USB, Ethernet or 802.11 Wi-Fi."
+
+NI 9411="The NI 9411 Measurement System includes six differential digital input channels, communicating with a host PC over USB, Ethernet or 802.11 Wi-Fi."
+
+NI 9421="The NI 9421 Measurement System includes eight sinking digital input channels, communicating with a host PC over USB, Ethernet or 802.11 Wi-Fi."
+
+NI 9422="The NI 9422 Measurement System includes eight sinking/sourcing digital input channels, communicating with a host PC over USB, Ethernet or 802.11 Wi-Fi."
+
+NI 9423="The NI 9423 Measurement System includes eight sinking digital input channels, communicating with a host PC over USB, Ethernet or 802.11 Wi-Fi."
+
+NI 9425="The NI 9425 Measurement System includes 32 sinking digital input channels, communicating with a host PC over USB, Ethernet or 802.11 Wi-Fi."
+
+NI 9426="The NI 9426 Measurement System includes 32 sourcing digital input channels, communicating with a host PC over USB, Ethernet or 802.11 Wi-Fi."
+
+NI 9435="The NI 9435 Measurement System includes four sinking/sourcing digital input channels, communicating with a host PC over USB, Ethernet or 802.11 Wi-Fi."
+
+NI 9472="The NI 9472 Measurement System includes eight sourcing digital output channels capable of communicating with a host PC over USB, Ethernet or 802.11 Wi-Fi."
+
+NI 9474="The NI 9474 Measurement System includes eight sourcing digital output channels capable of communicating with a host PC over USB, Ethernet or 802.11 Wi-Fi."
+
+NI 9475="The NI 9475 Measurement System includes eight sourcing digital output channels capable of communicating with a host PC over USB, Ethernet or 802.11 Wi-Fi."
+
+NI 9476="The NI 9476 Measurement System includes 32 sourcing digital output channels capable of communicating with a host PC over USB, Ethernet or 802.11 Wi-Fi."
+
+NI 9477="The NI 9477 Measurement System includes 32 sinking digital output channels capable of communicating with a host PC over USB, Ethernet or 802.11 Wi-Fi."
+
+NI 9478="The NI 9478 Measurement System includes 16 sinking digital output channels capable of communicating with a host PC over USB, Ethernet or 802.11 Wi-Fi."
+
+
+NI 9481="The NI 9481 Measurement System includes four electromechanical relay output channels capable of communicating with a host PC over USB, Ethernet or 802.11 Wi-Fi."
+
+NI 9485="The NI 9485 Measurement System includes eight solid state relay output channels capable of communicating with a host PC over USB, Ethernet or 802.11 Wi-Fi."
+
+NI 9862="The NI 9862 is a 1-port, high-speed controller area network (CAN) NI CompactDAQ and NI CompactRIO interface for developing CAN applications."
+
+
