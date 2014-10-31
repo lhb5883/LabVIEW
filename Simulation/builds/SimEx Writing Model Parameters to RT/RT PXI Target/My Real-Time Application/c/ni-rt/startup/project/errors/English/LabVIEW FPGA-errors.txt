@@ -1,0 +1,953 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+<nifamily familyname="LabVIEW FPGA" displayname="LabVIEW FPGA">
+</nifamily>
+</nicomment>
+<nierror code="-61500">
+LabVIEW FPGA:  An internal software error has occurred.  Please contact National Instruments technical support at ni.com/support with the following information:
+
+LabVIEW could not read a CLIP XML file.
+</nierror>
+<nierror code="-61499">
+LabVIEW FPGA:  An internal software error in the LabVIEW FPGA Module has occurred.  Please contact National Instruments technical support at ni.com/support.
+</nierror>
+<nierror code="-61498">
+LabVIEW FPGA:  An internal software error in the LabVIEW FPGA Module has occurred.  Please contact National Instruments technical support at ni.com/support with following information:
+
+Required tag was not found in the resource file.
+</nierror>
+<nierror code="-61497">
+LabVIEW FPGA:  An internal software error in the LabVIEW FPGA Module has occurred.  Please contact National Instruments technical support at ni.com/support with following information:
+
+An unsupported register offset was requested.
+</nierror>
+<nierror code="-61496">
+LabVIEW FPGA:  An internal software error in the LabVIEW FPGA Module has occurred.  Please contact National Instruments technical support at ni.com/support with following information:
+
+An unexpected case was reached.
+</nierror>
+<nierror code="-61495">
+LabVIEW FPGA:  An internal software error in the LabVIEW FPGA Module has occurred.  Please contact National Instruments technical support at ni.com/support with following information:
+
+A path tag specified a value that is not a path.
+</nierror>
+<nierror code="-61494">
+LabVIEW FPGA:  An internal software error in the LabVIEW FPGA Module has occurred.  Please contact National Instruments technical support at ni.com/support with following information:
+
+An IP Generator VI did not match the required interface.
+</nierror>
+<nierror code="-61493">
+LabVIEW FPGA:  An internal software error in the LabVIEW FPGA Module has occurred.  Please contact National Instruments technical support at ni.com/support with following information:
+
+The specified IP Generator VI could not be found.
+</nierror>
+<nierror code="-61492">
+LabVIEW FPGA:  An internal software error in the LabVIEW FPGA Module has occurred.  Please contact National Instruments technical support at ni.com/support with following information:
+
+Error accessing FPGA provider.
+</nierror>
+<nierror code="-61491">
+LabVIEW FPGA:  An internal software error in the LabVIEW FPGA Module has occurred.  Please contact National Instruments technical support at ni.com/support with following information:
+
+An IP Generator is missing the required VI Path Tag.
+</nierror>
+<nierror code="-61490">
+LabVIEW FPGA:  An internal error has ocurred. 
+</nierror>
+<nierror code="-61489">
+LabVIEW FPGA:  Internal software error(s)
+</nierror>
+<nierror code="-61488">
+LabVIEW FPGA:  An internal software error in the LabVIEW FPGA Module has occurred.  Please contact National Instruments technical support at ni.com/support with following information:
+
+A required XML tag was not found.
+</nierror>
+<nierror code="-61458">
+LabVIEW FPGA:  Target does not support terminals configured for variable and bounded size arrays.
+</nierror>
+<nierror code="-61457">
+LabVIEW FPGA:  The compilation status file is missing or corrupt.
+</nierror>
+<nierror code="-61456">
+LabVIEW FPGA:  The compilation failed due to timing violations, but there is no path information because the timing violations are not of type PERIOD.
+</nierror>
+<nierror code="-61455">
+LabVIEW FPGA:  Some of the compilation steps were not executed.
+</nierror>
+<nierror code="-61454">
+LabVIEW FPGA:  Some signals were not properly constrained in the design.
+</nierror>
+<nierror code="-61453">
+LabVIEW FPGA:  The constraints file was not used in the compilation.
+</nierror>
+<nierror code="-61452">
+LabVIEW FPGA:  The compilation failed due to resource overmapping.
+</nierror>
+<nierror code="-61451">
+LabVIEW FPGA:  The compilation failed due to timing violations.
+</nierror>
+<nierror code="-61450">
+LabVIEW FPGA:  The compilation failed due to a xilinx error.
+</nierror>
+<nierror code="-61406">
+LabVIEW FPGA:  The logic in a socketed CLIP is preventing the FPGA VI from running.
+</nierror>
+<nierror code="-61405">
+LabVIEW FPGA:  The operation failed because you do not have a physical target specified for this FPGA target. 
+
+Right-click the FPGA target in the Project Explorer window, select Properties, and enter an FPGA target resource name in the Resource text box.
+</nierror>
+<nierror code="-61404">
+LabVIEW FPGA:  LabVIEW encountered a target specific error or warning.
+</nierror>
+<nierror code="-61403">
+LabVIEW FPGA:  LabVIEW is unable to interact with the current target because a required file is missing or inaccessible. Check that the FPGA target-specific driver software is installed correctly.
+</nierror>
+<nierror code="-61402">
+LabVIEW FPGA:  LabVIEW lost communication with the device. 
+
+The resource for the target was disconnected or removed.
+
+If the target is located remotely, the remote system might be turned off or there might be a network problem.
+</nierror>
+<nierror code="-61400">
+LabVIEW FPGA:  Operation failed because the type of the hardware specified in the project and/or in the VI does not match the type of the hardware that was physically accessed. 
+</nierror>
+<nierror code="-61399">
+LabVIEW FPGA:  Execution of the FPGA VI on the development computer is not supported for the given item/node in the custom VI used for FPGA I/O.
+</nierror>
+<nierror code="-61398">
+LabVIEW FPGA:  Execution of the FPGA VI on the development computer failed because the custom VI used for FPGA I/O could not be found.
+</nierror>
+<nierror code="-61397">
+LabVIEW FPGA:  Execution of the FPGA VI on the development computer failed because the custom VI for FPGA I/O does not conform to the calling requirements of the FPGA VI.
+</nierror>
+<nierror code="-61396">
+LabVIEW FPGA:  Execution of the FPGA VI on the development computer failed because the custom VI for FPGA I/O called a VI or a function that returned an error.
+</nierror>
+<nierror code="-61395">
+LabVIEW FPGA:  Execution of the FPGA VI on the development computer failed because the custom VI for FPGA I/O is not executable. 
+</nierror>
+<nierror code="-61394">
+LabVIEW FPGA:  This VI is supported only when the Execution Stage is "Running".
+</nierror>
+<nierror code="-61355">
+LabVIEW FPGA:  An internal software error has occurred. DFIR refnum not found.
+</nierror>
+<nierror code="-61354">
+LabVIEW FPGA:  Internal software error(s): Connected node is not constant.
+</nierror>
+<nierror code="-61353">
+LabVIEW FPGA:  Internal software error(s): Output terminal not supported
+</nierror>
+<nierror code="-61352">
+LabVIEW FPGA:  Internal software error(s): Terminal is not connectable.
+</nierror>
+<nierror code="-61351">
+LabVIEW FPGA:  Internal software error(s): Terminal is unconnected.
+</nierror>
+<nierror code="-61350">
+LabVIEW FPGA:  Internal software error(s): Terminal Index Out of Bounds.
+</nierror>
+<nierror code="-61332">
+LabVIEW FPGA:  An unexpected error occurred with the compilation tools. Trying to compile the FPGA VI again might resolve the issue.
+</nierror>
+<nierror code="-61331">
+LabVIEW FPGA:  The UnitOfWork file sent to the Compile Worker was malformed.
+</nierror>
+<nierror code="-61330">
+LabVIEW FPGA:  An internal software error in the compile worker has occurred.
+</nierror>
+<nierror code="-61321">
+LabVIEW FPGA:  The compile farm server does not have any compile workers that can perform this compilation.
+</nierror>
+<nierror code="-61320">
+LabVIEW FPGA:  The compilation was cancelled by the compile farm server.
+</nierror>
+<nierror code="-61319">
+LabVIEW FPGA:  The compilation was aborted by the compile farm server.
+</nierror>
+<nierror code="-61318">
+LabVIEW FPGA:  The compilation cannot be performed by the compile worker. The compile worker may be configured incorrectly for this compilation, or it may be in an error state.
+</nierror>
+<nierror code="-61317">
+LabVIEW FPGA:  The xilinx tools required for this compilation are not installed on this machine.
+</nierror>
+<nierror code="-61316">
+LabVIEW FPGA:  The compile worker is not installed on this machine.
+</nierror>
+<nierror code="-61315">
+LabVIEW FPGA:  You do not have a license for the compile cloud service or the license has expired.
+</nierror>
+<nierror code="-61314">
+LabVIEW FPGA:  Unable to retrieve the disconnected compilation from the compile farm server. 
+</nierror>
+<nierror code="-61313">
+LabVIEW FPGA:  An invalid username and password combination was returned by the compile farm server.
+</nierror>
+<nierror code="-61312">
+LabVIEW FPGA:  The compile farm server is not installed on this machine.
+</nierror>
+<nierror code="-61311">
+LabVIEW FPGA:  Unable to contact the compile farm server.
+</nierror>
+<nierror code="-61310">
+LabVIEW FPGA:  An unexpected software error was returned from the compile farm server.
+</nierror>
+<nierror code="-61304">
+LabVIEW FPGA:  The LabVIEW client version is incompatible with the compile server version.
+</nierror>
+<nierror code="-61303">
+LabVIEW FPGA:  File operation received an empty path.
+</nierror>
+<nierror code="-61302">
+LabVIEW FPGA:  Changing the logging enable requires a restart.
+
+</nierror>
+<nierror code="-61301">
+LabVIEW FPGA:  A reference was accessed that was not allocated.
+An internal software error has occurred.  Please contact National Instruments technical support at ni.com/support.
+</nierror>
+<nierror code="-61300">
+LabVIEW FPGA:  User cancelled operation in progress.
+</nierror>
+<nierror code="-61294">
+LabVIEW FPGA:  The size of the selected data type is too large for the selected DRAM.
+</nierror>
+<nierror code="-61293">
+LabVIEW FPGA:  Insufficient DRAM Available for Allocation of Memories.
+</nierror>
+<nierror code="-61292">
+LabVIEW FPGA:  Missing Method(s) for DRAM-based memory.
+</nierror>
+<nierror code="-61291">
+LabVIEW FPGA:  Request Data and Retrieve Data memory methods must be in the same clock domain.
+</nierror>
+<nierror code="-61290">
+LabVIEW FPGA:  DRAM Memory Method Not Supported Outside SCTL.
+</nierror>
+<nierror code="-61250">
+LabVIEW FPGA:  Corrupt or Missing Xilinx Installation
+</nierror>
+<nierror code="-61242">
+LabVIEW FPGA:  The top-level VI cannot include a cluster control with both name controls and other types of data.
+</nierror>
+<nierror code="-61241">
+LabVIEW FPGA:  Duplicate File Error
+</nierror>
+<nierror code="-61240">
+LabVIEW FPGA:  Duplicate File Error
+</nierror>
+<nierror code="-61239">
+LabVIEW FPGA:  FIFO execution is only supported under FPGA targets.
+</nierror>
+<nierror code="-61238">
+LabVIEW FPGA:  Memory execution is only supported under FPGA targets.
+</nierror>
+<nierror code="-61237">
+LabVIEW FPGA:  Terminal(s) requiring constant input wired to non-constant source(s).
+</nierror>
+<nierror code="-61236">
+LabVIEW FPGA:  Terminal(s) requiring constant input unwired.
+</nierror>
+<nierror code="-61235">
+LabVIEW FPGA:  The value wired into the "FIFO In" input of a FIFO Method Node corresponds to a FIFO item that does not match the configuration of the FIFO Method Node.
+</nierror>
+<nierror code="-61234">
+LabVIEW FPGA:  The value wired into the "FIFO In" input of a FIFO Method Node does not correspond to any FIFO item in the project nor to any VI-defined FIFO.
+</nierror>
+<nierror code="-61233">
+LabVIEW FPGA:  The value wired into the "FIFO In" input of a FIFO Method Node is an empty string.  Make sure the wired value corresponds to a FIFO item in the project or to a VI-defined FIFO .
+</nierror>
+<nierror code="-61232">
+LabVIEW FPGA:  The value wired into the "Memory In" input of a Memory Method Node corresponds to a memory item that does not match the configuration of the Memory Method Node.
+</nierror>
+<nierror code="-61231">
+LabVIEW FPGA:  The value wired into the "Memory In" input of a Memory Method Node does not correspond to any memory item in the project nor to any VI-defined memory.
+</nierror>
+<nierror code="-61230">
+LabVIEW FPGA:  The value wired into the "Memory In" input of a Memory Method Node is an empty string.  Make sure the wired value corresponds to a memory item in the project or a VI-defined memory.
+</nierror>
+<nierror code="-61220">
+LabVIEW FPGA:  Invalid memory access.
+</nierror>
+<nierror code="-61210">
+LabVIEW FPGA:  There was an error initializing the LabVIEW FPGA Simulation.
+</nierror>
+<nierror code="-61209">
+LabVIEW FPGA:  This function is not supported when the FPGA Target execution mode is configured to execute on a Third-Party Simulator.
+</nierror>
+<nierror code="-61208">
+LabVIEW FPGA:  This function is only supported when the FPGA VI Reference is configured for dynamic mode and the FPGA Target execution mode is configured to execute on a Third-Party Simulator.
+</nierror>
+<nierror code="-61207">
+LabVIEW FPGA:  Internal error: DiagramReset did not clear within the timeout period.
+
+Please contact National Instruments Technical Support at ni.com/support.
+</nierror>
+<nierror code="-61206">
+LabVIEW FPGA:  The configured item does not exist. 
+</nierror>
+<nierror code="-61205">
+LabVIEW FPGA:  An item of the selected name is present but is a different data type than that configured in the Open FPGA VI Reference. 
+</nierror>
+<nierror code="-61204">
+LabVIEW FPGA:  The operation could not be performed because the FPGA is busy operating in Emulation mode. Stop all activities on the FPGA before requesting this operation.
+</nierror>
+<nierror code="-61203">
+LabVIEW FPGA:  The operation could not be performed because the FPGA is busy operating in Interactive mode. Stop all activities on the FPGA before requesting this operation.
+</nierror>
+<nierror code="-61202">
+LabVIEW FPGA:  The operation could not be performed because the FPGA is busy operating in FPGA Interface mode. Stop all activities on the FPGA before requesting this operation.
+</nierror>
+<nierror code="-61201">
+LabVIEW FPGA:  The chassis is in Scan Interface programming mode. In order to run FPGA VIs, you must go to the chassis properties page, select FPGA programming mode, and deploy the settings.
+</nierror>
+<nierror code="-61200">
+LabVIEW FPGA:  The operation could not be performed because the FPGA is busy operating in FPGA Interface C API mode. Stop all activities on the FPGA before requesting this operation.
+</nierror>
+<nierror code="-61199">
+LabVIEW FPGA:  Execution has terminated because an I/O item that does not support execution on the development computer with real I/O has been encountered.
+
+You can execute an FPGA VI on the development computer with real I/O only when all of the I/O items you use in the FPGA VI support this mode of execution.
+</nierror>
+<nierror code="-61191">
+LabVIEW FPGA:  The IP Integration Node specifies an incompatible .ngc synthesis file.
+</nierror>
+<nierror code="-61190">
+LabVIEW FPGA:  Inconsistent clock settings between CLIP declaration file and CLIP instantiation
+</nierror>
+<nierror code="-61189">
+LabVIEW FPGA:  CLIP refers to an FPGA clock that doesn't meet requirements
+</nierror>
+<nierror code="-61188">
+LabVIEW FPGA:  CLIP refers to a missing FPGA clock
+</nierror>
+<nierror code="-61187">
+LabVIEW FPGA:  Missing CLIP implementation file
+</nierror>
+<nierror code="-61186">
+LabVIEW FPGA:  Updated CLIP declaration file
+</nierror>
+<nierror code="-61185">
+LabVIEW FPGA:  Missing CLIP declaration
+</nierror>
+<nierror code="-61184">
+LabVIEW FPGA:  Incorrectly configured CLIP instance
+</nierror>
+<nierror code="-61183">
+LabVIEW FPGA:  The transfer function order exceeds the maximum order allowed.
+</nierror>
+<nierror code="-61182">
+LabVIEW FPGA:  The transfer function is improper. The order of the numerator must be less than or equal to the order of the denominator.
+</nierror>
+<nierror code="-61181">
+LabVIEW FPGA:  The notch width or Q factor must be greater than zero.
+</nierror>
+<nierror code="-61180">
+LabVIEW FPGA:  All frequencies, f, within the notch region must meet: 0 < f < fs/2, where fs is the sample rate.
+</nierror>
+<nierror code="-61179">
+LabVIEW FPGA:  (Hex 0xFFFF1105) DSP48E node not supported on the current target
+</nierror>
+<nierror code="-61178">
+LabVIEW FPGA:  Internal software error(s): Unable to resolve clock for ports
+</nierror>
+<nierror code="-61177">
+LabVIEW FPGA:  Missing Read or Write method for FIFO
+</nierror>
+<nierror code="-61176">
+LabVIEW FPGA:  Invalid clock utilized for FIFO Method.
+</nierror>
+<nierror code="-61175">
+LabVIEW FPGA:  FPGA FIFO Node not wired with constant FPGA FIFO Name.
+</nierror>
+<nierror code="-61174">
+LabVIEW FPGA:  FPGA Memory Node not wired with constant FPGA Memory Name.
+</nierror>
+<nierror code="-61173">
+LabVIEW FPGA:  Item does not match configuration of the name control
+</nierror>
+<nierror code="-61172">
+LabVIEW FPGA:  Project item not found
+</nierror>
+<nierror code="-61171">
+LabVIEW FPGA:  Name control or constant is empty
+</nierror>
+<nierror code="-61170">
+LabVIEW FPGA:  The real and imaginary input data arrays must be the same size.
+</nierror>
+<nierror code="-61169">
+LabVIEW FPGA:  The input parameter is not achievable on the FPGA at the given clock rate.
+</nierror>
+<nierror code="-61168">
+LabVIEW FPGA:  The channel index input is out of the range of the configured number of channels.
+</nierror>
+<nierror code="-61167">
+LabVIEW FPGA:  This function is not supported when the FPGA target is configured to execute on the development computer.
+</nierror>
+<nierror code="-61166">
+LabVIEW FPGA:  HDL Interface Node File Conflict
+</nierror>
+<nierror code="-61165">
+LabVIEW FPGA:  You cannot execute this FPGA VI on the development computer because the FPGA VI is broken.
+</nierror>
+<nierror code="-61164">
+LabVIEW FPGA:  Local and global variables of this type are not supported.
+</nierror>
+<nierror code="-61163">
+LabVIEW FPGA:  Internal software error(s)
+</nierror>
+<nierror code="-61162">
+LabVIEW FPGA:  Object must be used inside a single-cycle Timed Loop.
+</nierror>
+<nierror code="-61161">
+LabVIEW FPGA:  VI Execution Mode not supported outside Timed Loop
+</nierror>
+<nierror code="-61160">
+LabVIEW FPGA:  VI Execution Mode not supported inside Timed Loop
+</nierror>
+<nierror code="-61159">
+LabVIEW FPGA:  This function is not supported when the FPGA target is configured to execute on the development computer with real I/O.
+</nierror>
+<nierror code="-61158">
+LabVIEW FPGA:  Conditional terminal on For Loop not supported.
+</nierror>
+<nierror code="-61157">
+LabVIEW FPGA:  Object(s) not supported in the single-cycle Timed Loop
+</nierror>
+<nierror code="-61156">
+LabVIEW FPGA:  Clock domain crossing is not supported for Occurrences.
+</nierror>
+<nierror code="-61155">
+LabVIEW FPGA:  Unsupported Clock For Resource
+</nierror>
+<nierror code="-61154">
+LabVIEW FPGA:  Access from different clock domains not supported.
+</nierror>
+<nierror code="-61153">
+LabVIEW FPGA:  Express VI not configured
+</nierror>
+<nierror code="-61152">
+LabVIEW FPGA:  Variable clock rate not supported
+</nierror>
+<nierror code="-61151">
+LabVIEW FPGA:  Function or structure must be wired to a fixed clock name. 
+</nierror>
+<nierror code="-61150">
+LabVIEW FPGA:  Clock project item not found.
+</nierror>
+<nierror code="-61149">
+LabVIEW FPGA:  Clock control or constant is empty.
+</nierror>
+<nierror code="-61148">
+LabVIEW FPGA:  Clock rate mismatch
+</nierror>
+<nierror code="-61147">
+LabVIEW FPGA:  Internal software error(s)
+</nierror>
+<nierror code="-61146">
+LabVIEW FPGA:  IP Integration Node must have a clock enable port.
+</nierror>
+<nierror code="-61145">
+LabVIEW FPGA:  HDL Interface Node File Not Found
+</nierror>
+<nierror code="-61144">
+LabVIEW FPGA:  HDL Interface Node outside Single-Cycle Timed Loop
+</nierror>
+<nierror code="-61143">
+LabVIEW FPGA:  Front panel control/indicator violates size restrictions.
+</nierror>
+<nierror code="-61142">
+LabVIEW FPGA:  VI is broken.
+</nierror>
+<nierror code="-61141">
+LabVIEW FPGA:  The operation could not be performed because the FPGA is busy. Stop all activities on the FPGA before requesting this operation. If the target is in Scan Interface programming mode, put it in FPGA Interface programming mode.
+</nierror>
+<nierror code="-61140">
+LabVIEW FPGA:  The VI cannot be compiled because its type is not supported. Only standard VIs can be compiled.
+</nierror>
+<nierror code="-61139">
+LabVIEW FPGA:  Top-level clock rate has changed
+</nierror>
+<nierror code="-61138">
+LabVIEW FPGA:  Invalid top-level clock for target
+</nierror>
+<nierror code="-61137">
+LabVIEW FPGA:  Internal software error(s)
+</nierror>
+<nierror code="-61136">
+LabVIEW FPGA:  Internal software error(s)
+</nierror>
+<nierror code="-61135">
+LabVIEW FPGA:  Internal software error(s)
+</nierror>
+<nierror code="-61134">
+LabVIEW FPGA:  HDL Interface Node inside Single-Cycle Timed Loop
+</nierror>
+<nierror code="-61133">
+LabVIEW FPGA:  Front panel control/indicator(s) crossing clock domains not supported in subVIs
+</nierror>
+<nierror code="-61132">
+LabVIEW FPGA:  Front panel control/indicator(s) crossing clock domains is not supported in subVIs
+</nierror>
+<nierror code="-61131">
+LabVIEW FPGA:  Internal software error(s)
+</nierror>
+<nierror code="-61130">
+LabVIEW FPGA:  Too many resource interface requestors
+</nierror>
+<nierror code="-61129">
+LabVIEW FPGA:  Top-level port <PortName> has more than one driver.
+</nierror>
+<nierror code="-61128">
+LabVIEW FPGA:  Internal software error(s)
+</nierror>
+<nierror code="-61127">
+LabVIEW FPGA:  Internal software error(s)
+</nierror>
+<nierror code="-61126">
+LabVIEW FPGA:  Internal software error(s)
+</nierror>
+<nierror code="-61125">
+LabVIEW FPGA:  The top-level port '<PortName>' was requested before the selected component created it.
+</nierror>
+<nierror code="-61124">
+LabVIEW FPGA:  A resource was requested before the resource database was initialized.
+</nierror>
+<nierror code="-61123">
+LabVIEW FPGA:  Internal software error(s)
+</nierror>
+<nierror code="-61122">
+LabVIEW FPGA:  Internal software error(s)
+</nierror>
+<nierror code="-61121">
+LabVIEW FPGA:  Internal software error(s)
+</nierror>
+<nierror code="-61120">
+LabVIEW FPGA:  Error attempting to remove register from component.
+</nierror>
+<nierror code="-61119">
+LabVIEW FPGA:  Arbitration option not supported in the single-cycle Timed Loop
+</nierror>
+<nierror code="-61118">
+LabVIEW FPGA:  Unsupported function inputs
+</nierror>
+<nierror code="-61117">
+LabVIEW FPGA:  Unsupported function inputs
+</nierror>
+<nierror code="-61116">
+LabVIEW FPGA:  Unsupported Compound Arithmetic inputs
+</nierror>
+<nierror code="-61115">
+LabVIEW FPGA:  Non-reentrant subVI(s) used in different clock domains.
+</nierror>
+<nierror code="-61114">
+LabVIEW FPGA:  Non-reentrant subVI(s) used inside and outside a single-cycle Timed Loop
+</nierror>
+<nierror code="-61113">
+LabVIEW FPGA:  Constant references not allowed
+</nierror>
+<nierror code="-61112">
+LabVIEW FPGA:  Resource interface(s) used in multiple clock domains
+</nierror>
+<nierror code="-61111">
+LabVIEW FPGA:  Object(s) only supported in the single-cycle Timed Loop
+</nierror>
+<nierror code="-61110">
+LabVIEW FPGA:  Invalid FIFO implementation.
+</nierror>
+<nierror code="-61109">
+LabVIEW FPGA:  Object(s) connected to an initialized shift register
+</nierror>
+<nierror code="-61108">
+LabVIEW FPGA:  Resource interface(s) requested from both inside and outside the single-cycle Timed Loop
+</nierror>
+<nierror code="-61107">
+LabVIEW FPGA:  Arbitration option not supported inside a single-cycle Timed Loop
+</nierror>
+<nierror code="-61106">
+LabVIEW FPGA:  Multiple instances of non-reentrant subVI(s) in the single-cycle Timed Loop
+</nierror>
+<nierror code="-61105">
+LabVIEW FPGA:  Multiple writes to control/indicator and local(s) in single-cycle Timed Loops
+</nierror>
+<nierror code="-61104">
+LabVIEW FPGA:  Arbitration option not supported in the single-cycle Timed Loop
+</nierror>
+<nierror code="-61103">
+LabVIEW FPGA:  Arbitration option not supported in the single-cycle Timed Loop
+</nierror>
+<nierror code="-61102">
+LabVIEW FPGA:  Arbitration option not supported in the single-cycle Timed Loop
+</nierror>
+<nierror code="-61101">
+LabVIEW FPGA:  Object(s) not supported in the single-cycle Timed Loop
+</nierror>
+<nierror code="-61100">
+LabVIEW FPGA:  The Interrupt function cannot wait until its interrupt is cleared in a Single Cycle Loop.
+</nierror>
+<nierror code="-61099">
+LabVIEW FPGA:  Built-in FIFO used in external clock domain.
+</nierror>
+<nierror code="-61098">
+LabVIEW FPGA:  Derived clock required
+</nierror>
+<nierror code="-61097">
+LabVIEW FPGA:  CLIP simulation model not defined.
+</nierror>
+<nierror code="-61096">
+LabVIEW FPGA:  Memory is read-only with a type defined by a custom control
+</nierror>
+<nierror code="-61095">
+LabVIEW FPGA:  Object without implicit enable signal is used outside a single-cycle Timed Loop.
+</nierror>
+<nierror code="-61094">
+LabVIEW FPGA:  Object not supported in simulation
+</nierror>
+<nierror code="-61093">
+LabVIEW FPGA:  Object without implicit enable in Case structure
+</nierror>
+<nierror code="-61092">
+LabVIEW FPGA:  Resource does not support single-cycle Timed Loops
+</nierror>
+<nierror code="-61091">
+LabVIEW FPGA:  Resource requires use Inside single-cycle Timed Loop
+</nierror>
+<nierror code="-61090">
+LabVIEW FPGA:  Resource used In unsupported clock domain.
+</nierror>
+<nierror code="-61089">
+LabVIEW FPGA:  Uninitialized read-only memory
+</nierror>
+<nierror code="-61088">
+LabVIEW FPGA:  Built-in FIFO not supported on current target.
+</nierror>
+<nierror code="-61087">
+LabVIEW FPGA:  Files changed requiring node reconfiguration
+</nierror>
+<nierror code="-61086">
+LabVIEW FPGA:  File(s) do not exist
+</nierror>
+<nierror code="-61085">
+LabVIEW FPGA:  IP not supported on current target
+</nierror>
+<nierror code="-61084">
+LabVIEW FPGA:  Relative clock rate mismatch
+</nierror>
+<nierror code="-61083">
+LabVIEW FPGA:  A hardware clocking error occurred. A derived clock lost lock with its base clock during the execution of the FPGA VI. If any base clocks with derived clocks are referencing an external source, make sure that the external source is connected and within the supported frequency, jitter, accuracy, duty cycle, and voltage specifications. Also verify that the characteristics of the base clock match the configuration specified in the FPGA Base Clock Properties dialog box. If all base clocks with derived clocks are generated from free-running, on-board sources, please contact National Instruments technical support at ni.com/support.
+</nierror>
+<nierror code="-61082">
+LabVIEW FPGA:  The current target does not have sufficient DMA control line sets available. 
+</nierror>
+<nierror code="-61081">
+LabVIEW FPGA:  Insufficient DMA channels available on the current target.
+</nierror>
+<nierror code="-61080">
+LabVIEW FPGA:  This target does not support FPGA interrupts.
+</nierror>
+<nierror code="-61079">
+LabVIEW FPGA:  Insufficient address space on the FPGA for certain registers.
+</nierror>
+<nierror code="-61078">
+LabVIEW FPGA:  The requested memory could not be allocated.
+</nierror>
+<nierror code="-61077">
+LabVIEW FPGA:  Terminated DMA FIFO. The FPGA was reconfigured while the DMA FIFO was in use.
+</nierror>
+<nierror code="-61076">
+LabVIEW FPGA:  The DMA transfer did not complete within the timeout period.
+</nierror>
+<nierror code="-61075">
+LabVIEW FPGA:  The DMA transfer was aborted and did not complete.
+</nierror>
+<nierror code="-61074">
+LabVIEW FPGA:  The timeout parameter must be -1, 0, or a positive integer.
+</nierror>
+<nierror code="-61073">
+LabVIEW FPGA:  The number of elements to read or write must be less than or equal to the depth of the host memory DMA FIFO.
+</nierror>
+<nierror code="-61072">
+LabVIEW FPGA:  The Depth input must be greater than 0 and less than the amount of available memory in the host computer.
+</nierror>
+<nierror code="-61071">
+LabVIEW FPGA:  The selected DMA FIFO was not found or is out of sync with the bitfile.
+</nierror>
+<nierror code="-61070">
+LabVIEW FPGA:  The compiled bitfile for the specified VI contains information that is no longer valid or is corrupt. 
+
+Recompile the VI to correct this error.
+</nierror>
+<nierror code="-61069">
+LabVIEW FPGA:  This bitfile was created in a more recent version of LabVIEW and is incompatible with this version.
+</nierror>
+<nierror code="-61068">
+LabVIEW FPGA:  Unrelated over clock error
+</nierror>
+<nierror code="-61067">
+LabVIEW FPGA:  Clock resource limit exceeded
+</nierror>
+<nierror code="-61066">
+LabVIEW FPGA:  Incompatible clock domains between FIFO count method and FIFO write/read method.
+</nierror>
+<nierror code="-61065">
+LabVIEW FPGA:  Digital resource access conflict.
+</nierror>
+<nierror code="-61064">
+LabVIEW FPGA:  HDL Interface Node configured to require clock during reset
+</nierror>
+<nierror code="-61063">
+LabVIEW FPGA:  Component requires a running clock during reset
+</nierror>
+<nierror code="-61062">
+LabVIEW FPGA:  Internal software error(s)
+</nierror>
+<nierror code="-61061">
+LabVIEW FPGA:  Nested libraries are currently not supported in FPGA VIs.
+</nierror>
+<nierror code="-61060">
+LabVIEW FPGA:  Clock domain crossing not supported for Memory
+</nierror>
+<nierror code="-61059">
+LabVIEW FPGA:  The selected control was not found or is out of sync.
+</nierror>
+<nierror code="-61058">
+LabVIEW FPGA:  Loops using external clocks must never exit.
+</nierror>
+<nierror code="-61057">
+LabVIEW FPGA:  Internal software error(s)
+</nierror>
+<nierror code="-61056">
+LabVIEW FPGA:  Top-level clock cannot be enabled/disabled at runtime.
+</nierror>
+<nierror code="-61055">
+LabVIEW FPGA:  Clock requires enable and disable but is not programmed
+</nierror>
+<nierror code="-61054">
+LabVIEW FPGA:  Cannot enable or disable a clock in the same clock domain being enabled or disabled.
+</nierror>
+<nierror code="-61053">
+LabVIEW FPGA:  Insufficient DMA channels available.
+</nierror>
+<nierror code="-61052">
+LabVIEW FPGA:  FIFO missing a function.
+</nierror>
+<nierror code="-61051">
+LabVIEW FPGA:  Multiple FIFOs using the same DMA channel.
+</nierror>
+<nierror code="-61050">
+LabVIEW FPGA:  Clock domain crossing is not supported for FIFO implementation.
+</nierror>
+<nierror code="-61049">
+LabVIEW FPGA:  Enabling and disabling a clock requires the clock support runtime enable and disable 
+</nierror>
+<nierror code="-61048">
+LabVIEW FPGA:  This target does not support DMA output from the host to the target.
+</nierror>
+<nierror code="-61047">
+LabVIEW FPGA:  You cannot use a terminal with the synchronous display option enabled inside a single-cycle Timed Loop.
+</nierror>
+<nierror code="-61046">
+LabVIEW FPGA:  An error was detected in the communication between the host computer and the FPGA target.
+
+If you are using any external clocks, make sure they are connected and within the supported specifications. Also, verify that the rate of any external clocks match the specified clock rates. If you are generating your clocks internally, please contact National Instruments Technical Support.
+</nierror>
+<nierror code="-61045">
+LabVIEW FPGA:  Usage of locals is restricted on synchronous controls/indicators.
+</nierror>
+<nierror code="-61044">
+LabVIEW FPGA:  The target does not have enough address space to accomodate the number of registers requested.
+</nierror>
+<nierror code="-61043">
+LabVIEW FPGA:  Internal software error(s).
+</nierror>
+<nierror code="-61042">
+LabVIEW FPGA:  Internal software error(s).
+</nierror>
+<nierror code="-61041">
+LabVIEW FPGA:  Register name conflict.
+</nierror>
+<nierror code="-61040">
+LabVIEW FPGA:  Unsupported Access Strategy.
+</nierror>
+<nierror code="-61039">
+LabVIEW FPGA:  Clock resource limit exceeded
+</nierror>
+<nierror code="-61038">
+LabVIEW FPGA:  Millisecond timing resolution not supported
+</nierror>
+<nierror code="-61037">
+LabVIEW FPGA:  Clock requested for From-To constraint does not exist.
+</nierror>
+<nierror code="-61036">
+LabVIEW FPGA:  Microsecond timing resolution not supported
+</nierror>
+<nierror code="-61035">
+LabVIEW FPGA:  Microsecond/Millisecond timing resolution not supported
+</nierror>
+<nierror code="-61034">
+LabVIEW FPGA:  Invalid top-level clock for target
+</nierror>
+<nierror code="-61033">
+LabVIEW FPGA:  Two timing sources in this application have the same clock signal name.
+</nierror>
+<nierror code="-61032">
+LabVIEW FPGA:  The available hardware cannot generate a derived clock.
+</nierror>
+<nierror code="-61031">
+LabVIEW FPGA:  There are no configured clocks for this application. Please configure a clock in the project tree.
+</nierror>
+<nierror code="-61030">
+LabVIEW FPGA:  Clock resource limit exceeded
+</nierror>
+<nierror code="-61029">
+LabVIEW FPGA:  VHDL signal names for clocks must contain "Clk" or "Clock". The first letter can be upper or lower case, but subsequent letters must be lower case.
+</nierror>
+<nierror code="-61028">
+LabVIEW FPGA:  A plug-in developer for a LV FPGA target did not provide timing constraints for all top level clocks.
+</nierror>
+<nierror code="-61027">
+LabVIEW FPGA:  Clock resource limit exceeded
+</nierror>
+<nierror code="-61026">
+LabVIEW FPGA:  A clock name was found that is not configured.
+</nierror>
+<nierror code="-61025">
+LabVIEW FPGA:  Enabling/Disabling derived clocks not supported.
+</nierror>
+<nierror code="-61024">
+LabVIEW FPGA:  The device type that has been configured in this function does not match the actual type of the device.
+</nierror>
+<nierror code="-61023">
+LabVIEW FPGA:  The device at the address that was configured in this function is no longer available.
+</nierror>
+<nierror code="-61022">
+LabVIEW FPGA:  The FPGA target does not support execution of the FPGA VI on the development computer.
+</nierror>
+<nierror code="-61021">
+LabVIEW FPGA:  FPGA Interface is out of date with the FPGA VI. Right-click and select Refresh.
+</nierror>
+<nierror code="-61020">
+LabVIEW FPGA:  FIFO timeout not supported
+</nierror>
+<nierror code="-61019">
+LabVIEW FPGA:  A digital I/O resource cannot be accessed in a Single-Cycle Timed Loop from both a Digital Output function and a Digital Port Output function.
+</nierror>
+<nierror code="-61018">
+LabVIEW FPGA:  An error occurred downloading the VI to the FPGA device.
+
+Verify that the target is connected and powered and that the resource of the target is properly configured. 
+</nierror>
+<nierror code="-61017">
+LabVIEW FPGA:  You must recompile the VI for the selected target.
+</nierror>
+<nierror code="-61016">
+LabVIEW FPGA:  You must compile the VI for this target.
+</nierror>
+<nierror code="-61015">
+LabVIEW FPGA:  No bitfile was found for download. You must compile the VI for this target.
+</nierror>
+<nierror code="-61014">
+LabVIEW FPGA:  The device does not exist or is not accepting any connections.
+
+Possible Reasons: 
+-The resource for the target is not correct or the target resource specified does not exist.
+-If the target is located remotely:
+    A. The remote system might be turned off.
+    B. The software to use the device on the remote system might not be properly installed.
+    C. You might not have networking properly configured to access the remote system.
+    D. You might not have permissions properly set for any servers used to access the target.
+</nierror>
+<nierror code="-61013">
+LabVIEW FPGA:  The FIFO Method Node reached the timeout before being able to access the FIFO. This error is due to another FIFO Method Node accessing the same FIFO and not completing before the current method timed out.
+</nierror>
+<nierror code="-61012">
+LabVIEW FPGA:  The FPGA VI reference used to initialize the FIFO is no longer valid.
+</nierror>
+<nierror code="-61011">
+LabVIEW FPGA:  Unsupported FIFO size
+</nierror>
+<nierror code="-61010">
+LabVIEW FPGA:  You are trying to read from, write to, or close a FIFO that has not been initialized by the InitFIFO method.
+</nierror>
+<nierror code="-61009">
+LabVIEW FPGA:  LabVIEW class could not be statically resolved.
+</nierror>
+<nierror code="-61008">
+LabVIEW FPGA:  When compiling for the FPGA, the top-level FPGA VI cannot have any LabVIEW classes on its front panel window.
+</nierror>
+<nierror code="-61007">
+LabVIEW FPGA:  Conditional Disable Structure contains broken code.
+</nierror>
+<nierror code="-61006">
+LabVIEW FPGA:  Syntax error in user supplied HDL.
+</nierror>
+<nierror code="-61005">
+LabVIEW FPGA:  Object not supported in simulation
+</nierror>
+<nierror code="-61004">
+LabVIEW FPGA:  FIFO object not supported in simulation
+</nierror>
+<nierror code="61003">
+LabVIEW FPGA:  The FPGA VI specified by the Invoke Method function with the Run method is already running.
+</nierror>
+<nierror code="61004">
+LabVIEW FPGA:  Occurrence Traceback Failed.
+</nierror>
+<nierror code="61005">
+LabVIEW FPGA:  Bad Clock Rate for operation.
+</nierror>
+<nierror code="61006">
+LabVIEW FPGA:  The alias used by this FPGA Device I/O function,  I/O Method Node, or I/O Property Node does not exist. 
+</nierror>
+<nierror code="61050">
+LabVIEW FPGA:  A parameter to a function is invalid.
+</nierror>
+<nierror code="61051">
+LabVIEW FPGA:  An operation did not complete because requested memory was unavailable.
+</nierror>
+<nierror code="61052">
+LabVIEW FPGA:  HDL code generation error occurred.
+</nierror>
+<nierror code="61053">
+LabVIEW FPGA:  A resource management error occurred. The resources might have conflicting configurations.
+</nierror>
+<nierror code="61054">
+LabVIEW FPGA:  A code generation error occurred while interpreting LabVIEW signals.
+</nierror>
+<nierror code="61055">
+LabVIEW FPGA:  Internal software error(s)
+</nierror>
+<nierror code="61056">
+LabVIEW FPGA:  Timing specified in the diagram cannot be met.
+</nierror>
+<nierror code="61057">
+LabVIEW FPGA:  Internally pipelined object(s) not connected to a feedback node
+</nierror>
+<nierror code="61058">
+LabVIEW FPGA:  Invalid clock for single-cycle Timed Loop
+</nierror>
+<nierror code="61059">
+LabVIEW FPGA:  Invalid initialization option on a Feedback Node that follows a Memory Read method.
+</nierror>
+<nierror code="61060">
+LabVIEW FPGA:  The Wait on IRQ method timed out before the specified interrupt was received.
+</nierror>
+<nierror code="61061">
+LabVIEW FPGA:  Unsupported delay on feedback node following memory read.
+</nierror>
+<nierror code="61062">
+LabVIEW FPGA:  Invalid use of the enable terminal on a Feedback Node that follows a Memory Read method.
+</nierror>
+<nierror code="61063">
+LabVIEW FPGA:  Initializer constant is wired through a tunnel.
+</nierror>
+<nierror code="61064">
+LabVIEW FPGA:  Internal software error(s)
+</nierror>
+<nierror code="61211">
+LabVIEW FPGA:  Multiple resources with the same name are present in this VI.  The Dynamic Mode of the FPGA Interface can only access a single resource of a given name.
+</nierror>
+</nidocument>

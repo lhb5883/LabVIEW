@@ -1,0 +1,40 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+<nifamily familyname="LabVIEW Elemental IO" displayname="LabVIEW Elemental IO">
+</nifamily>
+</nicomment>
+<nierror code="-64999">
+LabVIEW Elemental IO:  Une erreur logicielle interne est survenue avec les E/S élémentaires de LabVIEW.  Veuillez constacter le support technique de National Instruments à ni.com/support avec les informations suivantes :
+
+Une valeur spécifiée pour le tag de chemin n'est pas un chemin.
+</nierror>
+<nierror code="-64998">
+LabVIEW Elemental IO:  Une erreur logicielle interne est survenue avec les E/S élémentaires de LabVIEW.  Veuillez contacter le service technique de National Instruments à ni.com/support avec les informations suivantes :
+
+un cas inattendu a eu lieu.
+</nierror>
+<nierror code="-64997">
+LabVIEW Elemental IO:  Une erreur logicielle interne est survenue dans le composant d'E/S élémentaires de LabVIEW.  Veuillez contacter le service technique de National Instruments à ni.com/support avec les informations suivantes :
+
+Le tag requis est introuvable dans le fichier ressource.
+</nierror>
+<nierror code="-64005">
+LabVIEW Elemental IO:  Éléments d'E/S en conflit détectés dans la méthode
+</nierror>
+<nierror code="-64004">
+LabVIEW Elemental IO:  Éléments d'E/S dupliqués détectés dans la méthode
+</nierror>
+<nierror code="-64003">
+LabVIEW Elemental IO:  IO Node n'est pas câblé à la constante IO Name
+</nierror>
+<nierror code="-64002">
+LabVIEW Elemental IO:  Aucun nom n'a été spécifié pour un nœud d'E/S FPGA, un nœud de méthode d'E/S ou un nœud de propriété d'E/S.
+</nierror>
+<nierror code="-64001">
+LabVIEW Elemental IO:  Un nœud d'E/S FPGA, un nœud de méthode d'E/S ou un nœud de propriété d'E/S est connecté à une commande ou constante de nœud d'E/S qui ne correspond pas à la configuration du nœud.
+</nierror>
+<nierror code="-64000">
+LabVIEW Elemental IO:  Élément de projet d'E/S élémentaire introuvable
+</nierror>
+</nidocument>

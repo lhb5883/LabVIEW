@@ -1,0 +1,40 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+<nifamily familyname="LabVIEW Elemental IO" displayname="LabVIEW Elemental IO">
+</nifamily>
+</nicomment>
+<nierror code="-64999">
+LabVIEW Elemental IO:  Interner Software-Fehler bei der elementaren I/O mit LabVIEW.   Wenden Sie sich über ni.com/support unter Angabe folgender Informationen an den technischen Support von National Instruments:
+
+Ein in einem Pfad-Tag angegebener Wert ist kein Pfad.
+</nierror>
+<nierror code="-64998">
+LabVIEW Elemental IO:  Interner Software-Fehler bei der elementaren I/O mit LabVIEW.   Wenden Sie sich über ni.com/support unter Angabe folgender Informationen an den technischen Support von National Instruments:
+
+Es wurde ein unerwarteter Case erreicht.
+</nierror>
+<nierror code="-64997">
+LabVIEW Elemental IO:  Es trat ein interner Software-Fehler in der LabVIEW-Komponente für die elementare I/O auf.  Wenden Sie sich über ni.com/support unter Angabe folgender Informationen an den technischen Support von National Instruments:
+
+Ein erforderliches Tag wurde in der Ressource-Datei nicht gefunden.
+</nierror>
+<nierror code="-64005">
+LabVIEW Elemental IO:  Innerhalb der Methode wurden Konflikte zwischen I/O-Elementen gefunden.
+</nierror>
+<nierror code="-64004">
+LabVIEW Elemental IO:  Innerhalb der Methode wurden Duplikate von I/O-Elementen gefunden.
+</nierror>
+<nierror code="-64003">
+LabVIEW Elemental IO:  IO-Knoten wurde nicht mit einem konstanten IO-Namen verbunden
+</nierror>
+<nierror code="-64002">
+LabVIEW Elemental IO:  Unbenannter FPGA-I/O-Knoten, I/O-Methodenknoten oder I/O-Eigenschaftsknoten
+</nierror>
+<nierror code="-64001">
+LabVIEW Elemental IO:  Ein FPGA-I/O-Knoten, I/O-Methodenknoten oder I/O-Eigenschaftsknoten ist mit einem I/O-Namenselement bzw. einer Konstante verbunden, das/die nicht der Konfiguration des Knotens entspricht.
+</nierror>
+<nierror code="-64000">
+LabVIEW Elemental IO:  Projektbestandteil zur elementaren I/O nicht gefunden
+</nierror>
+</nidocument>

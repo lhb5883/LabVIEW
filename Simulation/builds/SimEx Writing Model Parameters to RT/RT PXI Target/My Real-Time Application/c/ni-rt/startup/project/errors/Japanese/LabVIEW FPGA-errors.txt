@@ -1,0 +1,953 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+<nifamily familyname="LabVIEW FPGA" displayname="LabVIEW FPGA">
+</nifamily>
+</nicomment>
+<nierror code="-61500">
+LabVIEW FPGA:  内部ソフトウェアエラーが発生しました。下記の情報をni.com/jp/supportからナショナルインスツルメンツ技術サポートに連絡ください。
+
+LabVIEWはCLIP XMLファイルの読み取りに失敗しました。
+</nierror>
+<nierror code="-61499">
+LabVIEW FPGA:  LabVIEW FPGAモジュールで内部ソフトウェアエラーが発生しました。ni.com/support/jaからナショナルインスツルメンツ技術サポートまでお問い合わせください。
+</nierror>
+<nierror code="-61498">
+LabVIEW FPGA:  LabVIEW FPGAモジュールで内部ソフトウェアエラーが発生しました。下記の情報をni.com/jp/supportからナショナルインスツルメンツ技術サポートに連絡ください。
+
+リソースファイルで必要なタグが見つかりませんでした。
+</nierror>
+<nierror code="-61497">
+LabVIEW FPGA:  LabVIEW FPGAモジュールで内部ソフトウェアエラーが発生しました。下記の情報をni.com/jp/supportからナショナルインスツルメンツ技術サポートに連絡ください。
+
+サポートされていないレジスタオフセットが要求されました。
+</nierror>
+<nierror code="-61496">
+LabVIEW FPGA:  LabVIEW FPGAモジュールで内部ソフトウェアエラーが発生しました。下記の情報をni.com/jp/supportからナショナルインスツルメンツ技術サポートに連絡ください。
+
+予期しないケースが発生しました。
+</nierror>
+<nierror code="-61495">
+LabVIEW FPGA:  LabVIEW FPGAモジュールで内部ソフトウェアエラーが発生しました。下記の情報をni.com/jp/supportからナショナルインスツルメンツの技術サポートに連絡ください。
+
+パスではない値をパスのタグが指定しました。
+</nierror>
+<nierror code="-61494">
+LabVIEW FPGA:  LabVIEW FPGAモジュールで内部ソフトウェアエラーが発生しました。下記の情報をni.com/jp/supportからナショナルインスツルメンツ技術サポートに連絡ください。
+
+IPジェネレータVIは、必要なインタフェースと一致しません。
+</nierror>
+<nierror code="-61493">
+LabVIEW FPGA:  LabVIEW FPGAモジュールで内部ソフトウェアエラーが発生しました。下記の情報をni.com/jp/supportからナショナルインスツルメンツ技術サポートに連絡ください。
+
+指定されたIPジェネレータVIが見つかりません。
+</nierror>
+<nierror code="-61492">
+LabVIEW FPGA:  LabVIEW FPGAモジュールで内部ソフトウェアエラーが発生しました。下記の情報をni.com/jp/supportからナショナルインスツルメンツ技術サポートに連絡ください。
+
+FPGAプロバイダのアクセス中にエラーが発生しました。
+</nierror>
+<nierror code="-61491">
+LabVIEW FPGA:  LabVIEW FPGAモジュールで内部ソフトウェアエラーが発生しました。下記の情報をni.com/jp/supportからナショナルインスツルメンツ技術サポートに連絡ください。
+
+IPジェネレータに必要なVIパスタグが含まれていません。
+</nierror>
+<nierror code="-61490">
+LabVIEW FPGA:  内部エラーが発生しました。 
+</nierror>
+<nierror code="-61489">
+LabVIEW FPGA:  内部ソフトウェアエラー
+</nierror>
+<nierror code="-61488">
+LabVIEW FPGA:  LabVIEW FPGAモジュールで内部ソフトエラーが発生しました。ナショナルインスツルメンツの技術サポート（ni.com/jp/support）までご連絡ください。以下の情報をお伝えください。    
+
+必要なXMLタグが見つかりません。
+</nierror>
+<nierror code="-61458">
+LabVIEW FPGA:  ターゲットは変数で構成された端子とバインドされたサイズ配列をサポートしていません。
+</nierror>
+<nierror code="-61457">
+LabVIEW FPGA:  コンパイルステータスファイルが見つからないか破損しています。
+</nierror>
+<nierror code="-61456">
+LabVIEW FPGA:  タイミング違反によるコンパイルエラーが発生しましたが、タイミング違反がPERIODタイプではないためパス情報がありません。
+</nierror>
+<nierror code="-61455">
+LabVIEW FPGA:  コンパイル処理のいくつかのステップが実行されませんでした。
+</nierror>
+<nierror code="-61454">
+LabVIEW FPGA:  設計上でいくつかの信号が適切に制約されていません。
+</nierror>
+<nierror code="-61453">
+LabVIEW FPGA:  コンパイルに制約ファイルが使用されませんでした。
+</nierror>
+<nierror code="-61452">
+LabVIEW FPGA:  リソースの重複マッピングによるコンパイルエラーが発生しました。
+</nierror>
+<nierror code="-61451">
+LabVIEW FPGA:  タイミング違反によるコンパイルエラーが発生しました。
+</nierror>
+<nierror code="-61450">
+LabVIEW FPGA:  xilinxのエラーによりコンパイルに失敗しました。
+</nierror>
+<nierror code="-61406">
+LabVIEW FPGA:  ソケット付きCLIPのロジックが、FPGA VIが実行を妨げています。
+</nierror>
+<nierror code="-61405">
+LabVIEW FPGA:  操作に失敗しました。FPGAターゲットとして指定されたターゲットが存在しません。
+
+プロジェクトエクスプローラでFPGAターゲットを右クリックし、プロパティを選択します。リソーステキストボックスにFPGAターゲットのリソース名を入力します。
+</nierror>
+<nierror code="-61404">
+LabVIEW FPGA:  LabVIEWはターゲット限定のエラーまたは警告に遭遇しました。
+</nierror>
+<nierror code="-61403">
+LabVIEW FPGA:  必要なファイルが見つからないかアクセス不能なためLabVIEWは現在のターゲットと通信できません。FPGA関連のドライバソフトウェアが正しくインストールされていることを確認してください。
+</nierror>
+<nierror code="-61402">
+LabVIEW FPGA:  LabVIEWとデバイスとの接続が失われました。
+
+ターゲットリソースが切断されたか削除されました。
+
+ターゲットがリモート上にある場合、リモートシステムの電源がオフになったかネットワーク接続に問題ある可能性があります。
+</nierror>
+<nierror code="-61400">
+LabVIEW FPGA:  操作に失敗しました。プロジェクトおよびVIで指定されたハードウェアタイプが、物理的接続されたハードウェアタイプと異なります。 
+</nierror>
+<nierror code="-61399">
+LabVIEW FPGA:  FPGA I/Oの代替となるカスタムVIに含まれている項目またはノードが原因で、開発用コンピュータ上でのFPGA VIの実行がサポートされません。
+</nierror>
+<nierror code="-61398">
+LabVIEW FPGA:  開発用コンピュータでのFPGA VIの実行に失敗しました。FPGA I/Oの代替となるカスタムVIが見つかりませんでした。
+</nierror>
+<nierror code="-61397">
+LabVIEW FPGA:  開発用コンピュータでのFPGA VIの実行に失敗しました。FPGA I/Oの代替となるカスタムVIが呼び出し条件を満たしていません。
+</nierror>
+<nierror code="-61396">
+LabVIEW FPGA:  開発用コンピュータでのFPGA VIの実行に失敗しました。FPGA I/Oの代替となるカスタムVIが呼び出すVIまたは関数がエラーを返しました。
+</nierror>
+<nierror code="-61395">
+LabVIEW FPGA:  開発用コンピュータでのFPGA VIの実行に失敗しました。FPGA I/Oの代替となるカスタムVIが実行不可能です。 
+</nierror>
+<nierror code="-61394">
+LabVIEW FPGA:  実行ステージが"実行中”の場合のみ、このVIはサポートされています。
+</nierror>
+<nierror code="-61355">
+LabVIEW FPGA:  内部ソフトウェアエラーが発生しました。DFIR refnumは見つかりませんでした。
+</nierror>
+<nierror code="-61354">
+LabVIEW FPGA:  内部ソフトウェアエラー: 接続されたノードは定数ではありません。
+</nierror>
+<nierror code="-61353">
+LabVIEW FPGA:  内部ソフトウェアエラー: 出力端子はサポートされていません。
+</nierror>
+<nierror code="-61352">
+LabVIEW FPGA:  内部ソフトウェアエラー: 端子は配線不可です。
+</nierror>
+<nierror code="-61351">
+LabVIEW FPGA:  内部ソフトウェアエラー: 端子は配線されていません。
+</nierror>
+<nierror code="-61350">
+LabVIEW FPGA:  内部ソフトウェアエラー: 端子指標が範囲外です。
+</nierror>
+<nierror code="-61332">
+LabVIEW FPGA:  コンパイルツールで予期しないエラーが発生しました。FPGA VIの再コンパイルにより問題が解決する可能性があります。
+</nierror>
+<nierror code="-61331">
+LabVIEW FPGA:  コンパイルワーカーに送られたUnitOfWorkファイルは、破損している可能性があります。
+</nierror>
+<nierror code="-61330">
+LabVIEW FPGA:  コンパイルワーカーで内部ソフトウェアエラーが発生しました。
+</nierror>
+<nierror code="-61321">
+LabVIEW FPGA:  コンパイルファームサーバにこのコンパイルを実行できるコンパイルワーカーがありません。
+</nierror>
+<nierror code="-61320">
+LabVIEW FPGA:  コンパイルは、コンパイルファームサーバによってキャンセルされました。
+</nierror>
+<nierror code="-61319">
+LabVIEW FPGA:  コンパイルは、コンパイルファームサーバによって中断されました。
+</nierror>
+<nierror code="-61318">
+LabVIEW FPGA:  コンパイルワーカーでコンパイルを実行できません。コンパイルワーカーが、このコンパイル用に正しく構成されていないか、またはエラーが発生している可能性があります。
+</nierror>
+<nierror code="-61317">
+LabVIEW FPGA:  このマシンには、コンパイルするのに必要なxilinxツールがインストールされていません。
+</nierror>
+<nierror code="-61316">
+LabVIEW FPGA:  このマシンには、コンパイルワーカーがインストールされていません。
+</nierror>
+<nierror code="-61315">
+LabVIEW FPGA:  コンパイルクラウドサービスのライセンスがないか、期限切れです。
+</nierror>
+<nierror code="-61314">
+LabVIEW FPGA:  コンパイルファームサーバから切断されたコンパイルを回収できませんでした。 
+</nierror>
+<nierror code="-61313">
+LabVIEW FPGA:  無効なユーザ名とパスワードの組み合わせがコンパイルファームサーバから返されました。
+</nierror>
+<nierror code="-61312">
+LabVIEW FPGA:  このマシンには、コンパイルファームサーバがインストールされていません。
+</nierror>
+<nierror code="-61311">
+LabVIEW FPGA:  コンパイルファームサーバに接続できません。
+</nierror>
+<nierror code="-61310">
+LabVIEW FPGA:  コンパイルファームサーバから予期しないソフトウェアエラーが返されました。
+</nierror>
+<nierror code="-61304">
+LabVIEW FPGA:  LabVIEWのクライアントバージョンはコンパイルサーババージョンと互換性がありません。
+</nierror>
+<nierror code="-61303">
+LabVIEW FPGA:  File operationは空のパスを取得しました。
+</nierror>
+<nierror code="-61302">
+LabVIEW FPGA:  ログの有効設定を変更後は再起動が必要です。
+
+</nierror>
+<nierror code="-61301">
+LabVIEW FPGA:  割り当てのないリファレンスにアクセスしました。
+内部ソフトウェアエラーが発生しました。ナショナルインスツルメンツの技術サポート（ni.com/jp/support）までご連絡ください。
+</nierror>
+<nierror code="-61300">
+LabVIEW FPGA:  ユーザによって実行中の操作がキャンセルされました。
+</nierror>
+<nierror code="-61294">
+LabVIEW FPGA:  選択されたデータタイプのサイズは、選択されたDRAMにとって大きすぎます。
+</nierror>
+<nierror code="-61293">
+LabVIEW FPGA:  メモリを割り当てるのに十分なDRAMがありません。
+</nierror>
+<nierror code="-61292">
+LabVIEW FPGA:  必要なDRAMベースメモリのメソッドが見つかりません。
+</nierror>
+<nierror code="-61291">
+LabVIEW FPGA:  「データを要求」および「データを取得」メモリメソッドは同じクロック領域上に存在する必要があります。
+</nierror>
+<nierror code="-61290">
+LabVIEW FPGA:  DRAMメモリメソッドはシングルサイクルタイミングループ（SCTL）の外側ではサポートされていません。
+</nierror>
+<nierror code="-61250">
+LabVIEW FPGA:  Xilinxがインストールされていないか破損しています
+</nierror>
+<nierror code="-61242">
+LabVIEW FPGA:  トップレベルVIでは名前制御器とほかのデータタイプの両方を持つクラスタ制御器を含むことができません。
+</nierror>
+<nierror code="-61241">
+LabVIEW FPGA:  重複ファイルエラー
+</nierror>
+<nierror code="-61240">
+LabVIEW FPGA:  重複ファイルエラー
+</nierror>
+<nierror code="-61239">
+LabVIEW FPGA:  FIFOの実行はFPGAターゲットの下でのみサポートされています。
+</nierror>
+<nierror code="-61238">
+LabVIEW FPGA:  メモリの実行はFPGAターゲットの下でのみサポートされています。
+</nierror>
+<nierror code="-61237">
+LabVIEW FPGA:  定数入力を必要としている端子は非定数ソースに配線されています。
+</nierror>
+<nierror code="-61236">
+LabVIEW FPGA:  定数入力を必要としている端子は未配線です。
+</nierror>
+<nierror code="-61235">
+LabVIEW FPGA:  FIFOメソッドノードのFIFO入力に配線されている値は、FIFOメソッドノードの構成と一致しないFIFO項目と一致しています。
+</nierror>
+<nierror code="-61234">
+LabVIEW FPGA:  FIFOメソッドノードのFIFO入力に配線されている値は、プロジェクト内のいずれのFIFO項目およびVI定義のFIFOにも一致していません。
+</nierror>
+<nierror code="-61233">
+LabVIEW FPGA:  FIFOメソッドノードのFIFO入力に配線されている値は、空文字列です。配線されている値が、プロジェクト内のFIFO項目またはVI定義のFIFOと一致していることを確認してください。
+</nierror>
+<nierror code="-61232">
+LabVIEW FPGA:  メモリメソッドノードのメモリ入力に配線されている値は、メモリメソッドノードの構成と一致しないメモリ項目と一致しています。
+</nierror>
+<nierror code="-61231">
+LabVIEW FPGA:  メモリメソッドノードのメモリ入力に配線されている値は、プロジェクト内のいずれのメモリ項目およびVI定義のメモリにも一致していません。
+</nierror>
+<nierror code="-61230">
+LabVIEW FPGA:  メモリメソッドノードの「メモリ入力」に配線された値は、空の文字列です。配線された値が、プロジェクト内のメモリ項目またはVI定義のメモリと一致していることを確認してください。
+</nierror>
+<nierror code="-61220">
+LabVIEW FPGA:  無効なメモリアクセスです。
+</nierror>
+<nierror code="-61210">
+LabVIEW FPGA:  FPGAシミュレーションを初期化中に更新中にエラーが発生しました。
+</nierror>
+<nierror code="-61209">
+LabVIEW FPGA:  サードパーティのシミュレータ実行にFPGAターゲットの実行モードが設定されている場合、この関数はサポートされていません。
+</nierror>
+<nierror code="-61208">
+LabVIEW FPGA:  この関数はFPGA VIリファレンスがダイナミックモードに設定されているか、サードパーティのシミュレータ実行としてFPGAターゲットが設定されている場合にサポートされます。
+</nierror>
+<nierror code="-61207">
+LabVIEW FPGA:  内部エラー: DiagramResetは、タイムアウト時間内にクリアされませんでした。
+
+ナショナルインスツルメンツの技術サポート（ni.com/jp/support）までご連絡ください。
+</nierror>
+<nierror code="-61206">
+LabVIEW FPGA:  構成された項目は存在しません。 
+</nierror>
+<nierror code="-61205">
+LabVIEW FPGA:  選択された名前の項目は存在しますが、「FPGA VIリファレンスを開く」ノードで構成されたデータタイプとは異なります。 
+</nierror>
+<nierror code="-61204">
+LabVIEW FPGA:  FPGAがエミュレーションモード操作でビジー状態であるため、操作ができませんでした。この操作を行う前に、FPGAのすべてのアクティビティを停止してください。
+</nierror>
+<nierror code="-61203">
+LabVIEW FPGA:  FPGAが対話式モード操作でビジー状態であるため、操作ができませんでした。この操作を行う前に、FPGAのすべてのアクティビティを停止してください。
+</nierror>
+<nierror code="-61202">
+LabVIEW FPGA:  FPGAがFPGAインタフェースモード操作でビジー状態であるため、操作ができませんでした。この操作を行う前に、FPGAのすべてのアクティビティを停止してください。
+</nierror>
+<nierror code="-61201">
+LabVIEW FPGA:  シャーシはスキャンインタフェースプログラミングモードで動作しています。FPGA VIを実行するには、シャーシのプロパティページから、FPGAプログラミングモードを設定し、その設定をデプロイする必要があります。
+</nierror>
+<nierror code="-61200">
+LabVIEW FPGA:  FPGAがFPGAインタフェースC APIモードでの操作でビジー状態であるため、操作ができませんでした。この操作を行う前に、FPGAのすべてのアクティビティを停止してください。
+</nierror>
+<nierror code="-61199">
+LabVIEW FPGA:  実行は中断しました。実際のI/Oを使用した開発用コンピュータでの実行をサポートしないI/O項目があります。
+
+FPGA VIで使用するすべてのI/O項目がこの実行モードをサポートする場合のみ、実際のI/Oを使用して開発用コンピュータでFPGA VIを実行することができます。
+</nierror>
+<nierror code="-61191">
+LabVIEW FPGA:  IP統合ノードは互換性のない.ngcシンセシスファイルを指定しました。
+</nierror>
+<nierror code="-61190">
+LabVIEW FPGA:  CLIP宣言ファイルとCLIPインスタンス間で一致しないクロック設定
+</nierror>
+<nierror code="-61189">
+LabVIEW FPGA:  CLIPは、要件を満たさないFPGAクロックを参照しています。
+</nierror>
+<nierror code="-61188">
+LabVIEW FPGA:  不明なFPGAクロックをCLIPが参照しています
+</nierror>
+<nierror code="-61187">
+LabVIEW FPGA:  不明なCLIP実装ファイル
+</nierror>
+<nierror code="-61186">
+LabVIEW FPGA:  更新されたCLIP宣言ファイル
+</nierror>
+<nierror code="-61185">
+LabVIEW FPGA:  不明なCLIP宣言
+</nierror>
+<nierror code="-61184">
+LabVIEW FPGA:  不正に構成されたCLIPインスタンス
+</nierror>
+<nierror code="-61183">
+LabVIEW FPGA:  伝達関数の次数は、許容最大次数を超えています。
+</nierror>
+<nierror code="-61182">
+LabVIEW FPGA:  伝達関数は不適切です。分子の次数は、分母の次数以下である必要があります。
+</nierror>
+<nierror code="-61181">
+LabVIEW FPGA:  ノッチ幅またはQ因数は0よりも大きくなければなりません。
+</nierror>
+<nierror code="-61180">
+LabVIEW FPGA:  ノッチ領域内のすべての周波数（f）は、0 < f < fs/2 （fsはサンプルレート）を満たす必要があります。
+</nierror>
+<nierror code="-61179">
+LabVIEW FPGA:  (Hex 0xFFFF1105) 現在のターゲットではDSP48Eはサポートされていません
+</nierror>
+<nierror code="-61178">
+LabVIEW FPGA:  内部ソフトウェアエラー: ポート用のクロックを解決できませんでした。
+</nierror>
+<nierror code="-61177">
+LabVIEW FPGA:  FIFOに対する読み取りメソッドまたは書き込みメソッドが見つかりません
+</nierror>
+<nierror code="-61176">
+LabVIEW FPGA:  FIFOメソッドに無効なクロックが使われています。
+</nierror>
+<nierror code="-61175">
+LabVIEW FPGA:  FPGA FIFOノードは、FPGA FIFO名定数に配線されていません。
+</nierror>
+<nierror code="-61174">
+LabVIEW FPGA:  FPGA メモリノードは、FPGAメモリ名定数に配線されていません。
+</nierror>
+<nierror code="-61173">
+LabVIEW FPGA:  項目は名前制御器の構成と一致しません。
+</nierror>
+<nierror code="-61172">
+LabVIEW FPGA:  プロジェクト項目が見つかりませんでした。
+</nierror>
+<nierror code="-61171">
+LabVIEW FPGA:  名前制御器または定数が空です。
+</nierror>
+<nierror code="-61170">
+LabVIEW FPGA:  実数と虚数の入力データ配列は、同じサイズである必要があります。
+</nierror>
+<nierror code="-61169">
+LabVIEW FPGA:  指定されたクロックレートではFPGAで入力されたパラメータは使用できません。
+</nierror>
+<nierror code="-61168">
+LabVIEW FPGA:  チャンネル指標入力が構成されたチャンネル数を越えています。
+</nierror>
+<nierror code="-61167">
+LabVIEW FPGA:  開発用コンピュータで実行するようにFPGAターゲットが構成されている場合、この関数はサポートされません。
+</nierror>
+<nierror code="-61166">
+LabVIEW FPGA:  DHLインタフェースノードでファイルの競合が検出されました。
+</nierror>
+<nierror code="-61165">
+LabVIEW FPGA:  FPGA VIは破損しているため、開発用コンピュータで実行できません。
+</nierror>
+<nierror code="-61164">
+LabVIEW FPGA:  このタイプのローカル変数とグローバル変数はサポートされていません。
+</nierror>
+<nierror code="-61163">
+LabVIEW FPGA:  内部ソフトウェアエラー
+</nierror>
+<nierror code="-61162">
+LabVIEW FPGA:  シングルサイクルタイミングループでのみサポートされているオブジェクトです。
+</nierror>
+<nierror code="-61161">
+LabVIEW FPGA:  VIの実行モードがタイミングループ外ではサポートされていません。
+</nierror>
+<nierror code="-61160">
+LabVIEW FPGA:  VIの実行モードがタイミングループ内ではサポートされていません。
+</nierror>
+<nierror code="-61159">
+LabVIEW FPGA:  実際のI/Oを利用して開発用コンピュータで実行するようにFPGAターゲットが構成されている場合、この関数はサポートされません。
+</nierror>
+<nierror code="-61158">
+LabVIEW FPGA:  停止条件付きのFor Loopは、FPGAではサポートされません。
+</nierror>
+<nierror code="-61157">
+LabVIEW FPGA:  単一サイクルのタイミングループでサポートされていないオブジェクト
+</nierror>
+<nierror code="-61156">
+LabVIEW FPGA:  オカーレンスを異なるクロック領域でまたがって使用することはできません。
+</nierror>
+<nierror code="-61155">
+LabVIEW FPGA:  リソースとしてサポートされていないクロック
+</nierror>
+<nierror code="-61154">
+LabVIEW FPGA:  異なるクロック領域からのアクセスはサポートされていません。
+</nierror>
+<nierror code="-61153">
+LabVIEW FPGA:  Express VIが構成されていません。
+</nierror>
+<nierror code="-61152">
+LabVIEW FPGA:  Variable clock rateはサポートされていません。
+</nierror>
+<nierror code="-61151">
+LabVIEW FPGA:  関数やストラクチャは固定クロック名を指定する必要があります。 
+</nierror>
+<nierror code="-61150">
+LabVIEW FPGA:  クロックプロジェクトアイテムが見つかりませんでした。
+</nierror>
+<nierror code="-61149">
+LabVIEW FPGA:  クロック制御器または定数が空です。
+</nierror>
+<nierror code="-61148">
+LabVIEW FPGA:  クロックレートのミスマッチ
+</nierror>
+<nierror code="-61147">
+LabVIEW FPGA:  内部ソフトウェアエラー
+</nierror>
+<nierror code="-61146">
+LabVIEW FPGA:  IP統合ノードは、クロック有効ポートを持つ必要があります。
+</nierror>
+<nierror code="-61145">
+LabVIEW FPGA:  HDL Interface Node Fileは見つかりませんでした。
+</nierror>
+<nierror code="-61144">
+LabVIEW FPGA:  HDLインタフェースノードがシングルサイクルタイミングループの外側にあります。
+</nierror>
+<nierror code="-61143">
+LabVIEW FPGA:  フロントパネルの制御器または表示器がサイズ制限に違反しています
+</nierror>
+<nierror code="-61142">
+LabVIEW FPGA:  VIが破損しています。
+</nierror>
+<nierror code="-61141">
+LabVIEW FPGA:  FPGAがビジー状態であるため、操作ができませんでした。この操作を行う前に、FPGAのすべてのアクティビティを停止してください。ターゲットがスキャンインタフェースモードである場合、FPGAインタフェースモードに変更してください。
+</nierror>
+<nierror code="-61140">
+LabVIEW FPGA:  VIのタイプがサポートされていないため、VIはコンパイルできません。標準のVIのみコンパイルできます。
+</nierror>
+<nierror code="-61139">
+LabVIEW FPGA:  トップレベルクロックレートが変更されました。
+</nierror>
+<nierror code="-61138">
+LabVIEW FPGA:  ターゲットの無効なトップレベルクロック
+</nierror>
+<nierror code="-61137">
+LabVIEW FPGA:  内部ソフトウェアエラー
+</nierror>
+<nierror code="-61136">
+LabVIEW FPGA:  内部ソフトウェアエラー
+</nierror>
+<nierror code="-61135">
+LabVIEW FPGA:  内部ソフトウェアエラー
+</nierror>
+<nierror code="-61134">
+LabVIEW FPGA:  HDLインタフェースノードがシングルサイクルタイミングループの内側にあります。
+</nierror>
+<nierror code="-61133">
+LabVIEW FPGA:  サブVIでサポートされていないフロントパネルの制御器/表示器のクロスクロック領域
+</nierror>
+<nierror code="-61132">
+LabVIEW FPGA:  フロントパネルの制御器および表示器のクロック領域を交えての使用は、サブVIでサポートされていません。
+</nierror>
+<nierror code="-61131">
+LabVIEW FPGA:  内部ソフトウェアエラー
+</nierror>
+<nierror code="-61130">
+LabVIEW FPGA:  たくさんのリソースインタフェースリクエスト
+</nierror>
+<nierror code="-61129">
+LabVIEW FPGA:  トップレベルポート「<PortName>」には、1つ以上のドライバがあります。
+</nierror>
+<nierror code="-61128">
+LabVIEW FPGA:  内部ソフトウェアエラー
+</nierror>
+<nierror code="-61127">
+LabVIEW FPGA:  内部ソフトウェアエラー
+</nierror>
+<nierror code="-61126">
+LabVIEW FPGA:  内部ソフトウェアエラー
+</nierror>
+<nierror code="-61125">
+LabVIEW FPGA:  トップレベルポート「<PortName>」は、選択されたコンポーネントがそれを作成する前に要求されました。
+</nierror>
+<nierror code="-61124">
+LabVIEW FPGA:  リソースデータベースが初期化される前にリソースの要求が行われました。
+</nierror>
+<nierror code="-61123">
+LabVIEW FPGA:  内部ソフトウェアエラー
+</nierror>
+<nierror code="-61122">
+LabVIEW FPGA:  内部ソフトウェアエラー
+</nierror>
+<nierror code="-61121">
+LabVIEW FPGA:  内部ソフトウェアエラー
+</nierror>
+<nierror code="-61120">
+LabVIEW FPGA:  コンポーネントからレジスタの削除中にエラーが発生しました。
+</nierror>
+<nierror code="-61119">
+LabVIEW FPGA:  単一サイクルのタイミングループでサポートされていない任意オプション
+</nierror>
+<nierror code="-61118">
+LabVIEW FPGA:  サポートされていない関数入力
+</nierror>
+<nierror code="-61117">
+LabVIEW FPGA:  サポートされていない関数入力
+</nierror>
+<nierror code="-61116">
+LabVIEW FPGA:  サポートされていない複合演算入力
+</nierror>
+<nierror code="-61115">
+LabVIEW FPGA:  再入不可なサブVIが異なるクロック領域で使用されています
+</nierror>
+<nierror code="-61114">
+LabVIEW FPGA:  再入不可サブVIがシングルサイクルタイミングループの内側と外側の両方で使用されています。
+</nierror>
+<nierror code="-61113">
+LabVIEW FPGA:  許可されていない定数リファレンス
+</nierror>
+<nierror code="-61112">
+LabVIEW FPGA:  複数のクロック領域で使用されているリソースインタフェース
+</nierror>
+<nierror code="-61111">
+LabVIEW FPGA:  単一サイクルのタイミングループでのみサポートされているオブジェクト
+</nierror>
+<nierror code="-61110">
+LabVIEW FPGA:  無効なFIFO実装
+</nierror>
+<nierror code="-61109">
+LabVIEW FPGA:  初期化されたシフトレジスタに接続されているオブジェクト
+</nierror>
+<nierror code="-61108">
+LabVIEW FPGA:  単一サイクルタイミングループの外側と内側の両方から要求されたリソースインタフェース
+</nierror>
+<nierror code="-61107">
+LabVIEW FPGA:  アービトレーションオプションはシングルサイクルタイミングループでサポートされていません。
+</nierror>
+<nierror code="-61106">
+LabVIEW FPGA:  シングルサイクルタイミングループ内に再入不可サブVIの複数のインスタンスがあります。
+</nierror>
+<nierror code="-61105">
+LabVIEW FPGA:  単一サイクルのタイミングループでの制御器/表示器およびローカルに対して複数の書き込みがあります。
+</nierror>
+<nierror code="-61104">
+LabVIEW FPGA:  単一サイクルのタイミングループでサポートされていない任意オプション
+</nierror>
+<nierror code="-61103">
+LabVIEW FPGA:  単一サイクルのタイミングループでサポートされていない任意オプション
+</nierror>
+<nierror code="-61102">
+LabVIEW FPGA:  単一サイクルのタイミングループでサポートされていない任意オプション
+</nierror>
+<nierror code="-61101">
+LabVIEW FPGA:  単一サイクルのタイミングループでサポートされていないオブジェクト
+</nierror>
+<nierror code="-61100">
+LabVIEW FPGA:  Single Cycle Loopで割り込みがクリアされるまで、Interrupt関数は待機できません。
+</nierror>
+<nierror code="-61099">
+LabVIEW FPGA:  組み込みFIFOが外部クロック領域で使用されています。
+</nierror>
+<nierror code="-61098">
+LabVIEW FPGA:  派生クロックが必要です。
+</nierror>
+<nierror code="-61097">
+LabVIEW FPGA:  CLIPシミュレーションモデルが未定義です。
+</nierror>
+<nierror code="-61096">
+LabVIEW FPGA:  メモリは、読み取り専用でデータタイプがカスタム制御器によって定義されています。
+</nierror>
+<nierror code="-61095">
+LabVIEW FPGA:  シングルサイクルタイミングループの外側で使用されている間接的な有効信号が切断されたオブジェクト
+</nierror>
+<nierror code="-61094">
+LabVIEW FPGA:  シミュレーションでサポートされていないオブジェクト
+</nierror>
+<nierror code="-61093">
+LabVIEW FPGA:  ケースストラクチャ内の間接的な有効信号が切断されたオブジェクト
+</nierror>
+<nierror code="-61092">
+LabVIEW FPGA:  リソースはシングルサイクルタイミングループをサポートしていません
+</nierror>
+<nierror code="-61091">
+LabVIEW FPGA:  シングルサイクルタイミングループの内側で使用される必要があるリソース
+</nierror>
+<nierror code="-61090">
+LabVIEW FPGA:  サポートされていないクロック領域で使用されているリソース
+</nierror>
+<nierror code="-61089">
+LabVIEW FPGA:  初期化されていない読み取り専用メモリ
+</nierror>
+<nierror code="-61088">
+LabVIEW FPGA:  組み込みFIFOは、現在のターゲットでサポートされていません。
+</nierror>
+<nierror code="-61087">
+LabVIEW FPGA:  ファイルが変更されたため、ノードの再構成が必要です。
+</nierror>
+<nierror code="-61086">
+LabVIEW FPGA:  ファイルは存在しません
+</nierror>
+<nierror code="-61085">
+LabVIEW FPGA:  現在のターゲットでサポートされていないIP
+</nierror>
+<nierror code="-61084">
+LabVIEW FPGA:  相対クロックレートの不一致
+</nierror>
+<nierror code="-61083">
+LabVIEW FPGA:  ハードウェアクロックエラーが発生しました。FPGA VIの実行中に派生クロックがベースクロック間とのロック状態を失いました。派生クロックを持つベースクロックが外部ソースから来ている場合、その外部ソースの仕様が周波数、確度、ジッタ、デューティーサイクル、電圧などの点でサポート範囲内であることを確認してください。また、ベースクロックの特性がFPGAベースクロックプロパティダイアログで指定された構成と一致していることも合わせて確認してください。派生クロックを持つすべてのベースクロックが実行中のオンボードソースから来ている場合は、ナショナルインスツルメンツの技術サポート（ni.com/jp/support）までご連絡ください。
+</nierror>
+<nierror code="-61082">
+LabVIEW FPGA:  現在のターゲットは、十分なDMA制御ラインセットがありません。 
+</nierror>
+<nierror code="-61081">
+LabVIEW FPGA:  現在のターゲット上に十分なDMAチャンネル数がありません。
+</nierror>
+<nierror code="-61080">
+LabVIEW FPGA:  このターゲットはFPGAの割り込み処理をサポートしていません。
+</nierror>
+<nierror code="-61079">
+LabVIEW FPGA:  いくつかのレジスタに割り当て可能な十分なアドレススペースがFPGAにありません。
+</nierror>
+<nierror code="-61078">
+LabVIEW FPGA:  リクエストされたメモリを割り当てることができませんでした。
+</nierror>
+<nierror code="-61077">
+LabVIEW FPGA:  DMA FIFOが終了しました。DMA FIFOが使用中にFPGAが再構成されました。
+</nierror>
+<nierror code="-61076">
+LabVIEW FPGA:  指定されたタイムアウト期間中にDMA転送は完了しませんでした。
+</nierror>
+<nierror code="-61075">
+LabVIEW FPGA:  DMA転送は中断されたので完了しませんでした。
+</nierror>
+<nierror code="-61074">
+LabVIEW FPGA:  タイムアウトパラメータは-1、0、または正の整数でなければなりません。
+</nierror>
+<nierror code="-61073">
+LabVIEW FPGA:  読み込みまたは書き込む要素数はホストメモリのDMA FIFOの深さ以下でなければなりません。
+</nierror>
+<nierror code="-61072">
+LabVIEW FPGA:  Depth inputは0以上でなければなりませんが、ホストコンピュータの利用可能メモリ以下でなければなりません。
+</nierror>
+<nierror code="-61071">
+LabVIEW FPGA:  選択されたDMA FIFOが見つからないか、ビットファイルと同期されていません。
+</nierror>
+<nierror code="-61070">
+LabVIEW FPGA:  指定されたVIをコンパイルしたビットファイルには、無効な情報が含まれているか破損しています。
+
+VIを再度コンパイルしてこのエラーを修正してください。
+</nierror>
+<nierror code="-61069">
+LabVIEW FPGA:  このビットファイルは、より最新のバージョンのLabVIEWで作成されており、このバージョンと互換性がありません。
+</nierror>
+<nierror code="-61068">
+LabVIEW FPGA:  関連性のないオーバークロックエラー
+</nierror>
+<nierror code="-61067">
+LabVIEW FPGA:  クロックリソースの制限を越えています。
+</nierror>
+<nierror code="-61066">
+LabVIEW FPGA:  FIFOカウントメソッドとFIFO読み取り/書き込みメソッド間で互換性の無いクロック領域です。
+</nierror>
+<nierror code="-61065">
+LabVIEW FPGA:  デジタルリソースアクセスの競合が発生しました。
+</nierror>
+<nierror code="-61064">
+LabVIEW FPGA:  HDLインタフェースノードは「リセット中に実行中のクロックが必要」オプションが有効になっています。
+</nierror>
+<nierror code="-61063">
+LabVIEW FPGA:  コンポーネントはリセット中に実行中のクロックが必要です。
+</nierror>
+<nierror code="-61062">
+LabVIEW FPGA:  内部ソフトウェアエラー
+</nierror>
+<nierror code="-61061">
+LabVIEW FPGA:  FPGA VIは現在ネスト化されたライブラリをサポートしていません。
+</nierror>
+<nierror code="-61060">
+LabVIEW FPGA:  メモリでサポートされていないクロック領域クロス
+</nierror>
+<nierror code="-61059">
+LabVIEW FPGA:  選択された制御器が見つからないか、同期されていません。
+</nierror>
+<nierror code="-61058">
+LabVIEW FPGA:  外部クロックを使用して実行されるループは停止できません。
+</nierror>
+<nierror code="-61057">
+LabVIEW FPGA:  内部ソフトウェアエラー
+</nierror>
+<nierror code="-61056">
+LabVIEW FPGA:  トップレベルクロックは、ランタイム時に有効/無効の設定を行えません。
+</nierror>
+<nierror code="-61055">
+LabVIEW FPGA:  クロックは有効/無効の切り替えが必要ですが、プログラム内にその操作が存在しません。
+</nierror>
+<nierror code="-61054">
+LabVIEW FPGA:  有効/無効の切り替えが行われるクロック領域上から同じクロックを有効/無効化できません。
+</nierror>
+<nierror code="-61053">
+LabVIEW FPGA:  DMAチャンネルが不足しています。
+</nierror>
+<nierror code="-61052">
+LabVIEW FPGA:  FIFOを使用するために必要な関数が見つかりません。
+</nierror>
+<nierror code="-61051">
+LabVIEW FPGA:  複数のFIFOが同じDMAチャンネルを使用しています。
+</nierror>
+<nierror code="-61050">
+LabVIEW FPGA:  FIFO実装は、異なるクロック領域を交えて使用できません。
+</nierror>
+<nierror code="-61049">
+LabVIEW FPGA:  クロックの有効/無効の切り替えを行うには、「ランタイム時の有効/無効切り替えをサポート」オプションが必要です。 
+</nierror>
+<nierror code="-61048">
+LabVIEW FPGA:  このターゲットはホストからターゲットへのDMA出力をサポートしていません。
+</nierror>
+<nierror code="-61047">
+LabVIEW FPGA:  シングルサイクルタイミングループ内では同期表示を有効にした端子を使用できません。
+</nierror>
+<nierror code="-61046">
+LabVIEW FPGA:  ホストコンピュータとFPGAターゲットの間の通信にエラーが発生しました。
+
+外部クロックを使用している場合は接続されていること、またサポートされている仕様にあっていることを確認してください。また、外部クロックのレートが指定されたクロックレートと一致していることを確認してください。クロックを内部で生成する場合は、ナショナルインスツルメンツの技術サポートにお問い合わせください。
+</nierror>
+<nierror code="-61045">
+LabVIEW FPGA:  同期表示オプションが有効な制御器/表示器のローカル変数の使用は制限されています。
+</nierror>
+<nierror code="-61044">
+LabVIEW FPGA:  ターゲットには要求されたレジスタ数に対応できるだけのアドレススペースがありません。
+</nierror>
+<nierror code="-61043">
+LabVIEW FPGA:  内部ソフトウェアエラーです。
+</nierror>
+<nierror code="-61042">
+LabVIEW FPGA:  内部ソフトウェアエラーです。
+</nierror>
+<nierror code="-61041">
+LabVIEW FPGA:  レジスタ名が競合しています。
+</nierror>
+<nierror code="-61040">
+LabVIEW FPGA:  サポートされていないAccess Strategyです。
+</nierror>
+<nierror code="-61039">
+LabVIEW FPGA:  クロックリソースの制限を越えています。
+</nierror>
+<nierror code="-61038">
+LabVIEW FPGA:  サポートされていないミリ秒タイミング分解能
+</nierror>
+<nierror code="-61037">
+LabVIEW FPGA:  From-To制約用に要求されたクロックは存在しません。
+</nierror>
+<nierror code="-61036">
+LabVIEW FPGA:  サポートされていないマイクロ秒タイミング分解能
+</nierror>
+<nierror code="-61035">
+LabVIEW FPGA:  サポートされていないマイクロ秒/ミリ秒タイミング分解能
+</nierror>
+<nierror code="-61034">
+LabVIEW FPGA:  ターゲットに対して無効なトップレベルのクロック
+</nierror>
+<nierror code="-61033">
+LabVIEW FPGA:  このアプリケーションにある二つのタイミングソースは同じクロック信号名を使用しています。
+</nierror>
+<nierror code="-61032">
+LabVIEW FPGA:  利用可能なハードウェアでは派生クロックを生成できません。
+</nierror>
+<nierror code="-61031">
+LabVIEW FPGA:  このアプリケーションには構成されているクロックがありません。プロジェクトツリー内でクロックを構成してください。
+</nierror>
+<nierror code="-61030">
+LabVIEW FPGA:  ターゲットにあるよりも多くのグローバルクロックがアプリケーションで使用されています。
+</nierror>
+<nierror code="-61029">
+LabVIEW FPGA:  クロック用のVHDL信号命は「Clk」または「Clock」を含む必要があります。最初の文字は大文字でも小文字でも構いませんが、その後に続く文字は小文字である必要があります。
+</nierror>
+<nierror code="-61028">
+LabVIEW FPGA:  LV FPGA ターゲットのplugin developerは、全てのトップレベルクロックにタイミング制約を提供しません。
+</nierror>
+<nierror code="-61027">
+LabVIEW FPGA:  制限を越えたクロックリソース
+</nierror>
+<nierror code="-61026">
+LabVIEW FPGA:  見つかったクロック名は構成されていません。
+</nierror>
+<nierror code="-61025">
+LabVIEW FPGA:  派生クロックの有効/無効の切り替えはサポートされていません。
+</nierror>
+<nierror code="-61024">
+LabVIEW FPGA:  この関数で構成されているデバイスタイプは実際のデバイスのタイプと一致しません。
+</nierror>
+<nierror code="-61023">
+LabVIEW FPGA:  この関数によって構成されていたアドレスにあるデバイスは使用できません。
+</nierror>
+<nierror code="-61022">
+LabVIEW FPGA:  FPGAターゲットは、開発用コンピュータ上でFPGA VIを実行する操作をサポートしていません。
+</nierror>
+<nierror code="-61021">
+LabVIEW FPGA:  FPGAインタフェースとFPGA VIの日付が合っていません。 右クリックして更新を選択してください。
+</nierror>
+<nierror code="-61020">
+LabVIEW FPGA:  サポートされていないFIFOタイムアウト
+</nierror>
+<nierror code="-61019">
+LabVIEW FPGA:  単一サイクル時限ループの中でデジタル出力関数とデジタルポート出力関数の両方から一度にデジタルI/Oリソースにアクセスすることは出来ません。
+</nierror>
+<nierror code="-61018">
+LabVIEW FPGA:  VIをFPGAデバイスにダウンロード中にエラーが発生しました。
+
+ターゲットが接続および電源供給されている事を確認し、ターゲットリソースの構成が正しく行われていることを確認してください。 
+</nierror>
+<nierror code="-61017">
+LabVIEW FPGA:  選択されたターゲット用にVIを再コンパイルする必要があります。
+</nierror>
+<nierror code="-61016">
+LabVIEW FPGA:  このターゲット用にVIをコンパイルする必要があります。
+</nierror>
+<nierror code="-61015">
+LabVIEW FPGA:  ダウンロード用のbitfileが見つかりません。  このターゲット用にVIをコンパイルする必要があります。
+</nierror>
+<nierror code="-61014">
+LabVIEW FPGA:  デバイスが存在しないか、接続を許可していません。
+
+推測される原因：
+-ターゲット用のリソースが正しくないか、または指定されたターゲットが存在しません。
+-ターゲットがリモート上にある場合：
+A. リモートシステムの電源がオフになっている。
+B. リモートシステム上のデバイスを使用するソフトウェアが正しくインストールされていない。
+C. リモートシステムにアクセスするためのネットワーク設定が正しく行われていない。
+D. ターゲットにアクセスするために使用されるサーバのアクセス許可を受けていない。
+</nierror>
+<nierror code="-61013">
+LabVIEW FPGA:  FIFOにアクセスする前にFIFOメソッドノードがタイムアウトになりました。 このエラーは他のFIFOメソッドノードが同じFIFOにアクセスし、現在のメソッドがタイムアウトになる前に完了しない場合に発生するエラーです。
+</nierror>
+<nierror code="-61012">
+LabVIEW FPGA:  FIFOの初期化に使用したFPGA VIリファレンスは有効でなくなりました。
+</nierror>
+<nierror code="-61011">
+LabVIEW FPGA:  サポートされていないFIFOサイズ
+</nierror>
+<nierror code="-61010">
+LabVIEW FPGA:  InitFIFOメソッドでまだ初期化されていないFIFOの読み取り、書き込み、またはFIFOを閉じようとしています。
+</nierror>
+<nierror code="-61009">
+LabVIEW FPGA:  LabVIEWクラスは静的に解決できませんでした。
+</nierror>
+<nierror code="-61008">
+LabVIEW FPGA:  FPGA用にコンパイルを行う場合は、トップレベルFPGA VIはフロントパネルにLabVIEWクラスを配置することは許可されていません。
+</nierror>
+<nierror code="-61007">
+LabVIEW FPGA:  条件無効ストラクチャに破損したコードが含まれています。
+</nierror>
+<nierror code="-61006">
+LabVIEW FPGA:  ユーザ提供HDLファイル内の構文エラー
+</nierror>
+<nierror code="-61005">
+LabVIEW FPGA:  シミュレーションでサポートされていないオブジェクト
+</nierror>
+<nierror code="-61004">
+LabVIEW FPGA:  FIFOオブジェクトはシミュレーションでサポートされていません
+</nierror>
+<nierror code="61003">
+LabVIEW FPGA:  実行メソッドと一緒に「メソッドをインボーク」関数で指定されたFPGA VIは、すでに実行中です。
+</nierror>
+<nierror code="61004">
+LabVIEW FPGA:  Occurrence Tracebackが失敗しました。
+</nierror>
+<nierror code="61005">
+LabVIEW FPGA:  操作の不良クロックレートです。
+</nierror>
+<nierror code="61006">
+LabVIEW FPGA:  FPGA デバイス I/O 関数、I/O メソッドノード、および I/O プロパティノードで使用されているエイリアスは存在しません。 
+</nierror>
+<nierror code="61050">
+LabVIEW FPGA:  関数に渡されているパラメータは無効です。
+</nierror>
+<nierror code="61051">
+LabVIEW FPGA:  要求されたメモリを使用できなかったため操作を完了できませんでした。
+</nierror>
+<nierror code="61052">
+LabVIEW FPGA:  HDL コード生成エラーが発生しました。
+</nierror>
+<nierror code="61053">
+LabVIEW FPGA:  リソース管理エラーが発生しました。 リソースの構成が衝突しているかもしれません。
+</nierror>
+<nierror code="61054">
+LabVIEW FPGA:  LabVIEW信号を解釈している際にコード生成エラーが発生しました。
+</nierror>
+<nierror code="61055">
+LabVIEW FPGA:  HDLコード生成の最中に外部エラーが発生しました。
+</nierror>
+<nierror code="61056">
+LabVIEW FPGA:  ダイアグラムで指定されているタイミングは使用できません。
+</nierror>
+<nierror code="61057">
+LabVIEW FPGA:  初期化されていないシフトレジスタに接続されていない内部パイプライン型オブジェクト
+</nierror>
+<nierror code="61058">
+LabVIEW FPGA:  単一サイクルタイミングループの無効クロック
+</nierror>
+<nierror code="61059">
+LabVIEW FPGA:  メモリ読み取りメソッドに続くフィードバックノードで不正に初期化オプションが使用されています。
+</nierror>
+<nierror code="61060">
+LabVIEW FPGA:  「IRQを待機」メソッドは、指定された割り込みが受信される前にタイムアウトしました。
+</nierror>
+<nierror code="61061">
+LabVIEW FPGA:  メモリ読み取りに続くフィードバックノードでの遅延はサポートされていません
+</nierror>
+<nierror code="61062">
+LabVIEW FPGA:  メモリ読み取りメソッドに続くフィードバックノードで有効端子が不正に使用されています。
+</nierror>
+<nierror code="61063">
+LabVIEW FPGA:  初期化定数は、トンネルを介して配線されています。
+</nierror>
+<nierror code="61064">
+LabVIEW FPGA:  内部ソフトウェアエラー
+</nierror>
+<nierror code="61211">
+LabVIEW FPGA:  このVIには複数のリソースが同じ名前で存在しています。  FPGAインタフェースのダイナミックモードでは1つのリソースに与えられた1つの名前にのみアクセスすることができます。
+</nierror>
+</nidocument>

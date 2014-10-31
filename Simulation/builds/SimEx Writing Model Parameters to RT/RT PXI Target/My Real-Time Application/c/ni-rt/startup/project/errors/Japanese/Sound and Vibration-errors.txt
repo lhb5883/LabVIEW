@@ -1,0 +1,590 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+<nifamily familyname="Sound & Vibration" displayname="Sound & Vibration">
+</nifamily>
+</nicomment>
+<nierror code="-21421">
+Sound & Vibration:  Required attributes are missing from the input <b>speed profile</b> waveform. Use the Analog Tacho Processing Express VI to create the <b>speed profile</b> waveform.
+</nierror>
+<nierror code="-21420">
+Sound & Vibration:  NI CompactDAQシャーシでデジタルタコメータ信号を測定している場合、周期測定を行うことはできません。このタイプのアプリケーションでは、イベントカウントを使用する必要があります。
+</nierror>
+<nierror code="-21419">
+Sound & Vibration:  ペアになっているチャンネルは同じ回転方向であることが必要です。
+</nierror>
+<nierror code="-21418">
+Sound & Vibration:  <b>チャンネルプロパティ</b>で2つ以上のチャンネルに同じペア番号があります。
+</nierror>
+<nierror code="-21417">
+Sound & Vibration:  入力信号は少なくとも2チャンネル必要です。
+</nierror>
+<nierror code="-21416">
+Sound & Vibration:  入力 XY信号は等しい時間間隔または速度間隔にできません。
+</nierror>
+<nierror code="-21415">
+Sound & Vibration:  デジタルタコメータチャンネルを使用する際は、<b>DAQ Config</b> 入力で少なくとも1チャンネルを選択してください。
+</nierror>
+<nierror code="-21414">
+Sound & Vibration:  アナログタコメータチャンネルを使用する際は、<b>DAQ Config</b> 入力で少なくとも2チャンネルを選択してください。
+</nierror>
+<nierror code="-21413">
+Sound & Vibration:  中心周波数のパラメータが無効です。
+</nierror>
+<nierror code="-21412">
+Sound & Vibration:  複数チャンネル測定では各波形が同じサンプルレートを使用する必要があります。
+</nierror>
+<nierror code="-21411">
+Sound & Vibration:  FIRフィルタが正しく設定されていません。
+</nierror>
+<nierror code="-21410">
+Sound & Vibration:  複数チャンネル計測では各偶数角信号が同じサンプルレートを使用する必要があります。
+</nierror>
+<nierror code="-21409">
+Sound & Vibration:  スペクトル平均化の<b>平均数</b>は0より大きくする必要があります。
+</nierror>
+<nierror code="-21408">
+Sound & Vibration:  スペクトルのブロックサイズは0より大きくなければなりません。
+</nierror>
+<nierror code="-21407">
+Sound & Vibration:  タコメータのパルス数が不足しているため、演算は行われません。
+</nierror>
+<nierror code="-21406">
+Sound & Vibration:  サンプルレートは0より大きくなければなりません。
+</nierror>
+<nierror code="-21405">
+Sound & Vibration:  フィルタの長さは0よりも大きくなければなりません。
+</nierror>
+<nierror code="-21404">
+Sound & Vibration:  補間またはデシメーション係数は0よりも大きくなければなりません。
+</nierror>
+<nierror code="-21403">
+Sound & Vibration:  ウィンドウ情報のパラメータは、これ以後の計算に対して無効です。
+</nierror>
+<nierror code="-21402">
+Sound & Vibration:  refnumはこの操作をサポートしていません
+</nierror>
+<nierror code="-21401">
+Sound & Vibration:  refnumが無効です。
+</nierror>
+<nierror code="-21400">
+Sound & Vibration:  予期されないエラーが発生しました。
+</nierror>
+<nierror code="-4968">
+Sound & Vibration:  「関数タイプ」の値を「サポートされていない関数」に設定すると、出力が生成されません。
+</nierror>
+<nierror code="-4967">
+Sound & Vibration:  UFFファイルは入力「get function type」で指定されたタイプと一緒の関数を含みません。
+</nierror>
+<nierror code="-4965">
+Sound & Vibration:  縦座標の実部分と虚部分のサイズが一致しません。
+</nierror>
+<nierror code="-4964">
+Sound & Vibration:  縦座標の実部分が空です。
+</nierror>
+<nierror code="-4961">
+Sound & Vibration:  入力データが空です。
+</nierror>
+<nierror code="-4958">
+Sound & Vibration:  読み取られたデータは等間隔ではありません。
+</nierror>
+<nierror code="-4957">
+Sound & Vibration:  読み取られたデータは複素ではありません。
+</nierror>
+<nierror code="-4956">
+Sound & Vibration:  読み取られるデータは実値で等間隔でなければなりません。
+</nierror>
+<nierror code="-4955">
+Sound & Vibration:  このVIは周波数の実データの書き込みのみをサポートします。周波数応答関数、FFTスペクトル、またはクロススペクトルを用いるアプリケーションの場合、このVIの実データと虚データの書き込みをサポートする複素インスタンスを使用します。
+</nierror>
+<nierror code="-4954">
+Sound & Vibration:  このVIは実データおよび虚データの書き込みのみをサポートします。周波数応答関数、FFTスペクトル、またはクロススペクトルを含むアプリケーションを構築する場合、これらの結果の実コンポーネントと虚コンポーネントを出力するVIを使用します。
+</nierror>
+<nierror code="-4953">
+Sound & Vibration:  このVIは周波数領域内の複素データの読み取りのみをサポートします。このデータを読み取るには、UFF Read VIで別のインスタンスを選択します。
+</nierror>
+<nierror code="-4952">
+Sound & Vibration:  このVIは周波数領域内の実データの読み取りのみをサポートします。このデータを読み取るためにUFF Read VIの違うインスタンスを選択します。
+</nierror>
+<nierror code="-4951">
+Sound & Vibration:  このVIは関数タイプが時間応答であるUFFデータの読み取りのみをサポートします。このデータを読み取るにはUFF Read VIの別のインスタンスを選択します。
+</nierror>
+<nierror code="-4950">
+Sound & Vibration:  UFFファイルからの読み取りまたはUFFファイルへの書き込みでエラーが発生しました。
+</nierror>
+<nierror code="-4911">
+Sound & Vibration:  ログファイルのファイル拡張子は".tdms"である必要があります。
+</nierror>
+<nierror code="-4910">
+Sound & Vibration:  Prox Probeチャンネルを使用している場合、位置および方向プロパティがそれぞれペアとプローブ角度に対応します。ペアは正の整数である必要があります。プローブ角度は-360.0～360.0の倍精度である必要があります。
+</nierror>
+<nierror code="-4909">
+Sound & Vibration:  トリガチャンネルがチャンネルリストに存在しません。
+</nierror>
+<nierror code="-4908">
+Sound & Vibration:  タコメータチャンネルがチャンネルリストに存在しません。
+</nierror>
+<nierror code="-1999">
+Sound & Vibration:  幅と高さは0以上でなければなりません。
+</nierror>
+<nierror code="-1998">
+Sound & Vibration:  指定されたウィンドウはこの計測ではサポートされていません。違うウィンドウを選択してください。
+</nierror>
+<nierror code="-1997">
+Sound & Vibration:  カラーマップ属性で指定されたプロットタイプは、スペクトル情報で指定したx軸単位と一致しません。
+</nierror>
+<nierror code="-1996">
+Sound & Vibration:  %は0から100の範囲内ではありません。
+</nierror>
+<nierror code="-1995">
+Sound & Vibration:  上限または下限は入力信号と互換性がありません。
+</nierror>
+<nierror code="-1994">
+Sound & Vibration:  この関数は、ヘルツで表現される周波数のx軸単位と一緒に位相スペクトルを操作します。
+</nierror>
+<nierror code="-1993">
+Sound & Vibration:  指定する工学単位はgである必要があります。
+</nierror>
+<nierror code="-1992">
+Sound & Vibration:  指定する工学単位はPaである必要があります。
+</nierror>
+<nierror code="-1991">
+Sound & Vibration:  指定した工学単位は加速度の単位として認識されません。SVL Scale to EU VIを使用してデータをスケールする際に、工学単位をg、m/s^2、またはin/s^2に設定してください。
+</nierror>
+<nierror code="-1990">
+Sound & Vibration:  タコメータ信号で検出されたパルス数は、nパルスの平均未満です。
+</nierror>
+<nierror code="-1989">
+Sound & Vibration:  FFTのブロックサイズは2以上でなければなりません。
+</nierror>
+<nierror code="-1988">
+Sound & Vibration:  パルス数は1以上でなければなりません。
+</nierror>
+<nierror code="-1987">
+Sound & Vibration:  nパルスの平均は2以上でなけれはなりません。
+</nierror>
+<nierror code="-1986">
+Sound & Vibration:  パルス幅は1以上でなければなりません。
+</nierror>
+<nierror code="-1985">
+Sound & Vibration:  from [rpm] と to[rpm]は0以上でなければなりません。
+</nierror>
+<nierror code="-1984">
+Sound & Vibration:  Sound and VibrationツールキットVIでエラーが発生しました。VIの入力パラメータを確認してください。
+</nierror>
+<nierror code="-1983">
+Sound & Vibration:  選択されている平均化モードはこの関数ではサポートされていません。
+</nierror>
+<nierror code="-1982">
+Sound & Vibration:  dB基準は0よりも大きくなければなりません。
+</nierror>
+<nierror code="-1981">
+Sound & Vibration:  この関数はこのスペクトルタイプでは動作しません。この関数はFFTスペクトル[複素数]、振幅[Magnitude]およびパワー[Magnitude^2]スペクトルタイプで動作します。
+</nierror>
+<nierror code="-1980">
+Sound & Vibration:  この関数はこのスペクトルタイプでは動作しません。この関数は振幅[Magnitude]とパワー[Magnitude^2]スペクトルタイプで動作します。
+</nierror>
+<nierror code="-1979">
+Sound & Vibration:  指数ウィンドウ [%]は0より大きくなければなりません。
+</nierror>
+<nierror code="-1978">
+Sound & Vibration:  フォースウィンドウ [%]は0から100の間でなければなりません。
+</nierror>
+<nierror code="-1977">
+Sound & Vibration:  両波形のサンプル数は同じでなければなりません。
+</nierror>
+<nierror code="-1976">
+Sound & Vibration:  両波形では、サンプリング周波数(Xのdt = Yのdt)は同じでなければなりません。
+</nierror>
+<nierror code="-1975">
+Sound & Vibration:  選択されているズーム設定では、入力波形のサンプル数が大きすぎます。1回の反復で処理できるサンプル数を減らす、周波数範囲で指定されているスパンを減らす、およびズームスペクトルで演算されるライン数を増やす必要があります。
+</nierror>
+<nierror code="-1974">
+Sound & Vibration:  オーバーラップ（%）は0から100の間でなければなりません。
+</nierror>
+<nierror code="-1973">
+Sound & Vibration:  ライン数は1以上でなければなりません。
+</nierror>
+<nierror code="-1972">
+Sound & Vibration:  <b>範囲</b>が無効です(スパン=0)。スペクトル内に非ゼロスパンが含まれるように<b>開始</b>および<b>停止</b>の値を調整します。
+</nierror>
+<nierror code="-1971">
+Sound & Vibration:  平均数は1以上でなければなりません。
+</nierror>
+<nierror code="-1970">
+Sound & Vibration:  開始周波数はf0以上、終了周波数は入力スペクトルの最大周波数未満でなければなりません。
+</nierror>
+<nierror code="-1969">
+Sound & Vibration:  指定された周波数はスペクトル内で見つかりませんでした。この関数はf0 <= frequency <= fmaxが必要です。ここではfmaxはスペクトルの最大周波数です。
+</nierror>
+<nierror code="-1968">
+Sound & Vibration:  視覚化される高調波は指定された最大高調波よりも小さくなければなりません。
+</nierror>
+<nierror code="-1967">
+Sound & Vibration:  精度は0以上でなければなりません。
+</nierror>
+<nierror code="-1966">
+Sound & Vibration:  この関数はウィンドウが適用された入力信号では動作しません。ウィンドウが適用されていない信号を入力してください。
+</nierror>
+<nierror code="-1965">
+Sound & Vibration:  指定された形式はサポートされていません。
+</nierror>
+<nierror code="-1962">
+Sound & Vibration:  イコールコンフィデンスレベルは0よりも大きくなければなりません。
+</nierror>
+<nierror code="-1961">
+Sound & Vibration:  周波数範囲が無効です。低周波数と高周波数を調節して、周波数範囲が0以外の値になるようにします。
+</nierror>
+<nierror code="-1958">
+Sound & Vibration:  チャープ信号の初期位相はゼロである必要があります。
+</nierror>
+<nierror code="-1957">
+Sound & Vibration:  高周波数はナイキスト周波数未満である必要があります。
+</nierror>
+<nierror code="-1956">
+Sound & Vibration:  低周波数は0よりも大きくなければなりません。
+</nierror>
+<nierror code="-1955">
+Sound & Vibration:  周波数 / オクターブは0よりも大きくなければなりません。
+</nierror>
+<nierror code="-1954">
+Sound & Vibration:  臨界減衰係数は0より大きくなければなりません。
+</nierror>
+<nierror code="-1953">
+Sound & Vibration:  時定数は0よりも大きくなければなりません。
+</nierror>
+<nierror code="-1952">
+Sound & Vibration:  持続時間は0よりも大きい有限値でなければなりません。
+</nierror>
+<nierror code="-1951">
+Sound & Vibration:  decimal factorは0よりも大きくなければなりません。
+</nierror>
+<nierror code="-1950">
+Sound & Vibration:  この関数を使用するには複数のトーンが集録した信号に含まれている必要があります。トーンの振幅を増やす、振幅のしきい値を下げる、または別のトーンを識別するために周波数範囲を広く設定します。
+</nierror>
+<nierror code="-1949">
+Sound & Vibration:  サポートされていない周波数間隔です。コンポーネントトーンが周波数中で均等間隔になるマルチトーン信号を作成します。
+</nierror>
+<nierror code="-1948">
+Sound & Vibration:  カスタムIMD設定は無効です。低周波数トーンは高周波数トーンよりも小さくなければなりません。振幅比は0より大きい必要があります。最大次数は2以上である必要があります。
+</nierror>
+<nierror code="-1947">
+Sound & Vibration:  認識された基本周波数に基づいて、計測バンド幅に高調波は含まれていません。基本音の周波数を小さくするか、またはサンプルレートを増やすことで、計測バンド幅を大きくします。
+</nierror>
+<nierror code="-1946">
+Sound & Vibration:  最大高調波とすべての視覚化する高調波は2以上でなければなりません。
+</nierror>
+<nierror code="-1945">
+Sound & Vibration:  基本トーンは検出されませんでした。信号ソースを接続し、ノイズレベルより基本トーンが大きくなるように振幅を増幅してください。
+</nierror>
+<nierror code="-1944">
+Sound & Vibration:  周波数が不十分であるため、測定を行うことができません。FFTを演算するためのサンプル数を増やす、もしくは集録のサンプル周波数を減らします。信号が接続され、周波数範囲でトーンが検出されるか確認してください。
+</nierror>
+<nierror code="-1943">
+Sound & Vibration:  この関数はこのスペクトルタイプで動作しません。この関数はFFTスペクトル[複素数]で動作します。
+</nierror>
+<nierror code="-1942">
+Sound & Vibration:  ハイパスカットオフ周波数は0よりも大きくなければなりません。
+</nierror>
+<nierror code="-1941">
+Sound & Vibration:  検出した基本トーンの振幅が低すぎるため、正確な計測を行うことができません。テストトーンの振幅を上げて、周波数範囲で検出されるか確認してください。また、信号が各測定チャンネルに接続され接地されているか確認してください。
+</nierror>
+<nierror code="-1940">
+Sound & Vibration:  入力信号のチャンネル情報では、入力信号に対しすでに重み付けが適用されています。1つの信号に対しWeighting VIを複数回使用しないでください。SVL Scale Voltage to EU VIの入力信号が重み付けされていない、重み付けが線形である、またはZ-重み付けされている場合は、channel info クラスタ内の 「weighting」パラメータを「Linear」にして、エラーを回避してください。
+</nierror>
+<nierror code="-1939">
+Sound & Vibration:  この関数は選択した重み付けをサポートしません。
+</nierror>
+<nierror code="-1938">
+Sound & Vibration:  入力スペクトルに関連するスペクトル情報がありませんでした。スペクトル処理を行うステップにはスペクトル情報を保存しないものもあるため、このExpressステップの入力としてソーススペクトルを使用する必要があります。
+</nierror>
+<nierror code="-1937">
+Sound & Vibration:  入力信号を処理あるいは測定を行うには、このExpressVIを構成する必要があります。
+</nierror>
+<nierror code="-1936">
+Sound & Vibration:  この人体振動の加重フィルタはこの波形のサンプルレートをサポートしません。サポートされているサンプルレートは1000、2000、3200、4000、5000、6400、8000、10000、12500、12800、16666.666、20000、25000、25600、33333.333、50000、および51200（Hz）です。
+</nierror>
+<nierror code="-1935">
+Sound & Vibration:  この人体振動の加重フィルタはこの波形のサンプルレートをサポートしません。サポートされているサンプルレートは8000、10000、12500、12800、16666.666、20000、25000、25600、33333.333、50000、および51200（Hz）です。
+</nierror>
+<nierror code="-1934">
+Sound & Vibration:  時間領域での重み付けは、サンプルレートが4000Hz以上の信号に適用できます。シミュレートする信号のサンプリング周波数を増やす、もしくは集録のサンプルレートを最低4000Hzに設定します。
+</nierror>
+<nierror code="-1933">
+Sound & Vibration:  この加重フィルタはこの波形のサンプルレートをサポートしません。サポートされているサンプルレートは16666.666、20000、22050、25000、25600、33333.333、40000、44100、50000、51200、80000、88200、96000、100000、102400、196000、200000、204800、500000および1000000 [Hz]です。
+</nierror>
+<nierror code="-1932">
+Sound & Vibration:  この加重フィルタはこの波形のサンプルレートをサポートしません。サポートされているサンプルレートは4000、8000、10000、11025、12500、12800、16666.666、20000、22050、25000、25600、33333.333、40000、44100、50000、51200、80000、88200、96000、100000、102400、196000、200000、204800、500000および1000000 [Hz]です。SVT加重フィルタVIは、任意のサンプルレートの信号にA、B、またはCの重み付けを適用するために使用できます。
+</nierror>
+<nierror code="-1931">
+Sound & Vibration:  サンプル数は0よりも大きくなければなりません。
+</nierror>
+<nierror code="-1930">
+Sound & Vibration:  サンプルリング周波数は0よりも大きくなければなりません。
+</nierror>
+<nierror code="-1929">
+Sound & Vibration:  入力波形の配列は空です。データソースが有効なデータを返しているか確認してください。
+</nierror>
+<nierror code="-1928">
+Sound & Vibration:  キャリブレーション中に周波数重み付けを無効にする必要があります。
+</nierror>
+<nierror code="-1927">
+Sound & Vibration:  チャンネルがオーバーロードしています。入力信号が範囲内に収まるように、入力制限を調整する必要があります。
+</nierror>
+<nierror code="-1926">
+Sound & Vibration:  キャリブレーション信号が検出されなかったか、またはキャリブレーション信号の周波数は許容範囲外です。キャリブレータの電源が入っているかどうか、キャリブレータが選択されているデバイスとチャネルに適用されているかどうか、そしてすべての接続がつながっているかどうかを確認する必要があります。指定されたチャンネルに信号があるかどうかを確認後、キャリブレーション信号の実際の周波数が指定されたキャリブレーション周波数と同じかどうかを確認します。
+</nierror>
+<nierror code="-1925">
+Sound & Vibration:  持続時間は0よりも大きくなければなりません。
+</nierror>
+<nierror code="-1924">
+Sound & Vibration:  周波数公差は0よりも大きくなければなりません。
+</nierror>
+<nierror code="-1923">
+Sound & Vibration:  キャリブレーション周波数は0よりも大きく、サンプリング周波数を3で除算した値未満でなければなりません。
+</nierror>
+<nierror code="-1922">
+Sound & Vibration:  指定された周波数はスペクトル内で見つかりませんでした。この関数では周波数が入力オクターブスペクトルの最低バンドエッジ周波数と最高バンドエッジ周波数の間にあることが必要です。
+</nierror>
+<nierror code="-1921">
+Sound & Vibration:  <b>dB基準</b>配列の要素数は、<b>スケールされた信号入力</b>配列の要素数と等しくなければなりません。
+</nierror>
+<nierror code="-1920">
+Sound & Vibration:  構成設定配列の要素数は、入力信号配列の要素数と等しくなければなりません。
+</nierror>
+<nierror code="-1919">
+Sound & Vibration:  タイムアウト[繰り返し数]で指定した回数内で測定値は安定した状態になりませんでした。
+</nierror>
+<nierror code="-1918">
+Sound & Vibration:  この関数はラジアン、度、またはサイクルを単位とする位相スペクトルのみで動作します。
+</nierror>
+<nierror code="-1917">
+Sound & Vibration:  この人体振動の加重フィルタはこの波形のサンプルレートをサポートしません。サポートされているサンプルレートは1000、2000、3200、4000、5000、6400、8000、10000、12500、12800（Hz)です。
+</nierror>
+<nierror code="-1916">
+Sound & Vibration:  必要な波形の属性が見つかりませんでした。
+
+</nierror>
+<nierror code="-1915">
+Sound & Vibration:  開始周波数は0より大きくあるべきです。停止周波数も0より大きくあるべきです。ステップ数は2に等しいかまたはそれ異常であるべきです。
+</nierror>
+<nierror code="-1914">
+Sound & Vibration:  単一チャンネルの測定はサポートされていません。アナログ入力チャンネルの<b>刺激チャンネル</b>および<b>応答チャンネル</b>を指定してください。
+</nierror>
+<nierror code="-1913">
+Sound & Vibration:  積分サイクルは2以上でなければなりません。
+</nierror>
+<nierror code="-1912">
+Sound & Vibration:  ブロック継続時間は0よりも大きくなければなりません。
+</nierror>
+<nierror code="-1911">
+Sound & Vibration:  サインスイープのタスクはシフトレジスタに接続する必要があります。
+</nierror>
+<nierror code="-1910">
+Sound & Vibration:  フィードバックを必要とするExecution modesはサポートされていません。
+</nierror>
+<nierror code="-1909">
+Sound & Vibration:  f0は0以上、dfは0より大きくなければなりません。
+</nierror>
+<nierror code="-1908">
+Sound & Vibration:  デュアルチャネル測定は入力スペクトルが類似している（f0_x  =  f0_y, df_x  =  df_y, length_x  =  length_y）必要があります。
+</nierror>
+<nierror code="-1907">
+Sound & Vibration:  入力波形のサンプリング周波数は0よりも大きくなければなりません（dtは0よりも大きい）。
+</nierror>
+<nierror code="-1906">
+Sound & Vibration:  多チャネル測定では、各信号のサンプル間隔（dtもしくはdr）は等間隔でなければなりません。
+</nierror>
+<nierror code="-1905">
+Sound & Vibration:  多チャンネル測定では、各波形のサンプル数は同じでなければなりません。
+</nierror>
+<nierror code="-1904">
+Sound & Vibration:  振幅は0以上でなければなりません。
+</nierror>
+<nierror code="-1903">
+Sound & Vibration:  この測定では同一デバイス上で従来型DAQとDAQmxドライバを同時に使用することができません。アプリケーションで使用するVIを従来型DAQのVIまたはDAQmxのVIのいずれかに統一する必要があります。
+</nierror>
+<nierror code="-1902">
+Sound & Vibration:  この測定は複数デバイスでの構成と同期をサポートしません。測定するにはアナログ入力チャンネルとアナログ出力チャンネルを搭載するデータ集録デバイスを選択します。
+</nierror>
+<nierror code="-1901">
+Sound & Vibration:  最大テスト周波数は指定されたサンプルレートのエイリアスフリーの帯域幅よりも上です。<b>サンプリング周波数</b>を増やすか、<b>停止周波数</b>を減らします。
+</nierror>
+<nierror code="1905">
+Sound & Vibration:  入力信号のサンプル数が変更されたため、VIは自動的にリセットされました。
+</nierror>
+<nierror code="1906">
+Sound & Vibration:  サンプリング周波数が変更されたため、VIは自動的にリセットされました。
+</nierror>
+<nierror code="1907">
+Sound & Vibration:  入力信号はあるブロックから次のブロックへと継続するため、VIは自動的にリセットしました。
+</nierror>
+<nierror code="1908">
+Sound & Vibration:  channel infoが変更されたため、VIは自動的にリセットしました。
+</nierror>
+<nierror code="1909">
+Sound & Vibration:  frequency rangeが変更されたため、VIは自動的にリセットしました。
+</nierror>
+<nierror code="1910">
+Sound & Vibration:  チャネル数が変更されたため、VIは自動的にリセットしました。
+</nierror>
+<nierror code="1911">
+Sound & Vibration:  ?
+</nierror>
+<nierror code="1913">
+Sound & Vibration:  積分サイクルが1に強制変換されました。積分サイクルは1以上である必要があります。
+</nierror>
+<nierror code="1940">
+Sound & Vibration:  重み付けが変更されたため、VIは自動的にリセットされました。
+</nierror>
+<nierror code="1941">
+Sound & Vibration:  積分タイプが変更されたため、VIは自動的にリセットされました。
+</nierror>
+<nierror code="1942">
+Sound & Vibration:  ハイパスカットオフ周波数が変更されたため、VIは自動的にリセットしました。
+</nierror>
+<nierror code="1943">
+Sound & Vibration:  測定が不確実です。周波数分解能およびSN比を改善することによって、スペクトル測定での不確実性を削減することが可能です。
+</nierror>
+<nierror code="1944">
+Sound & Vibration:  位相測定が不確定です。周期がグループ遅延の約10倍となるように、テスト信号における基本トーンの周波数を調整してください。
+</nierror>
+<nierror code="1945">
+Sound & Vibration:  予測された基本周波数は周波数範囲外です。
+</nierror>
+<nierror code="1946">
+Sound & Vibration:  最大高調波周波数が2とナイキスト周波数以下の最大高調波周波数の間に位置するように強制変換されました。
+</nierror>
+<nierror code="1947">
+Sound & Vibration:  各要素が2と最大高調波の間に位置するように、視覚化する高調波が強制変換されました。
+</nierror>
+<nierror code="1950">
+Sound & Vibration:  シャノンのサンプリング定理を満たすためには、デシメーション係数は時定数を2で割った値よりも小さくなければなりません。通常は時定数を5もしくは10で除算した値が推奨されています。
+</nierror>
+<nierror code="1951">
+Sound & Vibration:  ?
+</nierror>
+<nierror code="1952">
+Sound & Vibration:  持続時間が変更されたため、VIは自動的にリセットされました。
+</nierror>
+<nierror code="1953">
+Sound & Vibration:  持続時間 が集録周期の倍数に強制されました。持続時間を短くするには集録時間を短縮してください。
+</nierror>
+<nierror code="1961">
+Sound & Vibration:  帯域幅が変更されたため、VIは自動的にリセットされました。
+</nierror>
+<nierror code="1962">
+Sound & Vibration:  平均化タイプが変更されたため、VIは自動的にリセットされました。
+</nierror>
+<nierror code="1963">
+Sound & Vibration:  部分オクターブ解析では、高周波数はサンプルレートを2.5で除算した値以下、およびオクターブ解析では、サンプルレートを3で除算した値以下になるように周波数範囲が強制されました。
+</nierror>
+<nierror code="1966">
+Sound & Vibration:  このVIは以前ウィンドウを適用した信号に再びウィンドウを適用しました。結果の複素ウィンドウは、スペクトルに対する測定を妨げます。この警告を回避するには、時間領域信号に対し1つのウィンドウのみを適用します。
+</nierror>
+<nierror code="1969">
+Sound & Vibration:  実際の最大高調波周波数がナイキスト周波数以下になるように、最大高調波は強制変換されました。
+</nierror>
+<nierror code="1970">
+Sound & Vibration:  開始周波数と終了周波数がf0よりも大きく、スペクトルの最大周波数よりも小さくなるように、周波数範囲は強制変換されました。
+</nierror>
+<nierror code="1971">
+Sound & Vibration:  平均化パラメータが変更されたため、VIが自動再開しました。
+</nierror>
+<nierror code="1973">
+Sound & Vibration:  ズーム設定が変更されたため、VIは自動的にリセットされました。
+</nierror>
+<nierror code="1974">
+Sound & Vibration:  ズームで十分な解像度を得るため、行数が強制変換されました。
+</nierror>
+<nierror code="1977">
+Sound & Vibration:  チャンネル名が変更されたため、VIは自動再開されました。平均化操作を実行するには、チャンネルの配列がループで指標付けされていないことを確認してください。
+</nierror>
+<nierror code="1978">
+Sound & Vibration:  ウィンドウが変更されたため、VIは自動再開されました。
+</nierror>
+<nierror code="1979">
+Sound & Vibration:  FRFモードが変更されたため、VIは自動再開されました。
+</nierror>
+<nierror code="1980">
+Sound & Vibration:  スペクトルが周波数領域で統合または重み付けされたため、ピーク検出の結果は不正確な可能性があります。
+</nierror>
+<nierror code="1981">
+Sound & Vibration:  <b>周波数間隔</b>が変更されたため、VIは自動的にリセットしました。
+</nierror>
+<nierror code="1982">
+Sound & Vibration:  <b>チャープ持続時間</b>が変更されたため、VIは自動的にリセットしました。
+</nierror>
+<nierror code="1984">
+Sound & Vibration:  ビッグブラザーが見ています。
+</nierror>
+<nierror code="1990">
+Sound & Vibration:  以前のスケールが検出されたため、スケールはデータに適用されませんでした。このVIは単位変換のVIとして使用できません。
+</nierror>
+<nierror code="1992">
+Sound & Vibration:  波形属性の既存のdBリファレンスは指定された値で上書きされました。
+</nierror>
+<nierror code="1997">
+Sound & Vibration:  前回バッファされたデータのz0またはdzが変更されたため、滝型グラフのバッファは自動的にリセットされました。
+</nierror>
+<nierror code="4951">
+Sound & Vibration:  UFF58b基準に準拠するために、スペクトルはファイルに書き込まれる前に線形スケールに変換されました。
+</nierror>
+<nierror code="4952">
+Sound & Vibration:  UFFファイルは他のプロセスまたはアプリケーションにより修正されました。
+</nierror>
+<nierror code="4953">
+Sound & Vibration:  UFF58bの標準規格に準拠するために、ファイルに書き込まれる前に振幅および位相スペクトルは実数と虚数スペクトルに変換されます。
+</nierror>
+<nierror code="4968">
+Sound & Vibration:  テキストフィールドに入力された文字数が最大文字数を超えています。
+</nierror>
+<nierror code="4969">
+Sound & Vibration:  連続実行する際に、ステップに渡される最後のデータのみがファイルに書き込まれます。このステップはデータをバッファしません。
+</nierror>
+<nierror code="21400">
+Sound & Vibration:  入力信号が空です。
+</nierror>
+<nierror code="21401">
+Sound & Vibration:  次数分解能値が高すぎます。
+</nierror>
+<nierror code="21402">
+Sound & Vibration:  しきい値はタコメータ信号の範囲外です。
+</nierror>
+<nierror code="21403">
+Sound & Vibration:  <b>ヒステリシス</b>値はタコメータの信号に適していません。
+</nierror>
+<nierror code="21404">
+Sound & Vibration:  カラーマップや滝型グラフのいずれもエクスポートされません。
+</nierror>
+<nierror code="21405">
+Sound & Vibration:  開始時間が終了時間よりも大きいです。
+</nierror>
+<nierror code="21406">
+Sound & Vibration:  開始時間が入力信号の持続時間を超えています。
+</nierror>
+<nierror code="21407">
+Sound & Vibration:  入力信号には十分なサンプルがありません。
+</nierror>
+<nierror code="21408">
+Sound & Vibration:  トラックするために少なくとも1つの次数を指定してください。
+</nierror>
+<nierror code="21409">
+Sound & Vibration:  <b>チャンネルプロパティ</b>は空です。このVIは、<b>回転</b>が反時計回り、<b>プローブ角度</b>が0、またセンサ<b>ペア</b>がチャンネル指標により決定されるといったデフォルト構成を使用します。
+</nierror>
+<nierror code="21410">
+Sound & Vibration:  ペアになっていないチャンネルがあります。
+</nierror>
+<nierror code="21411">
+Sound & Vibration:  入力配列サイズまたは属性はバッファされたデータと一致しません。バッファをリセットします。
+</nierror>
+<nierror code="21412">
+Sound & Vibration:  予想速度に達していないため、VI出力は空です。
+</nierror>
+<nierror code="21413">
+Sound & Vibration:  <b>開始速度</b>および<b>終了速度</b>が<b>実行タイプ</b>と一致するよう切り替わります。
+</nierror>
+<nierror code="21414">
+Sound & Vibration:  有効なタコメータパルスが検出されません。
+</nierror>
+</nidocument>

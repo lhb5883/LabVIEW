@@ -1,0 +1,40 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+<nifamily familyname="LabVIEW Elemental IO" displayname="LabVIEW Elemental IO">
+</nifamily>
+</nicomment>
+<nierror code="-64999">
+LabVIEW Elemental IO:  An internal software error with LabVIEW Elemental I/O has occurred.  Please contact National Instruments technical support at ni.com/support with following information:
+
+A path tag specified value that is not a path.
+</nierror>
+<nierror code="-64998">
+LabVIEW Elemental IO:  An internal software error with LabVIEW Elemental I/O has occurred.  Please contact National Instruments technical support at ni.com/support with following information:
+
+An unexpected case was reached.
+</nierror>
+<nierror code="-64997">
+LabVIEW Elemental IO:  An internal software error in LabVIEW Elemental I/O component has occurred.  Please contact National Instruments technical support at ni.com/support with following information:
+
+Required tag was not found in the resource file.
+</nierror>
+<nierror code="-64005">
+LabVIEW Elemental IO:  Conflicting I/O Items found within the Method
+</nierror>
+<nierror code="-64004">
+LabVIEW Elemental IO:  Duplicate I/O Items found within the Method
+</nierror>
+<nierror code="-64003">
+LabVIEW Elemental IO:  IO Node not wired with constant IO Name
+</nierror>
+<nierror code="-64002">
+LabVIEW Elemental IO:  No name provided for an FPGA I/O Node, I/O Method Node, or I/O Property Node
+</nierror>
+<nierror code="-64001">
+LabVIEW Elemental IO:  An FPGA I/O Node, I/O Method Node, or I/O Property Node is connected to an I/O name control or constant that does not match the configuration of the node.
+</nierror>
+<nierror code="-64000">
+LabVIEW Elemental IO:  Elemental IO Project Item Not Found
+</nierror>
+</nidocument>

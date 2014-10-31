@@ -1,0 +1,587 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+<nifamily familyname="Sound & Vibration" displayname="Sound & Vibration">
+</nifamily>
+</nicomment>
+<nierror code="-21420">
+Sound & Vibration:  You cannot perform period measurement when you measure digital tachometer signals on an NI CompactDAQ chassis. You must use event counting for this type of application.
+</nierror>
+<nierror code="-21419">
+Sound & Vibration:  Channels in a pair must have the same rotation direction.
+</nierror>
+<nierror code="-21418">
+Sound & Vibration:  More than two channels have the same pair number in <b>channel properties</b>.
+</nierror>
+<nierror code="-21417">
+Sound & Vibration:  The input signal must have at least two channels.
+</nierror>
+<nierror code="-21416">
+Sound & Vibration:  The input XY signal cannot be at equal time or speed interval.
+</nierror>
+<nierror code="-21415">
+Sound & Vibration:  Select at least one channel in the <b>DAQ Config</b> input  when you use a digital tachometer channel.
+</nierror>
+<nierror code="-21414">
+Sound & Vibration:  Select at least two channels in the <b>DAQ Config</b> input when you use an analog tachometer channel.
+</nierror>
+<nierror code="-21413">
+Sound & Vibration:  The center frequency is invalid.
+</nierror>
+<nierror code="-21412">
+Sound & Vibration:  Multi-channel measurements require that each waveform has the same sample rate.
+</nierror>
+<nierror code="-21411">
+Sound & Vibration:  The FIR filter settings are incorrect.
+</nierror>
+<nierror code="-21410">
+Sound & Vibration:  Multi-channel measurements require that each even-angle signal has the same sample rate.
+</nierror>
+<nierror code="-21409">
+Sound & Vibration:  <b>number of averages</b> for spectrum averaging must be greater than zero.
+</nierror>
+<nierror code="-21408">
+Sound & Vibration:  The spectrum block size must be greater than zero.
+</nierror>
+<nierror code="-21407">
+Sound & Vibration:  The number of tachometer pulses is insufficient for further computation.
+</nierror>
+<nierror code="-21406">
+Sound & Vibration:  The sampling rate must be greater than zero.
+</nierror>
+<nierror code="-21405">
+Sound & Vibration:  The filter length must be greater than zero.
+</nierror>
+<nierror code="-21404">
+Sound & Vibration:  The interpolation or decimation factor must be greater than zero.
+</nierror>
+<nierror code="-21403">
+Sound & Vibration:  The window information parameters are invalid for further computation.
+</nierror>
+<nierror code="-21402">
+Sound & Vibration:  The refnum does not support this operation.
+</nierror>
+<nierror code="-21401">
+Sound & Vibration:  The refnum is invalid.
+</nierror>
+<nierror code="-21400">
+Sound & Vibration:  An unexpected error occurred.
+</nierror>
+<nierror code="-4968">
+Sound & Vibration:  Setting <b>Function type</b> value to Unsupported functions will not generate any outputs.
+</nierror>
+<nierror code="-4967">
+Sound & Vibration:  The UFF file contains no functions with the type specified by the input <b>get function type</b>.
+</nierror>
+<nierror code="-4965">
+Sound & Vibration:  The real part and the imaginary part of the ordinate are unequal in size.
+</nierror>
+<nierror code="-4964">
+Sound & Vibration:  The real part of the ordinate is empty.
+</nierror>
+<nierror code="-4961">
+Sound & Vibration:  The input data is empty.
+</nierror>
+<nierror code="-4958">
+Sound & Vibration:  The data being read is not evenly spaced.
+</nierror>
+<nierror code="-4957">
+Sound & Vibration:  The data being read is not complex.
+</nierror>
+<nierror code="-4956">
+Sound & Vibration:  The data being read must be real valued and evenly spaced.
+</nierror>
+<nierror code="-4955">
+Sound & Vibration:  This VI only supports writing frequency real data. If you are writing frequency response functions, FFT spectra, or cross spectra, then use the complex instance of this VI, which supports writing real and imaginary data.
+</nierror>
+<nierror code="-4954">
+Sound & Vibration:  This VI only supports writing real and imaginary data.  If you are writing frequency response functions, FFT spectra, or cross spectra, then use the VIs that output real and imaginary components of these results.
+</nierror>
+<nierror code="-4953">
+Sound & Vibration:  This VI only supports reading complex data that is in frequency domain. Select a different instance of the UFF Read VI to read this data.
+</nierror>
+<nierror code="-4952">
+Sound & Vibration:  This VI only supports reading real data that is in frequency domain. Select a different instance of the UFF Read VI to read this data.
+</nierror>
+<nierror code="-4951">
+Sound & Vibration:  This VI only supports reading UFF data whose function type is Time Response. Select a different instance of the UFF Read VI to read this data.
+</nierror>
+<nierror code="-4950">
+Sound & Vibration:  There was an error reading from or writing to a UFF file.
+</nierror>
+<nierror code="-4911">
+Sound & Vibration:  The logfile must have a ".tdms" file extension.
+</nierror>
+<nierror code="-4910">
+Sound & Vibration:  When using a Prox Probe channel, the Location and Orientation properties corespond to Pair and Probe Angle, respectively.  Pair must be an non-negative integer.  Probe Angle must be a double precision number, between -360.0 and 360.0 (inclusive).
+</nierror>
+<nierror code="-4909">
+Sound & Vibration:  The trigger channel does not exist in the channel list.
+</nierror>
+<nierror code="-4908">
+Sound & Vibration:  The tachometer channel does not exist in the channel list.
+</nierror>
+<nierror code="-1999">
+Sound & Vibration:  <b>width</b> and <b>height</b> should both be greater than or equal to 0.
+</nierror>
+<nierror code="-1998">
+Sound & Vibration:  This measurement does not support the specified window. Select a different window.
+</nierror>
+<nierror code="-1997">
+Sound & Vibration:  <b>plot type</b> specified in colormap attributes inconsistent with x-axis units specified in <b>spectrum info</b>.
+</nierror>
+<nierror code="-1996">
+Sound & Vibration:  % not within the range from 0 to 100.
+</nierror>
+<nierror code="-1995">
+Sound & Vibration:  <b>upper limit</b> and/or <b>lower limit</b> incompatible with signal in.
+</nierror>
+<nierror code="-1994">
+Sound & Vibration:  This function only operates on <b>phase spectra</b> with x-axis units of frequency expressed in Hertz.
+</nierror>
+<nierror code="-1993">
+Sound & Vibration:  The <b>engineering units</b> specified must be g.
+</nierror>
+<nierror code="-1992">
+Sound & Vibration:  The <b>engineering units</b> specified must be Pa.
+</nierror>
+<nierror code="-1991">
+Sound & Vibration:  The <b>engineering units</b> specified are not recognized as acceleration units. Specify units of acceleration by setting the <b>engineering units</b> selection to g, m/s^2, or in/s^2 when scaling the data using the SVL Scale to EU VI.
+</nierror>
+<nierror code="-1990">
+Sound & Vibration:  The number of pulses detected in tach signal is less than avg on n pulses.
+</nierror>
+<nierror code="-1989">
+Sound & Vibration:  FFT Block Size should be greater than or equal to 2.
+</nierror>
+<nierror code="-1988">
+Sound & Vibration:  <b>pulse/revolution</b> should be greater than or equal to 1.
+</nierror>
+<nierror code="-1987">
+Sound & Vibration:  avg on n pulses should be greater than or equal to 2.
+</nierror>
+<nierror code="-1986">
+Sound & Vibration:  <b>pulse width</b> should be greater than or equal to 1.
+</nierror>
+<nierror code="-1985">
+Sound & Vibration:  <b>from [rpm]</b> and <b>to [rpm]</b> should both be greater than or equal to 0.
+</nierror>
+<nierror code="-1984">
+Sound & Vibration:  There was an error in a Sound and Vibration VI. Please check the input parameters to the VI.
+</nierror>
+<nierror code="-1983">
+Sound & Vibration:  This function does not support the selected <b>averaging mode</b>.
+</nierror>
+<nierror code="-1982">
+Sound & Vibration:  <b>dB reference</b> should be greater than 0
+</nierror>
+<nierror code="-1981">
+Sound & Vibration:  This function does not operate on the given spectrum type.  This function operates on FFT Spectrum [complex], Amplitude [Magnitude], and Power [Magnitude^2] spectrum types.
+</nierror>
+<nierror code="-1980">
+Sound & Vibration:  This function does not operate on the given spectrum type.  This function operates on Amplitude [Magnitude] and Power [Magnitude^2] spectrum types.
+</nierror>
+<nierror code="-1979">
+Sound & Vibration:  <b>exp window [%]</b> should be greater than 0.
+</nierror>
+<nierror code="-1978">
+Sound & Vibration:  <b>force window [%]</b> should be between 0 and 100.
+</nierror>
+<nierror code="-1977">
+Sound & Vibration:  Both waveforms should have the same number of samples.
+</nierror>
+<nierror code="-1976">
+Sound & Vibration:  Both waveforms should have the same sampling frequency (dt of X = dt of Y).
+</nierror>
+<nierror code="-1975">
+Sound & Vibration:  The number of samples in the input waveform is too large for the selected zoom settings. Reduce the number of samples processed per iteration, decrease the span specified by the frequency range, and/or increase the number of lines computed in the zoom spectrum.
+</nierror>
+<nierror code="-1974">
+Sound & Vibration:  <b>overlap (%)</b> should be between 0 and 100.
+</nierror>
+<nierror code="-1973">
+Sound & Vibration:  <b>number of lines</b> should be greater than or equal to 1.
+</nierror>
+<nierror code="-1972">
+Sound & Vibration:  <b>range</b> is invalid (span=0).  Adjust <b>start</b> and <b>stop</b> to include a nonzero span within the spectrum.
+</nierror>
+<nierror code="-1971">
+Sound & Vibration:  <b>number of averages</b> should be greater than or equal to 1.
+</nierror>
+<nierror code="-1970">
+Sound & Vibration:  <b>start frequency</b> should be greater than or equal to f0, and <b>stop frequency</b> should be less than or equal to the greatest frequency in the input spectrum
+</nierror>
+<nierror code="-1969">
+Sound & Vibration:  The specified <b>frequency</b> is not found within the spectrum. This function requires f0 <= <b>frequency</b> <= fmax where fmax is the maximum frequency of the spectrum.
+</nierror>
+<nierror code="-1968">
+Sound & Vibration:  All <b>harmonics to visualize</b> should be less than the specified <b>maximum harmonic</b>.
+</nierror>
+<nierror code="-1967">
+Sound & Vibration:  <b>precision</b> should be greater than or equal to 0.
+</nierror>
+<nierror code="-1966">
+Sound & Vibration:  This function does not operate on windowed input signals. Input unwindowed signals to this function.
+</nierror>
+<nierror code="-1965">
+Sound & Vibration:  Specified format value is not supported.
+</nierror>
+<nierror code="-1962">
+Sound & Vibration:  <b>equal confidence level</b> should be greater than 0.
+</nierror>
+<nierror code="-1961">
+Sound & Vibration:  <b>frequency range</b> is invalid.  Adjust <b>low frequency</b> and <b>high frequency</b> to include a nonzero frequency range.
+</nierror>
+<nierror code="-1958">
+Sound & Vibration:  The initial phase of the chirp signal must be zero.
+</nierror>
+<nierror code="-1957">
+Sound & Vibration:  <b>high frequency</b> should be less than Nyquist frequency.
+</nierror>
+<nierror code="-1956">
+Sound & Vibration:  <b>low frequency</b> should be greater than 0.
+</nierror>
+<nierror code="-1955">
+Sound & Vibration:  <b>frequencies / octave</b> should be greater than 0.
+</nierror>
+<nierror code="-1954">
+Sound & Vibration:  <b>critical damping factor</b> should be greater than zero
+</nierror>
+<nierror code="-1953">
+Sound & Vibration:  <b>time constant</b> should be greater than 0.
+</nierror>
+<nierror code="-1952">
+Sound & Vibration:  <b>integration time</b> should be a finite value greater than 0.
+</nierror>
+<nierror code="-1951">
+Sound & Vibration:  <b>decimation factor</b> should be greater than 0.
+</nierror>
+<nierror code="-1950">
+Sound & Vibration:  This function requires that multiple tones be identified in the acquired signal. Increase the amplitude of the component tones, reduce the magnitude threshold, or increase the frequency range to identify additional tones.
+</nierror>
+<nierror code="-1949">
+Sound & Vibration:  Unsupported frequency spacing. Construct the multitone signal such that the component tones are evenly spaced in frequency.
+</nierror>
+<nierror code="-1948">
+Sound & Vibration:  <b>custom IMD settings</b> are invalid. <b>low-frequency tone</b> should be less than <b>high-frequency tone</b>. <b>amplitude ratio</b> should be greater than 0. <b>maximum order</b> should be greater than or equal to 2.
+</nierror>
+<nierror code="-1947">
+Sound & Vibration:  Based on the identified fundamental frequency, no harmonics are contained in the measurement bandwidth. Reduce the frequency of the fundamental tone or increase the measurement bandwidth by increasing the sampling rate.
+</nierror>
+<nierror code="-1946">
+Sound & Vibration:  <b>maximum harmonic</b> and all <b>harmonics to visualize</b> should be greater than or equal to 2.
+</nierror>
+<nierror code="-1945">
+Sound & Vibration:  The fundamental tone was not detected. Please make sure that the signal source is connected and/or increase the amplitude of the fundamental tone to be greater than the level of the noise.
+</nierror>
+<nierror code="-1944">
+Sound & Vibration:  There is insufficient frequency resolution to perform this measurement. Improve the frequency resolution by increasing the number of samples used to compute the FFT and/or decreasing the sampling frequency of the acquisition. Verify that your signals are connected and that an identifiable tone can be found in the frequency range of interest
+</nierror>
+<nierror code="-1943">
+Sound & Vibration:  This function does not operate on the given spectrum type. This function operates exclusively on FFT Spectrum [complex].
+</nierror>
+<nierror code="-1942">
+Sound & Vibration:  <b>highpass cutoff frequency</b> should be greater than 0.
+</nierror>
+<nierror code="-1941">
+Sound & Vibration:  The amplitude of the detected fundamental tone is too low to perform an accurate measurement. Increase the amplitude of the test tone and verify that an identifiable tone can be found in the frequency range of interest. You can also verify that your signals are connected and that each measurement channel is properly grounded.
+</nierror>
+<nierror code="-1940">
+Sound & Vibration:  The channel info that describes the <b>scaled signals</b> input indicates that <b>weighting</b> has already been applied to the input signal. You should not use the Weighting VIs to apply weighting more than once to a signal. If the signal input to SVL Scale Voltage to EU VI is unweighted, linearly weighted, or Z-weighted, please change the <b>weighting</b> parameter of the <b>channel info</b> cluster to Linear to avoid this error.
+</nierror>
+<nierror code="-1939">
+Sound & Vibration:  This function does not support the selected <b>weighting</b>.
+</nierror>
+<nierror code="-1938">
+Sound & Vibration:  There was no <b>spectrum info</b> associated with the <b>input spectra</b>. Some steps that operate on spectra do not preserve the <b>spectrum info</b>, and it is necessary to use the source spectra as the input to this Express step.
+</nierror>
+<nierror code="-1937">
+Sound & Vibration:  This Express VI must be configured in order to process input signals or perform measurements.
+</nierror>
+<nierror code="-1936">
+Sound & Vibration:  This human vibration weighting filter does not support the sample rate for this waveform. Supported sample rates are 1000, 2000, 3200, 4000, 5000, 6400, 8000, 10000, 12500, 12800, 16666.666, 20000, 25000, 25600, 33333.333, 50000, 51200 Hz.
+</nierror>
+<nierror code="-1935">
+Sound & Vibration:  This human vibration weighting filter does not support the sample rate for this waveform. Supported sample rates are 8000, 10000, 12500, 12800, 16666.666, 20000, 25000, 25600, 33333.333, 50000, 51200 Hz.
+</nierror>
+<nierror code="-1934">
+Sound & Vibration:  Time-domain weighting may be applied to signals with sample rates greater than 4000 Hz. Increase Fs for the simulated signal or increase the sample rate of the acquisition to be at least 4000 Hz.
+</nierror>
+<nierror code="-1933">
+Sound & Vibration:  This weighting filter does not support the sample rate for this waveform. Supported sample rates are 16666.666, 20000, 22050, 25000, 25600, 33333.333, 40000, 44100, 50000, 51200, 80000,  88200, 96000, 100000, 102400, 196000, 200000, 204800, 500000, and 1000000 [Hz].
+</nierror>
+<nierror code="-1932">
+Sound & Vibration:  This weighting filter does not support the sample rate for this waveform. Supported sample rates are 4000, 8000, 10000, 11025, 12500, 12800, 16666.666, 20000, 22050, 25000, 25600, 33333.333, 40000, 44100, 50000, 51200, 80000,  88200, 96000, 100000, 102400, 196000, 200000, 204800, 500000, and 1000000 Hz. The SVT Weighting Filter VI may be used to apply A, B, or C weighting to signals with arbitrary sample rate.
+</nierror>
+<nierror code="-1931">
+Sound & Vibration:  The number of samples should be greater than 0.
+</nierror>
+<nierror code="-1930">
+Sound & Vibration:  sampling frequency should be greater than 0.
+</nierror>
+<nierror code="-1929">
+Sound & Vibration:  The array of input waveforms was empty. Verify that the data source is returning valid data.
+</nierror>
+<nierror code="-1928">
+Sound & Vibration:  You must disable frequency weighting during calibration.
+</nierror>
+<nierror code="-1927">
+Sound & Vibration:  Channel is overloaded. Adjust input limits so input signal stays in range.
+</nierror>
+<nierror code="-1926">
+Sound & Vibration:  Calibration signal not detected or frequency of calibration signal is out of tolerance.  Make sure calibrator is on, calibrator is applied to the selected device and channel, and all connections are secure. After verifying that the signal is present on the specified channel, check whether the actual frequency of the calibration signal agrees with the specified calibration frequency.
+</nierror>
+<nierror code="-1925">
+Sound & Vibration:  <b>duration</b> should be greater than 0.
+</nierror>
+<nierror code="-1924">
+Sound & Vibration:  <b>frequency tolerance</b> should be greater than 0.
+</nierror>
+<nierror code="-1923">
+Sound & Vibration:  <b>calibration frequency</b> should be greater than 0 and less than <b>sampling frequency</b> divided by 3.
+</nierror>
+<nierror code="-1922">
+Sound & Vibration:  The specified <b>frequency</b> is not found within the spectrum. This VI requires that <b>frequency</b> be between the lowest bandedge frequency and the highest bandedge frequency of the input <b>octave spectrum</b>.
+</nierror>
+<nierror code="-1921">
+Sound & Vibration:  The number of elements in the <b>dB references</b> array should equal the number of elements in the <b>scaled signals in</b> array.
+</nierror>
+<nierror code="-1920">
+Sound & Vibration:  The number of elements in the configuration settings array should equal the number of elements in the input signals array.
+</nierror>
+<nierror code="-1919">
+Sound & Vibration:  The measurement failed to settle in the number of iterations specified by <b>timeout [iterations]</b>.
+</nierror>
+<nierror code="-1918">
+Sound & Vibration:  This function only operates on <b>phase spectra</b> expressed in radians, degrees, or cycles.
+</nierror>
+<nierror code="-1917">
+Sound & Vibration:  This human vibration weighting filter does not support the sample rate for this waveform. Supported sample rates are 1000, 2000, 3200, 4000, 5000, 6400, 8000, 10000, 12500, 12800 Hz.
+</nierror>
+<nierror code="-1916">
+Sound & Vibration:  Expected waveform attribute was not found.
+
+</nierror>
+<nierror code="-1915">
+Sound & Vibration:  <b>start frequency</b> should be greater than 0. <b>Stop frequency</b> should be greater than 0. <b>Number of steps</b> should be greater than or equal to 2.
+</nierror>
+<nierror code="-1914">
+Sound & Vibration:  Single-channel measurements are not supported. Please specify the analog input channels <b>stimulus channel</b> and <b>response channel</b>.
+</nierror>
+<nierror code="-1913">
+Sound & Vibration:  <b>integration cycles</b> should be greater than or equal to 2.
+</nierror>
+<nierror code="-1912">
+Sound & Vibration:  <b>block duration</b> should be greater than 0.
+</nierror>
+<nierror code="-1911">
+Sound & Vibration:  <b>swept sine task</b> should be connected to a shift register.
+</nierror>
+<nierror code="-1910">
+Sound & Vibration:  Execution modes requiring feedback are not supported.
+</nierror>
+<nierror code="-1909">
+Sound & Vibration:  <b>f0</b> should be greater than or equal to 0, and <b>df</b> should be greater than 0.
+</nierror>
+<nierror code="-1908">
+Sound & Vibration:  Dual-channel measurements require that the input spectra be similar (f0_x  =  f0_y, df_x  =  df_y, length_x  =  length_y).
+</nierror>
+<nierror code="-1907">
+Sound & Vibration:  The sampling frequency of the input waveform should be greater than 0 (dt greater than 0).
+</nierror>
+<nierror code="-1906">
+Sound & Vibration:  Multichannel measurements require that each signal has the same sample interval (identical dt or identical dr).
+</nierror>
+<nierror code="-1905">
+Sound & Vibration:  Multichannel measurements require that each waveform has the same number of samples.
+</nierror>
+<nierror code="-1904">
+Sound & Vibration:  <b>amplitude</b> should be greater than or equal to 0.
+</nierror>
+<nierror code="-1903">
+Sound & Vibration:  This measurement does not support the use of Traditional DAQ and DAQmx drivers on the same device at the same time. Please make sure that you are using all Traditional DAQ VIs or all DAQmx VIs in your application.
+</nierror>
+<nierror code="-1902">
+Sound & Vibration:  This measurement does not support configuration and synchronization of multiple devices. Select a data acquisition device with analog input channels and analog output channels to perform the measurement.
+</nierror>
+<nierror code="-1901">
+Sound & Vibration:  The maximum test frequency is above the alias-free bandwidth for the specified sample rate. Increase <b>sampling frequency</b> or decrease <b>stop frequency</b>.
+</nierror>
+<nierror code="1905">
+Sound & Vibration:  VI automatically was reset because number of samples in the input signal changed.
+</nierror>
+<nierror code="1906">
+Sound & Vibration:  VI automatically was reset because sampling frequency changed.
+</nierror>
+<nierror code="1907">
+Sound & Vibration:  VI automatically was reset because input signal should be continuous from one block to the next.
+</nierror>
+<nierror code="1908">
+Sound & Vibration:  VI automatically was reset because channel info changed.
+</nierror>
+<nierror code="1909">
+Sound & Vibration:  VI automatically was reset because <b>frequency range</b> changed.
+</nierror>
+<nierror code="1910">
+Sound & Vibration:  VI automatically was reset because number of channels changed.
+</nierror>
+<nierror code="1911">
+Sound & Vibration:  ?
+</nierror>
+<nierror code="1913">
+Sound & Vibration:  <b>integration cycles</b> was coerced to 1. <b>integration cycles</b> should be greater than or equal to 1.
+</nierror>
+<nierror code="1940">
+Sound & Vibration:  VI automatically was reset because <b>weighting</b> changed.
+</nierror>
+<nierror code="1941">
+Sound & Vibration:  VI automatically was reset because <b>integration type</b> changed.
+</nierror>
+<nierror code="1942">
+Sound & Vibration:  VI automatically was reset because <b>highpass cutoff frequency</b> changed.
+</nierror>
+<nierror code="1943">
+Sound & Vibration:  Measurement uncertainty is high. You can decrease the uncertainty in spectrum measurements by improving frequency resolution and signal to noise ratio.
+</nierror>
+<nierror code="1944">
+Sound & Vibration:  The phase measurement uncertainty is high. Adjust the frequency of the fundamental tone in the test signal so that the period is approximately 10 times the group delay. 
+</nierror>
+<nierror code="1945">
+Sound & Vibration:  <b>expected fundamental frequency</b> is outside frequency range.
+</nierror>
+<nierror code="1946">
+Sound & Vibration:  <b>maximum harmonic</b> was coerced to be between 2 and highest harmonic less than the Nyquist frequency.
+</nierror>
+<nierror code="1947">
+Sound & Vibration:  <b>harmonics to visualize</b> was coerced so that each element is between 2 and <b>maximum harmonic</b>. 
+</nierror>
+<nierror code="1950">
+Sound & Vibration:  To satisfy the Shannon Sampling Criterion, <b>decimation factor</b> should be less than <b>time constant</b> divided by 2. Typically, <b>decimation factor</b> of <b>time constant</b> divided by 5 or <b>time constant</b> divided by 10 recommended.
+</nierror>
+<nierror code="1951">
+Sound & Vibration:  ?
+</nierror>
+<nierror code="1952">
+Sound & Vibration:  VI automatically was reset because <b>integration time</b> changed.
+</nierror>
+<nierror code="1953">
+Sound & Vibration:  <b>integration time</b> was coerced to a multiple of the acquisition period. Use a shorter acquisition period to achieve a shorter integration time.
+</nierror>
+<nierror code="1961">
+Sound & Vibration:  VI automatically was reset because <b>bandwidth</b> changed.
+</nierror>
+<nierror code="1962">
+Sound & Vibration:  VI automatically was reset because <b>averaging type</b> changed.
+</nierror>
+<nierror code="1963">
+Sound & Vibration:  <b>frequency range</b> was coerced so that <b>high frequency</b> is less than or equal to the sample rate divided by 2.5 for fractional-octave analysis and less than or equal to the sample rate divided by 3 for full-octave analysis.
+</nierror>
+<nierror code="1966">
+Sound & Vibration:  This VI has applied <b>window</b> to a signal that was previously windowed. The resulting complex window will prevent some extended measurements from operating on the spectrum. To avoid this warning, apply only one window to the time-domain signal.
+</nierror>
+<nierror code="1969">
+Sound & Vibration:  <b>maximum harmonic</b> was coerced so that actual maximum harmonic frequency is less than or equal to Nyquist frequency.
+</nierror>
+<nierror code="1970">
+Sound & Vibration:  <b>frequency range</b> was coerced so that actual <b>start frequency</b> and <b>stop frequency</b> are greater than f0 and less than the maximum frequency in the spectrum.
+</nierror>
+<nierror code="1971">
+Sound & Vibration:  VI was automatically restarted because averaging parameters changed.
+</nierror>
+<nierror code="1973">
+Sound & Vibration:  VI automatically was reset because <b>zoom settings</b> changed.
+</nierror>
+<nierror code="1974">
+Sound & Vibration:  This VI coerced <b>number of lines</b> to provide sufficient resolution for the zoom.
+</nierror>
+<nierror code="1977">
+Sound & Vibration:  VI was automatically restarted, because the channel name changed. Please make sure that you are not indexing an array of channels into a loop to perform an averaged operation.
+</nierror>
+<nierror code="1978">
+Sound & Vibration:  VI automatically was restarted because <b>window</b> changed.
+</nierror>
+<nierror code="1979">
+Sound & Vibration:  VI automatically was restarted because <b>FRF mode</b> changed.
+</nierror>
+<nierror code="1980">
+Sound & Vibration:  Peak search results might be inaccurate because the spectrum was integrated or weighted in the frequency domain.
+</nierror>
+<nierror code="1981">
+Sound & Vibration:  VI automatically was reset because <b>frequency spacing</b> changed.
+</nierror>
+<nierror code="1982">
+Sound & Vibration:  VI automatically was reset because <b>chirp duration</b> changed.
+</nierror>
+<nierror code="1984">
+Sound & Vibration:  Big Brother is watching.
+</nierror>
+<nierror code="1990">
+Sound & Vibration:  No scaling was applied to the data, because previous scaling was detected. This VI is not intended to be used as a units conversion VI.
+</nierror>
+<nierror code="1992">
+Sound & Vibration:  The existing dB reference in the waveform attributes was overwritten with the specified <b>dB reference</b>.
+</nierror>
+<nierror code="1997">
+Sound & Vibration:  The waterfall buffer was automatically reset, because z0, dz, or dx changed from the previously buffered data.
+</nierror>
+<nierror code="4951">
+Sound & Vibration:  Input <b>spectra</b> were converted to linear scale before being written to file in order to conform with the UFF58b standard.
+</nierror>
+<nierror code="4952">
+Sound & Vibration:  The UFF File has been modified by another process or application.
+</nierror>
+<nierror code="4953">
+Sound & Vibration:  The magnitude and phase spectra were converted to real and imaginary spectra before being written to file in order to conform with the UFF58b standard.
+</nierror>
+<nierror code="4968">
+Sound & Vibration:  Text field exceeds the maximum character limit.
+</nierror>
+<nierror code="4969">
+Sound & Vibration:  When run continuously, only the last data passed through the step is written to file. This step does not buffer the data.
+</nierror>
+<nierror code="21400">
+Sound & Vibration:  The input signal is empty.
+</nierror>
+<nierror code="21401">
+Sound & Vibration:  <b>order resolution</b> value is too high.
+</nierror>
+<nierror code="21402">
+Sound & Vibration:  <b>threshold</b> is out of the range of the tachometer signal.
+</nierror>
+<nierror code="21403">
+Sound & Vibration:  <b>hysteresis</b> value is not suitable for the tachometer signal.
+</nierror>
+<nierror code="21404">
+Sound & Vibration:  Neither the colormap nor the waterfall graph is exported.
+</nierror>
+<nierror code="21405">
+Sound & Vibration:  <b>start time</b> is greater than <b>end time</b>.
+</nierror>
+<nierror code="21406">
+Sound & Vibration:  <b>start time</b> is greater than the input signal duration.
+</nierror>
+<nierror code="21407">
+Sound & Vibration:  The input signal does not have enough samples.
+</nierror>
+<nierror code="21408">
+Sound & Vibration:  Specify at least one order to track.
+</nierror>
+<nierror code="21409">
+Sound & Vibration:  <b>channel properties</b> is empty. This VI uses the default configuration where <b>rotation</b> is counter clockwise, <b>probe angle</b> is zero, and the sensor <b>pair</b> is determined by the channel index.
+</nierror>
+<nierror code="21410">
+Sound & Vibration:  Some channels are not in pairs.
+</nierror>
+<nierror code="21411">
+Sound & Vibration:  The input array size or attributes does not match the buffered data. The buffer is reset.
+</nierror>
+<nierror code="21412">
+Sound & Vibration:  The VI output is empty because expected speed is not reached.
+</nierror>
+<nierror code="21413">
+Sound & Vibration:  <b>Start speed</b> and <b>End speed</b> are switched to match the <b>Run type</b>.
+</nierror>
+<nierror code="21414">
+Sound & Vibration:  No valid tachometer pulse is detected.
+</nierror>
+</nidocument>

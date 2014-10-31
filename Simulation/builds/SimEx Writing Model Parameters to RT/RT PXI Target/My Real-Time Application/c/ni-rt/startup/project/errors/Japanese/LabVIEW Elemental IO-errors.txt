@@ -1,0 +1,40 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+<nifamily familyname="LabVIEW Elemental IO" displayname="LabVIEW Elemental IO">
+</nifamily>
+</nicomment>
+<nierror code="-64999">
+LabVIEW Elemental IO:  LabVIEW Elemental I/Oと一緒に内部ソフトウェアエラーが発生しました。下記の情報をni.com/jp/supportからナショナルインスツルメンツの技術サポートに連絡ください。
+
+パスではない値をパスのタグが指定しました。
+</nierror>
+<nierror code="-64998">
+LabVIEW Elemental IO:  LabVIEW Elemental I/Oと一緒に内部ソフトウェアエラーが発生しました。下記の情報をni.com/jp/supportからナショナルインスツルメンツ技術サポートに連絡ください。
+
+予期しないケースが発生しました。
+</nierror>
+<nierror code="-64997">
+LabVIEW Elemental IO:  LabVIEW Elemental I/Oで内部ソフトウェアエラーが発生しました。下記の情報をni.com/jp/supportからナショナルインスツルメンツ技術サポートに連絡ください。
+
+リソースファイルで必要なタグが見つかりませんでした。
+</nierror>
+<nierror code="-64005">
+LabVIEW Elemental IO:  メソッド内で競合I/O項目を検出
+</nierror>
+<nierror code="-64004">
+LabVIEW Elemental IO:  メソッド内で複製I/O項目を検出
+</nierror>
+<nierror code="-64003">
+LabVIEW Elemental IO:  I/OノードにはI/O名が配線されていません。
+</nierror>
+<nierror code="-64002">
+LabVIEW Elemental IO:  FPGA I/Oノード、I/Oメソッドノード、またはI/Oプロパティノードには名前が提供されていません
+</nierror>
+<nierror code="-64001">
+LabVIEW Elemental IO:  FPGA I/Oノード、I/Oメソッドノード、またはI/Oプロパティノードは、ノードの構成と一致しないI/O名制御器または定数に接続されています。
+</nierror>
+<nierror code="-64000">
+LabVIEW Elemental IO:  Elemental I/Oプロジェクト項目が見つかりませんでした。
+</nierror>
+</nidocument>

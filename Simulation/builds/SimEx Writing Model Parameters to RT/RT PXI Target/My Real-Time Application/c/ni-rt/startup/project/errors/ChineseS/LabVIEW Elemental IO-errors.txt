@@ -1,0 +1,40 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+<nifamily familyname="LabVIEW Elemental IO" displayname="LabVIEW Elemental IO">
+</nifamily>
+</nicomment>
+<nierror code="-64999">
+LabVIEW Elemental IO:  LabVIEW基本I/O发生内部软件错误。请访问ni.com/support以获取National Instruments技术支持，并提供如下信息:
+
+路径标识符指定的值不是路径。
+</nierror>
+<nierror code="-64998">
+LabVIEW Elemental IO:  LabVIEW基本I/O发生内部软件错误。请通过ni.com/support联系National Instruments技术支持并提供以下信息：
+
+到达未预期分支。
+</nierror>
+<nierror code="-64997">
+LabVIEW Elemental IO:  LabVIEW基本I/O组件发生内部软件错误。请通过ni.com/support联系National Instruments技术支持并提供以下信息：
+
+资源文件中未发现所需标识符。
+</nierror>
+<nierror code="-64005">
+LabVIEW Elemental IO:  该方法内发现冲突I/O项。
+</nierror>
+<nierror code="-64004">
+LabVIEW Elemental IO:  该方法内发现重复I/O项。
+</nierror>
+<nierror code="-64003">
+LabVIEW Elemental IO:  IO节点未连线至常量IO名称
+</nierror>
+<nierror code="-64002">
+LabVIEW Elemental IO:  未提供FPGA I/O节点、I/O方法节点或I/O属性节点的名称
+</nierror>
+<nierror code="-64001">
+LabVIEW Elemental IO:  FPGA I/O节点、I/O方法节点或I/O属性节点所连接的I/O名称控件或常量无法匹配节点配置。
+</nierror>
+<nierror code="-64000">
+LabVIEW Elemental IO:  未找到基本IO项目项
+</nierror>
+</nidocument>

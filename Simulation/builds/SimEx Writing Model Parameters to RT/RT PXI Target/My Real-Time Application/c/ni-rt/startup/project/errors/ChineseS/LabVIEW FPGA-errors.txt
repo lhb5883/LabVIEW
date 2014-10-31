@@ -1,0 +1,953 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+<nifamily familyname="LabVIEW FPGA" displayname="LabVIEW FPGA">
+</nifamily>
+</nicomment>
+<nierror code="-61500">
+LabVIEW FPGA:  发生内部软件错误。请通过ni.com/support联系National Instruments技术支持并提供以下信息：
+
+LabVIEW无法读取CLIP XML文件。
+</nierror>
+<nierror code="-61499">
+LabVIEW FPGA:  LabVIEW FPGA模块发生内部软件错误。请通过ni.com/support联系National Instruments以获取技术支持。
+</nierror>
+<nierror code="-61498">
+LabVIEW FPGA:  LabVIEW FPGA模块发生内部软件错误。请通过ni.com/support联系National Instruments技术支持并提供以下信息：
+
+资源文件中未发现所需标识符。
+</nierror>
+<nierror code="-61497">
+LabVIEW FPGA:  LabVIEW FPGA模块发生内部软件错误。请通过ni.com/support联系National Instruments技术支持并提供以下信息：
+
+不支持请求的寄存器偏移量。
+</nierror>
+<nierror code="-61496">
+LabVIEW FPGA:  LabVIEW FPGA模块发生内部软件错误。请通过ni.com/support联系National Instruments技术支持并提供以下信息：
+
+到达未预期分支。
+</nierror>
+<nierror code="-61495">
+LabVIEW FPGA:  LabVIEW FPGA模块发生内部软件错误。请通过ni.com/support联系National Instruments技术支持并提供以下信息：
+
+路径标识符指定的值不是路径。
+</nierror>
+<nierror code="-61494">
+LabVIEW FPGA:  LabVIEW FPGA模块发生内部软件错误。请通过ni.com/support联系National Instruments技术支持并提供以下信息：
+
+“IP生成器”VI不匹配所需接口。
+</nierror>
+<nierror code="-61493">
+LabVIEW FPGA:  LabVIEW FPGA模块发生内部软件错误。请通过ni.com/support联系National Instruments技术支持并提供以下信息：
+
+未找到指定的“IP生成器”VI。
+</nierror>
+<nierror code="-61492">
+LabVIEW FPGA:  LabVIEW FPGA模块发生内部软件错误。请通过ni.com/support联系National Instruments技术支持并提供以下信息：
+
+访问FPGA提供程序时出错。
+</nierror>
+<nierror code="-61491">
+LabVIEW FPGA:  LabVIEW FPGA模块发生内部软件错误。请通过ni.com/support联系National Instruments技术支持并提供以下信息：
+
+IP生成器缺少所需VI路径标识符。
+</nierror>
+<nierror code="-61490">
+LabVIEW FPGA:  发生内部错误。 
+</nierror>
+<nierror code="-61489">
+LabVIEW FPGA:  内部软件错误
+</nierror>
+<nierror code="-61488">
+LabVIEW FPGA:  LabVIEW FPGA模块发生内部软件错误。请访问ni.com/support以获取National Instruments获取技术支持，并提供如下信息：
+
+缺少一个必需XML标记。
+</nierror>
+<nierror code="-61458">
+LabVIEW FPGA:  终端不支持配置用于变量或固定大小数组的接线端。
+</nierror>
+<nierror code="-61457">
+LabVIEW FPGA:  编译状态文件丢失或损坏。
+</nierror>
+<nierror code="-61456">
+LabVIEW FPGA:  发生定时冲突，编译失败。但由于定时冲突不属于PERIOD类型，不存在路径信息。
+</nierror>
+<nierror code="-61455">
+LabVIEW FPGA:  部分编译步骤未被执行。
+</nierror>
+<nierror code="-61454">
+LabVIEW FPGA:  部分信号在该设计中未被正确约束。
+</nierror>
+<nierror code="-61453">
+LabVIEW FPGA:  编译中未使用该约束文件。
+</nierror>
+<nierror code="-61452">
+LabVIEW FPGA:  由于资源重复映射，编译失败。
+</nierror>
+<nierror code="-61451">
+LabVIEW FPGA:  由于定时冲突，编译失败。
+</nierror>
+<nierror code="-61450">
+LabVIEW FPGA:  由于xilinx错误，编译失败。
+</nierror>
+<nierror code="-61406">
+LabVIEW FPGA:  带Socket的CLIP的逻辑为避免运行FPGA VI。
+</nierror>
+<nierror code="-61405">
+LabVIEW FPGA:  该FPGA终端无指定的物理终端，操作失败。
+
+右键单击项目浏览器窗口中的FPGA终端，选择“属性”，在“资源”文本框中输入FPGA终端资源名称。
+</nierror>
+<nierror code="-61404">
+LabVIEW FPGA:  LabVIEW出现特定终端的错误或警告。
+</nierror>
+<nierror code="-61403">
+LabVIEW FPGA:  所需文件缺失或无法访问，LabVIEW无法与当前终端交互。请检查是否正确安装特定FPGA终端的驱动程序。
+</nierror>
+<nierror code="-61402">
+LabVIEW FPGA:  LabVIEW与设备的通信中断。
+
+终端的资源已断开或删除。
+
+对于远程终端，该远程系统可能已关闭或存在网络问题。
+</nierror>
+<nierror code="-61400">
+LabVIEW FPGA:  由于项目和/或VI中指定的硬件类型与实际连接的硬件类型不匹配，该操作失败。 
+</nierror>
+<nierror code="-61399">
+LabVIEW FPGA:  所给用于FPGA I/O的自定义VI中的项和节点不支持在开发的计算机中执行FPGA VI。
+</nierror>
+<nierror code="-61398">
+LabVIEW FPGA:  由于无法找到用于FPGA I/O的自定义VI，在开发计算机中执行FPGA VI失败。
+</nierror>
+<nierror code="-61397">
+LabVIEW FPGA:  由于用于FPGA I/O的自定义VI与该FPGA VI的调用要求不一致，在开发计算机中执行FPGA VI失败。
+</nierror>
+<nierror code="-61396">
+LabVIEW FPGA:  由于用于FPGA I/O的自定义VI调用的一个VI或函数返回错误，在开发计算机中执行FPGA VI失败。
+</nierror>
+<nierror code="-61395">
+LabVIEW FPGA:  由于无法运行用于FPGA I/O的自定义VI，在开发计算机中执行FPGA VI失败。 
+</nierror>
+<nierror code="-61394">
+LabVIEW FPGA:  仅当执行阶段为“运行”时才可支持该VI。
+</nierror>
+<nierror code="-61355">
+LabVIEW FPGA:  发生内部软件错误。DFIR引用句柄未找到。
+</nierror>
+<nierror code="-61354">
+LabVIEW FPGA:  内部软件错误：连接节点不属于常量。
+</nierror>
+<nierror code="-61353">
+LabVIEW FPGA:  内部软件错误：不支持输出接线端
+</nierror>
+<nierror code="-61352">
+LabVIEW FPGA:  内部软件错误：无法连接接线端。
+</nierror>
+<nierror code="-61351">
+LabVIEW FPGA:  内部软件错误：未连接接线端。
+</nierror>
+<nierror code="-61350">
+LabVIEW FPGA:  内部软件错误：接线端索引超出范围。
+</nierror>
+<nierror code="-61332">
+LabVIEW FPGA:  编译工具发生不可预期错误。尝试重新编译该FPGA VI可能可解决该问题。
+</nierror>
+<nierror code="-61331">
+LabVIEW FPGA:  发送至编译工作站的UnitOfWork文件已损坏。
+</nierror>
+<nierror code="-61330">
+LabVIEW FPGA:  编译工作站发生内部错误。
+</nierror>
+<nierror code="-61321">
+LabVIEW FPGA:  编译场服务器不存在任何可以执行该编译的编译工作站。
+</nierror>
+<nierror code="-61320">
+LabVIEW FPGA:  编译场服务器已取消该编译。
+</nierror>
+<nierror code="-61319">
+LabVIEW FPGA:  编译场服务器已中止该编译。
+</nierror>
+<nierror code="-61318">
+LabVIEW FPGA:  编译工作站无法执行该编译。该编译工作站可能未根据该编译进行正确配置，或者处于错误状态。
+</nierror>
+<nierror code="-61317">
+LabVIEW FPGA:  本计算机中尚未安装该编译所需的xilinx工具。
+</nierror>
+<nierror code="-61316">
+LabVIEW FPGA:  本计算机中未安装编译工作站。
+</nierror>
+<nierror code="-61315">
+LabVIEW FPGA:  无许可证用于编译云服务或者该许可证已过期。
+</nierror>
+<nierror code="-61314">
+LabVIEW FPGA:  无法从编译场服务器获取该断开的编译。 
+</nierror>
+<nierror code="-61313">
+LabVIEW FPGA:  编译场服务器返回一个无效的用户名称和密码组合。
+</nierror>
+<nierror code="-61312">
+LabVIEW FPGA:  本计算机中未安装编译场服务器。
+</nierror>
+<nierror code="-61311">
+LabVIEW FPGA:  无法联系编译场服务器。
+</nierror>
+<nierror code="-61310">
+LabVIEW FPGA:  编译场服务器返回一个不可预期的软件错误。
+</nierror>
+<nierror code="-61304">
+LabVIEW FPGA:  LabVIEW客户端版本与编译服务器版本不兼容。
+</nierror>
+<nierror code="-61303">
+LabVIEW FPGA:  文件操作接收到空路径。
+</nierror>
+<nierror code="-61302">
+LabVIEW FPGA:  更改记录启用后需要重启。
+
+</nierror>
+<nierror code="-61301">
+LabVIEW FPGA:  访问未分配的引用。
+发生内部软件错误。请通过ni.com/support联系National Instruments以获取技术支持。
+</nierror>
+<nierror code="-61300">
+LabVIEW FPGA:  正在处理用户取消操作。
+</nierror>
+<nierror code="-61294">
+LabVIEW FPGA:  所选数据类型的大小对于所选DRAM过大。
+</nierror>
+<nierror code="-61293">
+LabVIEW FPGA:  存储器分配所需DRAM不足。
+</nierror>
+<nierror code="-61292">
+LabVIEW FPGA:  缺少基于DRAM存储器的方法。
+</nierror>
+<nierror code="-61291">
+LabVIEW FPGA:  请求数据和获取数据存储器方法必须属于同一个时钟域。
+</nierror>
+<nierror code="-61290">
+LabVIEW FPGA:  SCTL外部不支持DRAM存储器方法。
+</nierror>
+<nierror code="-61250">
+LabVIEW FPGA:  Xilinx安装已损坏或丢失。
+</nierror>
+<nierror code="-61242">
+LabVIEW FPGA:  顶层VI无法包含同时包括名称控件和其他数据类型的簇控件。
+</nierror>
+<nierror code="-61241">
+LabVIEW FPGA:  重复文件错误
+</nierror>
+<nierror code="-61240">
+LabVIEW FPGA:  重复文件错误
+</nierror>
+<nierror code="-61239">
+LabVIEW FPGA:  仅在FPGA终端中支持FIFO执行。
+</nierror>
+<nierror code="-61238">
+LabVIEW FPGA:  仅在FPGA终端中支持存储器执行。
+</nierror>
+<nierror code="-61237">
+LabVIEW FPGA:  需要常量输入的接线端被连线至非常量源。
+</nierror>
+<nierror code="-61236">
+LabVIEW FPGA:  需要常量输入的接线端未连线。
+</nierror>
+<nierror code="-61235">
+LabVIEW FPGA:  如连线至FIFO方法节点“FIFO输入”输入端的值对应的FIFO项与FIFO方法节点的配置不一致。
+</nierror>
+<nierror code="-61234">
+LabVIEW FPGA:  如连线至FIFO方法节点“FIFO输入”输入端的值不对应于项目中的FIFO项，也不对应于任何VI定义的FIFO。
+</nierror>
+<nierror code="-61233">
+LabVIEW FPGA:  连线至FIFO方法节点“FIFO输入”输入端的值为空字符串。应确保连线值对应于项目中的FIFO项或VI定义的FIFO。
+</nierror>
+<nierror code="-61232">
+LabVIEW FPGA:  如连线至存储器方法节点“存储器输入”输入端的值对应的存储器项与存储器方法节点的配置不一致。
+</nierror>
+<nierror code="-61231">
+LabVIEW FPGA:  如连线至存储器方法节点“存储器输入”输入端的值不对应于项目中的存储器项，也不对应于任何VI定义的存储器。
+</nierror>
+<nierror code="-61230">
+LabVIEW FPGA:  连线至存储器方法节点“存储器输入”输入端的值为空字符串。应确保连线值对应于项目中的存储器项或VI定义的存储器。
+</nierror>
+<nierror code="-61220">
+LabVIEW FPGA:  无效的存储器访问。
+</nierror>
+<nierror code="-61210">
+LabVIEW FPGA:  初始化LabVIEW FPGA仿真时发生错误。
+</nierror>
+<nierror code="-61209">
+LabVIEW FPGA:  将FPGA终端配置为在第三方仿真器上执行时，不支持该函数。
+</nierror>
+<nierror code="-61208">
+LabVIEW FPGA:  仅当FPGA VI引用被配置为动态模式并且FPGA终端被配置为在第三方仿真器上执行时，才可支持该函数。
+</nierror>
+<nierror code="-61207">
+LabVIEW FPGA:  内部错误：框图重置未在超时周期内进行清除。
+
+请通过ni.com/support联系National Instruments技术支持。
+</nierror>
+<nierror code="-61206">
+LabVIEW FPGA:  配置项不存在。 
+</nierror>
+<nierror code="-61205">
+LabVIEW FPGA:  所选名称的项已存在，但该项的数据类型与“打开FPGA VI引用”的配置不相同。 
+</nierror>
+<nierror code="-61204">
+LabVIEW FPGA:  由于FPGA正处于仿真模式，将无法进行该操作。请求该操作前应停止所有活动。
+</nierror>
+<nierror code="-61203">
+LabVIEW FPGA:  由于FPGA正处于交互模式，将无法进行该操作。请求该操作前应停止所有活动。
+</nierror>
+<nierror code="-61202">
+LabVIEW FPGA:  由于FPGA正处于FPGA接口模式，将无法进行该操作。请求该操作前应停止所有活动。
+</nierror>
+<nierror code="-61201">
+LabVIEW FPGA:  该机箱正处于扫描接口编程模式。如需运行FPGA VI，必须在机箱属性页面中选择FPGA编程模式并部署该设置。
+</nierror>
+<nierror code="-61200">
+LabVIEW FPGA:  由于FPGA正处于FPGA接口C API模式，将无法进行该操作。请求该操作前应停止所有活动。
+</nierror>
+<nierror code="-61199">
+LabVIEW FPGA:  I/O项不支持在开发用计算机上使用实时I/O执行，执行终止。
+
+仅在FPGA VI中使用的所有I/O项支持该执行模式时，可在开发用计算机上执行使用实时I/O的FPGA VI。
+</nierror>
+<nierror code="-61191">
+LabVIEW FPGA:  该IP集成节点指定了无法兼容的.ngc综合文件。
+</nierror>
+<nierror code="-61190">
+LabVIEW FPGA:  CLIP声明文件和CLIP实例间时钟设置不一致
+</nierror>
+<nierror code="-61189">
+LabVIEW FPGA:  CLIP引用一个不符合要求的FPGA时钟
+</nierror>
+<nierror code="-61188">
+LabVIEW FPGA:  CLIP引用一个丢失的FPGA时钟
+</nierror>
+<nierror code="-61187">
+LabVIEW FPGA:  缺少CLIP实现文件
+</nierror>
+<nierror code="-61186">
+LabVIEW FPGA:  已更新CLIP声明文件
+</nierror>
+<nierror code="-61185">
+LabVIEW FPGA:  缺少CLIP声明
+</nierror>
+<nierror code="-61184">
+LabVIEW FPGA:  错误配置CLIP实例
+</nierror>
+<nierror code="-61183">
+LabVIEW FPGA:  传递函数阶数超出允许的最大阶数。
+</nierror>
+<nierror code="-61182">
+LabVIEW FPGA:  传递函数不正确。分子阶数必须小于等于分母阶数。
+</nierror>
+<nierror code="-61181">
+LabVIEW FPGA:  陷波宽度或Q因子必须大于零。
+</nierror>
+<nierror code="-61180">
+LabVIEW FPGA:  陷波内的所有频率f必须满足：0 < fc < fs/2，fs为采样率。
+</nierror>
+<nierror code="-61179">
+LabVIEW FPGA:  (Hex 0xFFFF1105) 当前终端不支持DSP48E节点
+</nierror>
+<nierror code="-61178">
+LabVIEW FPGA:  内部软件错误：无法解析用于端口的时钟
+</nierror>
+<nierror code="-61177">
+LabVIEW FPGA:  FIFO缺少读取或写入方法
+</nierror>
+<nierror code="-61176">
+LabVIEW FPGA:  FIFO方法使用无效的时钟。
+</nierror>
+<nierror code="-61175">
+LabVIEW FPGA:  FPGA FIFO节点未连线至FPGA FIFO名称。
+</nierror>
+<nierror code="-61174">
+LabVIEW FPGA:  FPGA存储器节点未连线至FPGA存储器名称。
+</nierror>
+<nierror code="-61173">
+LabVIEW FPGA:  项与名称控件的配置不匹配
+</nierror>
+<nierror code="-61172">
+LabVIEW FPGA:  未找到项目项目。
+</nierror>
+<nierror code="-61171">
+LabVIEW FPGA:  名称控件或常量为空。
+</nierror>
+<nierror code="-61170">
+LabVIEW FPGA:  实部和虚部输入数据数组大小必须相同。
+</nierror>
+<nierror code="-61169">
+LabVIEW FPGA:  按照给定的时钟频率在FPGA上无法获取输入参数。
+</nierror>
+<nierror code="-61168">
+LabVIEW FPGA:  通道索引输入超出已配置的通道数量。
+</nierror>
+<nierror code="-61167">
+LabVIEW FPGA:  FPGA终端被配置为在开发用计算机上执行时，将不支持该函数。
+</nierror>
+<nierror code="-61166">
+LabVIEW FPGA:  HDL接口节点文件冲突
+</nierror>
+<nierror code="-61165">
+LabVIEW FPGA:  由于FPGA VI已断开，将无法在开发计算机上执行该FPGA VI。
+</nierror>
+<nierror code="-61164">
+LabVIEW FPGA:  不支持该类型的局部和全局变量。
+</nierror>
+<nierror code="-61163">
+LabVIEW FPGA:  内部软件错误
+</nierror>
+<nierror code="-61162">
+LabVIEW FPGA:  必须在单周期定时循环内部使用对象。
+</nierror>
+<nierror code="-61161">
+LabVIEW FPGA:  定时循环外部不支持VI执行模式
+</nierror>
+<nierror code="-61160">
+LabVIEW FPGA:  定时循环内部不支持VI执行模式
+</nierror>
+<nierror code="-61159">
+LabVIEW FPGA:  当FPGA终端被配置为在带实时I/O的开发计算机中执行时，将不支持该函数。
+</nierror>
+<nierror code="-61158">
+LabVIEW FPGA:  不支持For循环中的条件接线端。
+</nierror>
+<nierror code="-61157">
+LabVIEW FPGA:  单周期定时循环不支持的对象
+</nierror>
+<nierror code="-61156">
+LabVIEW FPGA:  事件发生不支持时钟域交叉。
+</nierror>
+<nierror code="-61155">
+LabVIEW FPGA:  资源不支持的时钟
+</nierror>
+<nierror code="-61154">
+LabVIEW FPGA:  不支持通过不同的时钟域访问。
+</nierror>
+<nierror code="-61153">
+LabVIEW FPGA:  未配置Express VI
+</nierror>
+<nierror code="-61152">
+LabVIEW FPGA:  不支持可变时钟速率
+</nierror>
+<nierror code="-61151">
+LabVIEW FPGA:  函数或结构必须连接至固定时钟名称。 
+</nierror>
+<nierror code="-61150">
+LabVIEW FPGA:  未找到时钟项目项。
+</nierror>
+<nierror code="-61149">
+LabVIEW FPGA:  时钟控件或常量为空。
+</nierror>
+<nierror code="-61148">
+LabVIEW FPGA:  时钟速率不匹配
+</nierror>
+<nierror code="-61147">
+LabVIEW FPGA:  内部软件错误
+</nierror>
+<nierror code="-61146">
+LabVIEW FPGA:  IP集成节点必须包含一个时钟启用端口。
+</nierror>
+<nierror code="-61145">
+LabVIEW FPGA:  未找到HDL接口节点文件
+</nierror>
+<nierror code="-61144">
+LabVIEW FPGA:  单周期定时循环外的HDL接口节点
+</nierror>
+<nierror code="-61143">
+LabVIEW FPGA:  前面板控件控件超出大小限制。
+</nierror>
+<nierror code="-61142">
+LabVIEW FPGA:  VI已断开。
+</nierror>
+<nierror code="-61141">
+LabVIEW FPGA:  由于FPGA忙碌，无法进行该操作。请求该操作前应停止所有活动。如该终端处于“扫描接口”编程模式，将其置于“FPGA接口”编程模式。
+</nierror>
+<nierror code="-61140">
+LabVIEW FPGA:  VI类型不支持，无法编译VI。只能编译标准VI。
+</nierror>
+<nierror code="-61139">
+LabVIEW FPGA:  顶层时钟速率已更改
+</nierror>
+<nierror code="-61138">
+LabVIEW FPGA:  终端的顶层时钟无效
+</nierror>
+<nierror code="-61137">
+LabVIEW FPGA:  内部软件错误
+</nierror>
+<nierror code="-61136">
+LabVIEW FPGA:  内部软件错误
+</nierror>
+<nierror code="-61135">
+LabVIEW FPGA:  内部软件错误
+</nierror>
+<nierror code="-61134">
+LabVIEW FPGA:  单周期定时循环内的HDL接口节点
+</nierror>
+<nierror code="-61133">
+LabVIEW FPGA:  子VI不支持前面板控件交叉时钟域
+</nierror>
+<nierror code="-61132">
+LabVIEW FPGA:  子VI不支持前面板控件交叉时钟域
+</nierror>
+<nierror code="-61131">
+LabVIEW FPGA:  内部软件错误
+</nierror>
+<nierror code="-61130">
+LabVIEW FPGA:  资源接口请求方过多
+</nierror>
+<nierror code="-61129">
+LabVIEW FPGA:  顶层端口<PortName>包含多个驱动。
+</nierror>
+<nierror code="-61128">
+LabVIEW FPGA:  内部软件错误
+</nierror>
+<nierror code="-61127">
+LabVIEW FPGA:  内部软件错误
+</nierror>
+<nierror code="-61126">
+LabVIEW FPGA:  内部软件错误
+</nierror>
+<nierror code="-61125">
+LabVIEW FPGA:  在所选组件创建顶层端口'<PortName>'之前，已对该端口进行请求。
+</nierror>
+<nierror code="-61124">
+LabVIEW FPGA:  初始化资源数据库之前，已对该资源进行请求。
+</nierror>
+<nierror code="-61123">
+LabVIEW FPGA:  内部软件错误
+</nierror>
+<nierror code="-61122">
+LabVIEW FPGA:  内部软件错误
+</nierror>
+<nierror code="-61121">
+LabVIEW FPGA:  内部软件错误
+</nierror>
+<nierror code="-61120">
+LabVIEW FPGA:  尝试从组件移除寄存器出错。
+</nierror>
+<nierror code="-61119">
+LabVIEW FPGA:  单周期定时循环不支持仲裁选项
+</nierror>
+<nierror code="-61118">
+LabVIEW FPGA:  不支持的函数输入
+</nierror>
+<nierror code="-61117">
+LabVIEW FPGA:  不支持的函数输入
+</nierror>
+<nierror code="-61116">
+LabVIEW FPGA:  不支持的复合运算输入
+</nierror>
+<nierror code="-61115">
+LabVIEW FPGA:  在不同的时钟域中使用不可重入VI。
+</nierror>
+<nierror code="-61114">
+LabVIEW FPGA:  在单周期定时循环内和外使用不可重入子VI
+</nierror>
+<nierror code="-61113">
+LabVIEW FPGA:  不允许常量引用
+</nierror>
+<nierror code="-61112">
+LabVIEW FPGA:  在不同的时钟域中使用资源接口
+</nierror>
+<nierror code="-61111">
+LabVIEW FPGA:  仅单周期定时循环支持的对象
+</nierror>
+<nierror code="-61110">
+LabVIEW FPGA:  无效FIFO实现。
+</nierror>
+<nierror code="-61109">
+LabVIEW FPGA:  对象已连接至初始化的移位寄存器
+</nierror>
+<nierror code="-61108">
+LabVIEW FPGA:  在单周期定时循环的内部和外部请求资源接口
+</nierror>
+<nierror code="-61107">
+LabVIEW FPGA:  单周期定时循环不支持仲裁选项
+</nierror>
+<nierror code="-61106">
+LabVIEW FPGA:  在单周期定时循环内部包含不可重入子VI的多个实例
+</nierror>
+<nierror code="-61105">
+LabVIEW FPGA:  单周期定时循环内控件和局部变量存在多个写入方
+</nierror>
+<nierror code="-61104">
+LabVIEW FPGA:  单周期定时循环不支持仲裁选项
+</nierror>
+<nierror code="-61103">
+LabVIEW FPGA:  单周期定时循环不支持仲裁选项
+</nierror>
+<nierror code="-61102">
+LabVIEW FPGA:  单周期定时循环不支持仲裁选项
+</nierror>
+<nierror code="-61101">
+LabVIEW FPGA:  单周期定时循环不支持的对象
+</nierror>
+<nierror code="-61100">
+LabVIEW FPGA:  中断函数无法等待单周期循环的中断清零
+</nierror>
+<nierror code="-61099">
+LabVIEW FPGA:  外部时钟域中使用的内置FIFO。
+</nierror>
+<nierror code="-61098">
+LabVIEW FPGA:  需要衍生时钟
+</nierror>
+<nierror code="-61097">
+LabVIEW FPGA:  未定义CLIP仿真模型。
+</nierror>
+<nierror code="-61096">
+LabVIEW FPGA:  存储器属于只读并包含通过自定义控件定义的类型。
+</nierror>
+<nierror code="-61095">
+LabVIEW FPGA:  单周期定时循环外部已使用不包含隐式启用信号的对象。
+</nierror>
+<nierror code="-61094">
+LabVIEW FPGA:  仿真中不支持该对象
+</nierror>
+<nierror code="-61093">
+LabVIEW FPGA:  条件结构内对象不包含隐式启用
+</nierror>
+<nierror code="-61092">
+LabVIEW FPGA:  资源不支持单周期定时循环
+</nierror>
+<nierror code="-61091">
+LabVIEW FPGA:  资源必须位于单周期定时循环内部
+</nierror>
+<nierror code="-61090">
+LabVIEW FPGA:  在不支持时钟域内使用资源。
+</nierror>
+<nierror code="-61089">
+LabVIEW FPGA:  取消初始化只读存储器
+</nierror>
+<nierror code="-61088">
+LabVIEW FPGA:  当前终端不支持内置FIFO。
+</nierror>
+<nierror code="-61087">
+LabVIEW FPGA:  更改文件需要重新配置节点
+</nierror>
+<nierror code="-61086">
+LabVIEW FPGA:  文件不存在
+</nierror>
+<nierror code="-61085">
+LabVIEW FPGA:  当前终端不支持IP
+</nierror>
+<nierror code="-61084">
+LabVIEW FPGA:  相对时钟频率不匹配
+</nierror>
+<nierror code="-61083">
+LabVIEW FPGA:  发生硬件时钟错误。在执行FPGA VI时，衍生时钟丢失对基时钟的锁定。如外部源已引用该衍生时钟的任一基时钟，请确保已连接外部源并属于可支持的频率、抖动、精度、占空比和电压规范。同时验证基时钟规范可匹配“FPGA基时钟属性”对话框中指定的配置。如衍生时钟的所有基时钟通过独立板载源生成，请通过ni.com/support联系National Instruments技术支持。
+</nierror>
+<nierror code="-61082">
+LabVIEW FPGA:  当前终端的可用DMA控制线不足。 
+</nierror>
+<nierror code="-61081">
+LabVIEW FPGA:  当前终端的可用DMA通道不足。
+</nierror>
+<nierror code="-61080">
+LabVIEW FPGA:  该函数不支持FPGA中断。
+</nierror>
+<nierror code="-61079">
+LabVIEW FPGA:  FPGA上用于特定寄存器的地址空间不足。
+</nierror>
+<nierror code="-61078">
+LabVIEW FPGA:  请求存储器无法被分配。
+</nierror>
+<nierror code="-61077">
+LabVIEW FPGA:  已终止DMA FIFO。使用DMA FIFO时已重新配置FPGA。
+</nierror>
+<nierror code="-61076">
+LabVIEW FPGA:  在超时周期内未完成DMA传输。
+</nierror>
+<nierror code="-61075">
+LabVIEW FPGA:  DMA传输已中止，尚未完成。
+</nierror>
+<nierror code="-61074">
+LabVIEW FPGA:  超时参数必须为-1、0或正数。
+</nierror>
+<nierror code="-61073">
+LabVIEW FPGA:  要读取或写入的元素数量必须小于主机存储器DMA FIFO的深度。
+</nierror>
+<nierror code="-61072">
+LabVIEW FPGA:  “深度”输入必须大于0且小于主机的可用存储器数量。
+</nierror>
+<nierror code="-61071">
+LabVIEW FPGA:  未找到选定的DMA FIFO或不同于比特位文件。
+</nierror>
+<nierror code="-61070">
+LabVIEW FPGA:  指定VI的已编译比特位文件包含无效或损坏的信息。
+
+可重新编译VI纠正错误。
+</nierror>
+<nierror code="-61069">
+LabVIEW FPGA:  比特位文件由LabVIEW更高版本创建，无法兼容当前版本。
+</nierror>
+<nierror code="-61068">
+LabVIEW FPGA:  不相关超过时钟错误
+</nierror>
+<nierror code="-61067">
+LabVIEW FPGA:  超出时钟源限制。
+</nierror>
+<nierror code="-61066">
+LabVIEW FPGA:  FIFO计数方法和FIFO写入/读取方法的时钟域不兼容。
+</nierror>
+<nierror code="-61065">
+LabVIEW FPGA:  数字资源访问冲突。
+</nierror>
+<nierror code="-61064">
+LabVIEW FPGA:  已配置的HDL接口节点在重置时需要时钟
+</nierror>
+<nierror code="-61063">
+LabVIEW FPGA:  组件重置时需运行时钟
+</nierror>
+<nierror code="-61062">
+LabVIEW FPGA:  内部软件错误
+</nierror>
+<nierror code="-61061">
+LabVIEW FPGA:  FPGA VI中当前不支持嵌套库。
+</nierror>
+<nierror code="-61060">
+LabVIEW FPGA:  存储器不支持时钟域交叉
+</nierror>
+<nierror code="-61059">
+LabVIEW FPGA:  所选控件未找到或不同步。
+</nierror>
+<nierror code="-61058">
+LabVIEW FPGA:  使用外部循环的时钟不能退出。
+</nierror>
+<nierror code="-61057">
+LabVIEW FPGA:  内部软件错误
+</nierror>
+<nierror code="-61056">
+LabVIEW FPGA:  运行时无法启用/禁用顶层时钟。
+</nierror>
+<nierror code="-61055">
+LabVIEW FPGA:  时钟需要启用/禁用但未进行编程
+</nierror>
+<nierror code="-61054">
+LabVIEW FPGA:  无法在正在启用或禁用的时钟域内启用/禁用时钟。
+</nierror>
+<nierror code="-61053">
+LabVIEW FPGA:  可用DMA通道不足。
+</nierror>
+<nierror code="-61052">
+LabVIEW FPGA:  FIFO缺少一个函数。
+</nierror>
+<nierror code="-61051">
+LabVIEW FPGA:  多个FIFO使用相同的DMA通道。
+</nierror>
+<nierror code="-61050">
+LabVIEW FPGA:  FIFO实现不支持时钟域交叉。
+</nierror>
+<nierror code="-61049">
+LabVIEW FPGA:  启用/禁用时钟需要时钟支持运行时启用/禁用。 
+</nierror>
+<nierror code="-61048">
+LabVIEW FPGA:  该终端不支持DMA输出（主机至终端）。
+</nierror>
+<nierror code="-61047">
+LabVIEW FPGA:  在单周期定时循环中不支持启用同步显示选项的接线端。
+</nierror>
+<nierror code="-61046">
+LabVIEW FPGA:  主机和FPGA终端通信时发生错误。
+
+如使用外部时钟，应确保已连接时钟并复合支持的规范。同时验证外部时钟的速率匹配指定的时钟速率。如内部生成时钟，请联系National Instruments技术支持。
+</nierror>
+<nierror code="-61045">
+LabVIEW FPGA:  在同步输入控件/显示控件中限制使用局部变量。
+</nierror>
+<nierror code="-61044">
+LabVIEW FPGA:  终端的地址空间无法容纳请求数量的寄存器。
+</nierror>
+<nierror code="-61043">
+LabVIEW FPGA:  内部软件错误
+</nierror>
+<nierror code="-61042">
+LabVIEW FPGA:  内部软件错误
+</nierror>
+<nierror code="-61041">
+LabVIEW FPGA:  寄存器名称冲突。
+</nierror>
+<nierror code="-61040">
+LabVIEW FPGA:  不支持的访问策略。
+</nierror>
+<nierror code="-61039">
+LabVIEW FPGA:  超出时钟源限制。
+</nierror>
+<nierror code="-61038">
+LabVIEW FPGA:  不支持毫秒定时精度
+</nierror>
+<nierror code="-61037">
+LabVIEW FPGA:  用于From-To约束的时钟请求不存在。
+</nierror>
+<nierror code="-61036">
+LabVIEW FPGA:  不支持微秒定时精度
+</nierror>
+<nierror code="-61035">
+LabVIEW FPGA:  不支持毫秒/微秒定时精度
+</nierror>
+<nierror code="-61034">
+LabVIEW FPGA:  终端的顶层时钟无效
+</nierror>
+<nierror code="-61033">
+LabVIEW FPGA:  项目中的两个时钟源使用相同的时钟信号名称。
+</nierror>
+<nierror code="-61032">
+LabVIEW FPGA:  可用的硬件无法生成衍生时钟。
+</nierror>
+<nierror code="-61031">
+LabVIEW FPGA:  应用程序未配置时钟。可在项目树中配置时钟。
+</nierror>
+<nierror code="-61030">
+LabVIEW FPGA:  超出时钟源限制。
+</nierror>
+<nierror code="-61029">
+LabVIEW FPGA:  时钟的VHDL信号名称必须包含"Clk"或"Clock"。首字母可以为大写或小写，后续字母必须为小写。
+</nierror>
+<nierror code="-61028">
+LabVIEW FPGA:  LV FPGA终端的开发者插件未提供用于所有顶层时钟的定时约束。
+</nierror>
+<nierror code="-61027">
+LabVIEW FPGA:  超出时钟源限制。
+</nierror>
+<nierror code="-61026">
+LabVIEW FPGA:  未配置找到的时钟名称。
+</nierror>
+<nierror code="-61025">
+LabVIEW FPGA:  不支持启用/禁用衍生时钟。
+</nierror>
+<nierror code="-61024">
+LabVIEW FPGA:  该函数已配置的设备类型不匹配设备的实际类型。
+</nierror>
+<nierror code="-61023">
+LabVIEW FPGA:  函数中配置为使用该地址的设备不可用。
+</nierror>
+<nierror code="-61022">
+LabVIEW FPGA:  FPGA终端不支持在开发用计算机上执行FPGA VI。
+</nierror>
+<nierror code="-61021">
+LabVIEW FPGA:  FPGA VI的FPGA接口已过期。右键单击并选择“刷新”。
+</nierror>
+<nierror code="-61020">
+LabVIEW FPGA:  不支持FIFO超时。
+</nierror>
+<nierror code="-61019">
+LabVIEW FPGA:  “数字输出”函数和“数字端口输出”函数无法访问单周期定时循环中的数字I/O资源。
+</nierror>
+<nierror code="-61018">
+LabVIEW FPGA:  下载VI至FPGA设备时发生错误。
+
+应确保终端已连接并接通电源，终端资源已正确配置。 
+</nierror>
+<nierror code="-61017">
+LabVIEW FPGA:  必须为选定的终端重新编译VI。
+</nierror>
+<nierror code="-61016">
+LabVIEW FPGA:  必须为该终端重新编译VI。
+</nierror>
+<nierror code="-61015">
+LabVIEW FPGA:  未发现可下载的比特位文件。必须为该终端重新编译VI。
+</nierror>
+<nierror code="-61014">
+LabVIEW FPGA:  设备不存在或未连接。
+
+可能的原因：
+-该终端的资源不正确或指定的终端资源不存在。
+-如为远程终端：
+    A.远程系统可能已关闭。
+B.可能未正确安装使用远程系统上设备的软件。
+C.未正确配置访问远程系统的网络。
+D.可能未获取设置访问终端的服务器的权限。
+</nierror>
+<nierror code="-61013">
+LabVIEW FPGA:  “FIFO方法节点”在访问FIFO前已超时。在当前方法超时前，如访问相同FIFO的其它“FIFO方法节点”未完成操作，可导致该错误。
+</nierror>
+<nierror code="-61012">
+LabVIEW FPGA:  用于初始化FIFO的FPGA VI引用无效。
+</nierror>
+<nierror code="-61011">
+LabVIEW FPGA:  不支持的FIFO大小
+</nierror>
+<nierror code="-61010">
+LabVIEW FPGA:  尝试读取、写入或关闭尚未使用“初始化FIFO”方法初始化的FIFO。
+</nierror>
+<nierror code="-61009">
+LabVIEW FPGA:  无法静态解析LabVIEW类。
+</nierror>
+<nierror code="-61008">
+LabVIEW FPGA:  编译用于FPGA的VI时，顶层VI的前面板不能包含LabVIEW类。
+</nierror>
+<nierror code="-61007">
+LabVIEW FPGA:  条件禁用结构包含断开的代码。
+</nierror>
+<nierror code="-61006">
+LabVIEW FPGA:  用户提供的HDL中存在语法错误。
+</nierror>
+<nierror code="-61005">
+LabVIEW FPGA:  仿真中不支持该对象
+</nierror>
+<nierror code="-61004">
+LabVIEW FPGA:  仿真不支持FIFO对象
+</nierror>
+<nierror code="61003">
+LabVIEW FPGA:  通过“调用”方法指定并使用“运行”方法的FPGA VI已经运行。
+</nierror>
+<nierror code="61004">
+LabVIEW FPGA:  事件发生追踪失败。
+</nierror>
+<nierror code="61005">
+LabVIEW FPGA:  用于操作的的时钟频率错误。
+</nierror>
+<nierror code="61006">
+LabVIEW FPGA:  该FPGA设备I/O函数、I/O方法节点或I/O属性节点使用的别名不存在。 
+</nierror>
+<nierror code="61050">
+LabVIEW FPGA:  函数的参数无效。
+</nierror>
+<nierror code="61051">
+LabVIEW FPGA:  请求的存储器不可用，无法完成操作。
+</nierror>
+<nierror code="61052">
+LabVIEW FPGA:  发生HDL代码生成错误。
+</nierror>
+<nierror code="61053">
+LabVIEW FPGA:  发生资源管理错误。资源可能与配置冲突。
+</nierror>
+<nierror code="61054">
+LabVIEW FPGA:  解释LabVIEW信号时发生代码生成错误。
+</nierror>
+<nierror code="61055">
+LabVIEW FPGA:  内部软件错误
+</nierror>
+<nierror code="61056">
+LabVIEW FPGA:  无法满足程序框图中指定的定时。
+</nierror>
+<nierror code="61057">
+LabVIEW FPGA:  内部流水线对象未连接反馈节点
+</nierror>
+<nierror code="61058">
+LabVIEW FPGA:  单周期定时循环的时钟无效
+</nierror>
+<nierror code="61059">
+LabVIEW FPGA:  位于“存储器读取”方法后的反馈节点的初始化选项无效。
+</nierror>
+<nierror code="61060">
+LabVIEW FPGA:  收到指定中断前“等待IRQ”方法已超时。
+</nierror>
+<nierror code="61061">
+LabVIEW FPGA:  不支持“存储器读取”方法后的反馈节点的延迟。
+</nierror>
+<nierror code="61062">
+LabVIEW FPGA:  位于“存储器读取”方法后的反馈节点的启用接线端无效。
+</nierror>
+<nierror code="61063">
+LabVIEW FPGA:  使用通道连接初始化常量。
+</nierror>
+<nierror code="61064">
+LabVIEW FPGA:  内部软件错误
+</nierror>
+<nierror code="61211">
+LabVIEW FPGA:  该VI中存在多个同名资源。FPGA接口的动态模式仅可访问单个给定名称的资源。
+</nierror>
+</nidocument>
